@@ -4,11 +4,20 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
+<<<<<<< HEAD
 
 import Version = require('../../base/Version');
 import { MessagingListInstance } from './v1/messaging';
 import { PhoneNumberListInstance } from './v1/phoneNumber';
 import { VoiceListInstance } from './v1/voice';
+=======
+/// <reference types="node" />
+
+import Version = require('../../base/Version');
+import { MessagingList } from './v1/messaging';
+import { PhoneNumberList } from './v1/phoneNumber';
+import { VoiceList } from './v1/voice';
+>>>>>>> Initial typescript definitions
 
 
 /**
@@ -22,9 +31,15 @@ declare class V1 extends Version {
    */
   constructor(domain: any);
 
+<<<<<<< HEAD
   readonly messaging: MessagingListInstance;
   readonly phoneNumbers: PhoneNumberListInstance;
   readonly voice: VoiceListInstance;
+=======
+  readonly messaging: MessagingList;
+  readonly phoneNumbers: PhoneNumberList;
+  readonly voice: VoiceList;
+>>>>>>> Initial typescript definitions
 }
 
 export = V1;

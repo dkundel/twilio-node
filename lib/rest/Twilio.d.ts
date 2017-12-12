@@ -4,7 +4,6 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-
 import Accounts = require('./Accounts');
 import Api = require('./Api');
 import Chat = require('./Chat');

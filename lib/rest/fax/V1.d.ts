@@ -4,9 +4,16 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
+<<<<<<< HEAD
 
 import Version = require('../../base/Version');
 import { FaxListInstance } from './v1/fax';
+=======
+/// <reference types="node" />
+
+import Version = require('../../base/Version');
+import { FaxList } from './v1/fax';
+>>>>>>> Initial typescript definitions
 
 
 /**
@@ -20,7 +27,11 @@ declare class V1 extends Version {
    */
   constructor(domain: any);
 
+<<<<<<< HEAD
   readonly faxes: FaxListInstance;
+=======
+  readonly faxes: FaxList;
+>>>>>>> Initial typescript definitions
 }
 
 export = V1;
