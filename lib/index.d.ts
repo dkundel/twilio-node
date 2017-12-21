@@ -3,7 +3,7 @@ import TwilioClient = require('./rest/Twilio');
 declare function twilio(
   accountSid: string,
   authToken: string,
-  opts: any
+  opts?: TwilioClient.TwilioClientOptions
 ): TwilioClient;
 
 import * as VoiceResponse from './twiml/VoiceResponse';

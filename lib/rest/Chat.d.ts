@@ -4,12 +4,13 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Domain = require('../base/Domain');
 import TwilioClient = require('./Twilio');
 import V1 = require('./chat/V1');
 import V2 = require('./chat/V2');
+import { CredentialListInstance } from './chat/v2/credential';
+import { ServiceListInstance } from './chat/v2/service';
 
 
 /**
@@ -19,14 +20,20 @@ declare class Chat extends Domain {
   /**
    * Initialize chat domain
    *
-   * @param {Twilio} twilio - The twilio client
+   * @param twilio - The twilio client
    */
   constructor(twilio: TwilioClient);
 
-  readonly credentials: credential;
-  readonly services: service;
+  /**
+   * Credential resource
+   */
+  readonly credentials: CredentialListInstance;
+  /**
+   * Service resource
+   */
+  readonly services: ServiceListInstance;
   readonly v1: V1;
   readonly v2: V2;
 }
 
-export {Chat}
+export = Chat;

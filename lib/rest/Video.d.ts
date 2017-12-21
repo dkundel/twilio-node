@@ -4,11 +4,12 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Domain = require('../base/Domain');
 import TwilioClient = require('./Twilio');
 import V1 = require('./video/V1');
+import { RecordingListInstance } from './video/v1/recording';
+import { RoomListInstance } from './video/v1/room';
 
 
 /**
@@ -18,13 +19,19 @@ declare class Video extends Domain {
   /**
    * Initialize video domain
    *
-   * @param {Twilio} twilio - The twilio client
+   * @param twilio - The twilio client
    */
   constructor(twilio: TwilioClient);
 
-  readonly recordings: recording;
-  readonly rooms: room;
+  /**
+   * Recording resource
+   */
+  readonly recordings: RecordingListInstance;
+  /**
+   * Room resource
+   */
+  readonly rooms: RoomListInstance;
   readonly v1: V1;
 }
 
-export {Video}
+export = Video;

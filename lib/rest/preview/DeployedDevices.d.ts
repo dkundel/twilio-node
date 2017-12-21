@@ -4,10 +4,9 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { FleetList } from './deployed_devices/fleet';
+import { FleetListInstance } from './deployed_devices/fleet';
 
 
 /**
@@ -21,7 +20,7 @@ declare class DeployedDevices extends Version {
    */
   constructor(domain: any);
 
-  readonly fleets: FleetList;
+  readonly fleets: FleetListInstance;
 }
 
 export = DeployedDevices;

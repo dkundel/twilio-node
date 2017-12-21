@@ -4,11 +4,7 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
-import _ = require('lodash');
-import util = require('util');
-import moduleInfo = require('../../package.json');
 import Accounts = require('./Accounts');
 import Api = require('./Api');
 import Chat = require('./Chat');
@@ -40,7 +36,7 @@ declare class Twilio {
    *
    * @returns A new instance of Twilio client
    */
-  constructor(username: string, password: string, opts?: TwilioClientOptions);
+  constructor(username: string, password: string, opts?: Twilio.TwilioClientOptions);
 
   private _accounts?: Accounts;
   private _api?: Api;
@@ -60,50 +56,50 @@ declare class Twilio {
   private _video?: Video;
   private _wireless?: Wireless;
   accounts: Accounts;
-  addresses: any;
+  addresses: (typeof Api.prototype.account.addresses);
   api: Api;
-  applications: any;
-  authorizedConnectApps: any;
-  availablePhoneNumbers: any;
-  calls: any;
+  applications: (typeof Api.prototype.account.applications);
+  authorizedConnectApps: (typeof Api.prototype.account.authorizedConnectApps);
+  availablePhoneNumbers: (typeof Api.prototype.account.availablePhoneNumbers);
+  calls: (typeof Api.prototype.account.calls);
   chat: Chat;
-  conferences: any;
-  connectApps: any;
+  conferences: (typeof Api.prototype.account.conferences);
+  connectApps: (typeof Api.prototype.account.connectApps);
   fax: Fax;
-  incomingPhoneNumbers: any;
+  incomingPhoneNumbers: (typeof Api.prototype.account.incomingPhoneNumbers);
   ipMessaging: IpMessaging;
-  keys: any;
+  keys: (typeof Api.prototype.account.keys);
   lookups: Lookups;
-  messages: any;
+  messages: (typeof Api.prototype.account.messages);
   messaging: Messaging;
   monitor: Monitor;
-  newKeys: any;
-  newSigningKeys: any;
-  notifications: any;
+  newKeys: (typeof Api.prototype.account.newKeys);
+  newSigningKeys: (typeof Api.prototype.account.newSigningKeys);
+  notifications: (typeof Api.prototype.account.notifications);
   notify: Notify;
-  outgoingCallerIds: any;
+  outgoingCallerIds: (typeof Api.prototype.account.outgoingCallerIds);
   preview: Preview;
   pricing: Pricing;
   proxy: Proxy;
-  queues: any;
-  recordings: any;
+  queues: (typeof Api.prototype.account.queues);
+  recordings: (typeof Api.prototype.account.recordings);
   /**
    * Makes a request to the Twilio API using the configured http client.
    * Authentication information is automatically added if none is provided.
    *
    * @param opts - The options argument
    */
-  request(opts?: RequestOptions): any;
-  shortCodes: any;
-  signingKeys: any;
-  sip: any;
+  request(opts?: Twilio.RequestOptions): any;
+  shortCodes: (typeof Api.prototype.account.shortCodes);
+  signingKeys: (typeof Api.prototype.account.signingKeys);
+  sip: (typeof Api.prototype.account.sip);
   sync: Sync;
   taskrouter: Taskrouter;
-  tokens: any;
-  transcriptions: any;
+  tokens: (typeof Api.prototype.account.tokens);
+  transcriptions: (typeof Api.prototype.account.transcriptions);
   trunking: Trunking;
-  usage: any;
-  validationRequests: any;
+  usage: (typeof Api.prototype.account.usage);
+  validationRequests: (typeof Api.prototype.account.validationRequests);
   video: Video;
   wireless: Wireless;
 }

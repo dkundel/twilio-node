@@ -4,11 +4,12 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Domain = require('../base/Domain');
 import TwilioClient = require('./Twilio');
 import V1 = require('./notify/V1');
+import { CredentialListInstance } from './notify/v1/credential';
+import { ServiceListInstance } from './notify/v1/service';
 
 
 /**
@@ -18,13 +19,19 @@ declare class Notify extends Domain {
   /**
    * Initialize notify domain
    *
-   * @param {Twilio} twilio - The twilio client
+   * @param twilio - The twilio client
    */
   constructor(twilio: TwilioClient);
 
-  readonly credentials: credential;
-  readonly services: service;
+  /**
+   * Credential resource
+   */
+  readonly credentials: CredentialListInstance;
+  /**
+   * Service resource
+   */
+  readonly services: ServiceListInstance;
   readonly v1: V1;
 }
 
-export {Notify}
+export = Notify;

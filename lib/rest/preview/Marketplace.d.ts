@@ -4,11 +4,10 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { AvailableAddOnList } from './marketplace/availableAddOn';
-import { InstalledAddOnList } from './marketplace/installedAddOn';
+import { AvailableAddOnListInstance } from './marketplace/availableAddOn';
+import { InstalledAddOnListInstance } from './marketplace/installedAddOn';
 
 
 /**
@@ -22,8 +21,8 @@ declare class Marketplace extends Version {
    */
   constructor(domain: any);
 
-  readonly availableAddOns: AvailableAddOnList;
-  readonly installedAddOns: InstalledAddOnList;
+  readonly availableAddOns: AvailableAddOnListInstance;
+  readonly installedAddOns: InstalledAddOnListInstance;
 }
 
 export = Marketplace;

@@ -4,11 +4,10 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { AlertList } from './v1/alert';
-import { EventList } from './v1/event';
+import { AlertListInstance } from './v1/alert';
+import { EventListInstance } from './v1/event';
 
 
 /**
@@ -22,8 +21,8 @@ declare class V1 extends Version {
    */
   constructor(domain: any);
 
-  readonly alerts: AlertList;
-  readonly events: EventList;
+  readonly alerts: AlertListInstance;
+  readonly events: EventListInstance;
 }
 
 export = V1;

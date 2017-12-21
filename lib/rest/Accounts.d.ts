@@ -4,11 +4,11 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Domain = require('../base/Domain');
 import TwilioClient = require('./Twilio');
 import V1 = require('./accounts/V1');
+import { CredentialListInstance } from './accounts/v1/credential';
 
 
 /**
@@ -18,12 +18,15 @@ declare class Accounts extends Domain {
   /**
    * Initialize accounts domain
    *
-   * @param {Twilio} twilio - The twilio client
+   * @param twilio - The twilio client
    */
   constructor(twilio: TwilioClient);
 
-  readonly credentials: credential;
+  /**
+   * Credential resource
+   */
+  readonly credentials: CredentialListInstance;
   readonly v1: V1;
 }
 
-export {Accounts}
+export = Accounts;

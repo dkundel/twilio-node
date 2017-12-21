@@ -4,11 +4,13 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Domain = require('../base/Domain');
 import TwilioClient = require('./Twilio');
 import V1 = require('./wireless/V1');
+import { CommandListInstance } from './wireless/v1/command';
+import { RatePlanListInstance } from './wireless/v1/ratePlan';
+import { SimListInstance } from './wireless/v1/sim';
 
 
 /**
@@ -18,14 +20,23 @@ declare class Wireless extends Domain {
   /**
    * Initialize wireless domain
    *
-   * @param {Twilio} twilio - The twilio client
+   * @param twilio - The twilio client
    */
   constructor(twilio: TwilioClient);
 
-  readonly commands: command;
-  readonly ratePlans: rate_plan;
-  readonly sims: sim;
+  /**
+   * Command resource
+   */
+  readonly commands: CommandListInstance;
+  /**
+   * RatePlan resource
+   */
+  readonly ratePlans: RatePlanListInstance;
+  /**
+   * Sim resource
+   */
+  readonly sims: SimListInstance;
   readonly v1: V1;
 }
 
-export {Wireless}
+export = Wireless;

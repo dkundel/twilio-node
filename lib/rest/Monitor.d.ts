@@ -4,11 +4,12 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Domain = require('../base/Domain');
 import TwilioClient = require('./Twilio');
 import V1 = require('./monitor/V1');
+import { AlertListInstance } from './monitor/v1/alert';
+import { EventListInstance } from './monitor/v1/event';
 
 
 /**
@@ -18,13 +19,19 @@ declare class Monitor extends Domain {
   /**
    * Initialize monitor domain
    *
-   * @param {Twilio} twilio - The twilio client
+   * @param twilio - The twilio client
    */
   constructor(twilio: TwilioClient);
 
-  readonly alerts: alert;
-  readonly events: event;
+  /**
+   * Alert resource
+   */
+  readonly alerts: AlertListInstance;
+  /**
+   * Event resource
+   */
+  readonly events: EventListInstance;
   readonly v1: V1;
 }
 
-export {Monitor}
+export = Monitor;

@@ -4,9 +4,8 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
-import { HttpMethod, Url, PhoneNumber, Sid } from './interfaces';
+import { HttpMethod, Url, PhoneNumber, Sid } from '../interfaces';
 
 /**
  * <Response> TwiML for Messages

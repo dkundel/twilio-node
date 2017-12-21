@@ -4,12 +4,11 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { CommandList } from './wireless/command';
-import { RatePlanList } from './wireless/ratePlan';
-import { SimList } from './wireless/sim';
+import { CommandListInstance } from './wireless/command';
+import { RatePlanListInstance } from './wireless/ratePlan';
+import { SimListInstance } from './wireless/sim';
 
 
 /**
@@ -23,9 +22,9 @@ declare class Wireless extends Version {
    */
   constructor(domain: any);
 
-  readonly commands: CommandList;
-  readonly ratePlans: RatePlanList;
-  readonly sims: SimList;
+  readonly commands: CommandListInstance;
+  readonly ratePlans: RatePlanListInstance;
+  readonly sims: SimListInstance;
 }
 
 export = Wireless;

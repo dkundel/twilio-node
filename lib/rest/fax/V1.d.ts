@@ -4,10 +4,9 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { FaxList } from './v1/fax';
+import { FaxListInstance } from './v1/fax';
 
 
 /**
@@ -21,7 +20,7 @@ declare class V1 extends Version {
    */
   constructor(domain: any);
 
-  readonly faxes: FaxList;
+  readonly faxes: FaxListInstance;
 }
 
 export = V1;

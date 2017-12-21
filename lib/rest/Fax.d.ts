@@ -4,11 +4,11 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Domain = require('../base/Domain');
 import TwilioClient = require('./Twilio');
 import V1 = require('./fax/V1');
+import { FaxListInstance } from './fax/v1/fax';
 
 
 /**
@@ -18,12 +18,15 @@ declare class Fax extends Domain {
   /**
    * Initialize fax domain
    *
-   * @param {Twilio} twilio - The twilio client
+   * @param twilio - The twilio client
    */
   constructor(twilio: TwilioClient);
 
-  readonly faxes: fax;
+  /**
+   * Fax resource
+   */
+  readonly faxes: FaxListInstance;
   readonly v1: V1;
 }
 
-export {Fax}
+export = Fax;

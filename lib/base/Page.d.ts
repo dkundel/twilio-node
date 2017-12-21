@@ -8,7 +8,7 @@ interface Solution {
 /**
  * Base page object to maintain request state.
  */
-declare class Page<TPayload extends Page.TwilioResponsePayload, TResource extends Page.TwilioResource, TInstance> {
+declare class Page<TVersion extends Version, TPayload extends Page.TwilioResponsePayload, TResource, TInstance> {
   /**
    * Base page object to maintain request state.
    *
@@ -16,7 +16,7 @@ declare class Page<TPayload extends Page.TwilioResponsePayload, TResource extend
    * @param response - The http response
    * @param solution - path solution
    */
-  constructor(version: Version, response: Response<string>, solution: Solution);
+  constructor(version: TVersion, response: Response<string>, solution: Solution);
 
   /**
    * Get the url of the previous page of records
@@ -42,13 +42,13 @@ declare class Page<TPayload extends Page.TwilioResponsePayload, TResource extend
    *
    * @return promise that resolves to next page of results
    */
-  nextPage(): Promise<Page>;
+  nextPage(): Promise<Page<TVersion, TPayload, TResource, TInstance>>;
   /**
    * Fetch the previous page of records
    *
    * @return promise that resolves to previous page of results
    */
-  previousPage(): Promise<Page>;
+  previousPage(): Promise<Page<TVersion, TPayload, TResource, TInstance>>;
   /**
    * Parse json response from API
    * @throws If non 200 status code is returned
@@ -101,8 +101,6 @@ declare namespace Page {
     meta?: {
       key?: string;
     }
-  }
-  export interface TwilioResource {
   }
 }
 

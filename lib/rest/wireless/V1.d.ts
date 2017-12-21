@@ -4,12 +4,11 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { CommandList } from './v1/command';
-import { RatePlanList } from './v1/ratePlan';
-import { SimList } from './v1/sim';
+import { CommandListInstance } from './v1/command';
+import { RatePlanListInstance } from './v1/ratePlan';
+import { SimListInstance } from './v1/sim';
 
 
 /**
@@ -23,9 +22,9 @@ declare class V1 extends Version {
    */
   constructor(domain: any);
 
-  readonly commands: CommandList;
-  readonly ratePlans: RatePlanList;
-  readonly sims: SimList;
+  readonly commands: CommandListInstance;
+  readonly ratePlans: RatePlanListInstance;
+  readonly sims: SimListInstance;
 }
 
 export = V1;

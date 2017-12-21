@@ -4,11 +4,11 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Domain = require('../base/Domain');
 import TwilioClient = require('./Twilio');
 import V1 = require('./proxy/V1');
+import { ServiceListInstance } from './proxy/v1/service';
 
 
 /**
@@ -18,12 +18,15 @@ declare class Proxy extends Domain {
   /**
    * Initialize proxy domain
    *
-   * @param {Twilio} twilio - The twilio client
+   * @param twilio - The twilio client
    */
   constructor(twilio: TwilioClient);
 
-  readonly services: service;
+  /**
+   * Service resource
+   */
+  readonly services: ServiceListInstance;
   readonly v1: V1;
 }
 
-export {Proxy}
+export = Proxy;

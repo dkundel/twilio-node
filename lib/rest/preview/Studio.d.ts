@@ -4,10 +4,9 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { FlowList } from './studio/flow';
+import { FlowListInstance } from './studio/flow';
 
 
 /**
@@ -21,7 +20,7 @@ declare class Studio extends Version {
    */
   constructor(domain: any);
 
-  readonly flows: FlowList;
+  readonly flows: FlowListInstance;
 }
 
 export = Studio;

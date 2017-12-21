@@ -4,12 +4,13 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Domain = require('../base/Domain');
 import TwilioClient = require('./Twilio');
 import V1 = require('./ipMessaging/V1');
 import V2 = require('./ipMessaging/V2');
+import { CredentialListInstance } from './ipMessaging/v2/credential';
+import { ServiceListInstance } from './ipMessaging/v2/service';
 
 
 /**
@@ -19,14 +20,20 @@ declare class IpMessaging extends Domain {
   /**
    * Initialize ip_messaging domain
    *
-   * @param {Twilio} twilio - The twilio client
+   * @param twilio - The twilio client
    */
   constructor(twilio: TwilioClient);
 
-  readonly credentials: credential;
-  readonly services: service;
+  /**
+   * Credential resource
+   */
+  readonly credentials: CredentialListInstance;
+  /**
+   * Service resource
+   */
+  readonly services: ServiceListInstance;
   readonly v1: V1;
   readonly v2: V2;
 }
 
-export {IpMessaging}
+export = IpMessaging;

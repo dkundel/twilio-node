@@ -4,10 +4,9 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { WorkspaceList } from './v1/workspace';
+import { WorkspaceListInstance } from './v1/workspace';
 
 
 /**
@@ -21,7 +20,7 @@ declare class V1 extends Version {
    */
   constructor(domain: any);
 
-  readonly workspaces: WorkspaceList;
+  readonly workspaces: WorkspaceListInstance;
 }
 
 export = V1;

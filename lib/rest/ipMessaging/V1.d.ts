@@ -4,11 +4,10 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { CredentialList } from './v1/credential';
-import { ServiceList } from './v1/service';
+import { CredentialListInstance } from './v1/credential';
+import { ServiceListInstance } from './v1/service';
 
 
 /**
@@ -22,8 +21,8 @@ declare class V1 extends Version {
    */
   constructor(domain: any);
 
-  readonly credentials: CredentialList;
-  readonly services: ServiceList;
+  readonly credentials: CredentialListInstance;
+  readonly services: ServiceListInstance;
 }
 
 export = V1;

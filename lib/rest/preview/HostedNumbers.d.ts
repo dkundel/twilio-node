@@ -4,11 +4,10 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { AuthorizationDocumentList } from './hosted_numbers/authorizationDocument';
-import { HostedNumberOrderList } from './hosted_numbers/hostedNumberOrder';
+import { AuthorizationDocumentListInstance } from './hosted_numbers/authorizationDocument';
+import { HostedNumberOrderListInstance } from './hosted_numbers/hostedNumberOrder';
 
 
 /**
@@ -22,8 +21,8 @@ declare class HostedNumbers extends Version {
    */
   constructor(domain: any);
 
-  readonly authorizationDocuments: AuthorizationDocumentList;
-  readonly hostedNumberOrders: HostedNumberOrderList;
+  readonly authorizationDocuments: AuthorizationDocumentListInstance;
+  readonly hostedNumberOrders: HostedNumberOrderListInstance;
 }
 
 export = HostedNumbers;

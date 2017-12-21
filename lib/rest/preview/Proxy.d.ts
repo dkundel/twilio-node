@@ -4,10 +4,9 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { ServiceList } from './proxy/service';
+import { ServiceListInstance } from './proxy/service';
 
 
 /**
@@ -21,7 +20,7 @@ declare class Proxy extends Version {
    */
   constructor(domain: any);
 
-  readonly services: ServiceList;
+  readonly services: ServiceListInstance;
 }
 
 export = Proxy;

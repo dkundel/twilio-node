@@ -4,10 +4,9 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { ServiceList } from './acc_security/service';
+import { ServiceListInstance } from './acc_security/service';
 
 
 /**
@@ -21,7 +20,7 @@ declare class AccSecurity extends Version {
    */
   constructor(domain: any);
 
-  readonly services: ServiceList;
+  readonly services: ServiceListInstance;
 }
 
 export = AccSecurity;

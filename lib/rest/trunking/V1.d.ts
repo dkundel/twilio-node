@@ -4,10 +4,9 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { TrunkList } from './v1/trunk';
+import { TrunkListInstance } from './v1/trunk';
 
 
 /**
@@ -21,7 +20,7 @@ declare class V1 extends Version {
    */
   constructor(domain: any);
 
-  readonly trunks: TrunkList;
+  readonly trunks: TrunkListInstance;
 }
 
 export = V1;

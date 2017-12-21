@@ -4,11 +4,11 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Domain = require('../base/Domain');
 import TwilioClient = require('./Twilio');
 import V1 = require('./lookups/V1');
+import { PhoneNumberListInstance } from './lookups/v1/phoneNumber';
 
 
 /**
@@ -18,12 +18,15 @@ declare class Lookups extends Domain {
   /**
    * Initialize lookups domain
    *
-   * @param {Twilio} twilio - The twilio client
+   * @param twilio - The twilio client
    */
   constructor(twilio: TwilioClient);
 
-  readonly phoneNumbers: phone_number;
+  /**
+   * PhoneNumber resource
+   */
+  readonly phoneNumbers: PhoneNumberListInstance;
   readonly v1: V1;
 }
 
-export {Lookups}
+export = Lookups;

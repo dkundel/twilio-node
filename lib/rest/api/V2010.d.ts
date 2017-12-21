@@ -4,11 +4,10 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
 import { AccountContext } from './v2010/account';
-import { AccountList } from './v2010/account';
+import { AccountListInstance } from './v2010/account';
 
 
 /**
@@ -23,30 +22,30 @@ declare class V2010 extends Version {
   constructor(domain: any);
 
   account: AccountContext;
-  readonly accounts: AccountList;
-  readonly addresses: AddressList;
-  readonly applications: ApplicationList;
-  readonly authorizedConnectApps: AuthorizedConnectAppList;
-  readonly availablePhoneNumbers: AvailablePhoneNumberCountryList;
-  readonly calls: CallList;
-  readonly conferences: ConferenceList;
-  readonly connectApps: ConnectAppList;
-  readonly incomingPhoneNumbers: IncomingPhoneNumberList;
-  readonly keys: KeyList;
-  readonly messages: MessageList;
-  readonly newKeys: NewKeyList;
-  readonly newSigningKeys: NewSigningKeyList;
-  readonly notifications: NotificationList;
-  readonly outgoingCallerIds: OutgoingCallerIdList;
-  readonly queues: QueueList;
-  readonly recordings: RecordingList;
-  readonly shortCodes: ShortCodeList;
-  readonly signingKeys: SigningKeyList;
-  readonly sip: SipList;
-  readonly tokens: TokenList;
-  readonly transcriptions: TranscriptionList;
-  readonly usage: UsageList;
-  readonly validationRequests: ValidationRequestList;
+  readonly accounts: AccountListInstance;
+  readonly addresses: AddressListInstance;
+  readonly applications: ApplicationListInstance;
+  readonly authorizedConnectApps: AuthorizedConnectAppListInstance;
+  readonly availablePhoneNumbers: AvailablePhoneNumberCountryListInstance;
+  readonly calls: CallListInstance;
+  readonly conferences: ConferenceListInstance;
+  readonly connectApps: ConnectAppListInstance;
+  readonly incomingPhoneNumbers: IncomingPhoneNumberListInstance;
+  readonly keys: KeyListInstance;
+  readonly messages: MessageListInstance;
+  readonly newKeys: NewKeyListInstance;
+  readonly newSigningKeys: NewSigningKeyListInstance;
+  readonly notifications: NotificationListInstance;
+  readonly outgoingCallerIds: OutgoingCallerIdListInstance;
+  readonly queues: QueueListInstance;
+  readonly recordings: RecordingListInstance;
+  readonly shortCodes: ShortCodeListInstance;
+  readonly signingKeys: SigningKeyListInstance;
+  readonly sip: SipListInstance;
+  readonly tokens: TokenListInstance;
+  readonly transcriptions: TranscriptionListInstance;
+  readonly usage: UsageListInstance;
+  readonly validationRequests: ValidationRequestListInstance;
 }
 
 export = V2010;

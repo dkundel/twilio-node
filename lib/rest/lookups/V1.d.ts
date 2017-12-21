@@ -4,10 +4,9 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { PhoneNumberList } from './v1/phoneNumber';
+import { PhoneNumberListInstance } from './v1/phoneNumber';
 
 
 /**
@@ -21,7 +20,7 @@ declare class V1 extends Version {
    */
   constructor(domain: any);
 
-  readonly phoneNumbers: PhoneNumberList;
+  readonly phoneNumbers: PhoneNumberListInstance;
 }
 
 export = V1;

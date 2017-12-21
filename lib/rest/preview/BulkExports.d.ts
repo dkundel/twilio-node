@@ -4,11 +4,10 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { ExportConfigurationList } from './bulk_exports/exportConfiguration';
-import { ExportList } from './bulk_exports/export';
+import { ExportConfigurationListInstance } from './bulk_exports/exportConfiguration';
+import { ExportListInstance } from './bulk_exports/export';
 
 
 /**
@@ -22,8 +21,8 @@ declare class BulkExports extends Version {
    */
   constructor(domain: any);
 
-  readonly exportConfiguration: ExportConfigurationList;
-  readonly exports: ExportList;
+  readonly exportConfiguration: ExportConfigurationListInstance;
+  readonly exports: ExportListInstance;
 }
 
 export = BulkExports;

@@ -4,11 +4,10 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Version = require('../../base/Version');
-import { RecordingList } from './v1/recording';
-import { RoomList } from './v1/room';
+import { RecordingListInstance } from './v1/recording';
+import { RoomListInstance } from './v1/room';
 
 
 /**
@@ -22,8 +21,8 @@ declare class V1 extends Version {
    */
   constructor(domain: any);
 
-  readonly recordings: RecordingList;
-  readonly rooms: RoomList;
+  readonly recordings: RecordingListInstance;
+  readonly rooms: RoomListInstance;
 }
 
 export = V1;

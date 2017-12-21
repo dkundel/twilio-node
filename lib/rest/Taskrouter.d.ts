@@ -4,11 +4,11 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-/// <reference types="node" />
 
 import Domain = require('../base/Domain');
 import TwilioClient = require('./Twilio');
 import V1 = require('./taskrouter/V1');
+import { WorkspaceListInstance } from './taskrouter/v1/workspace';
 
 
 /**
@@ -18,12 +18,15 @@ declare class Taskrouter extends Domain {
   /**
    * Initialize taskrouter domain
    *
-   * @param {Twilio} twilio - The twilio client
+   * @param twilio - The twilio client
    */
   constructor(twilio: TwilioClient);
 
   readonly v1: V1;
-  readonly workspaces: workspace;
+  /**
+   * Workspace resource
+   */
+  readonly workspaces: WorkspaceListInstance;
 }
 
-export {Taskrouter}
+export = Taskrouter;
