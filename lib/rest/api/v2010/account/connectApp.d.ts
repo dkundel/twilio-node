@@ -398,4 +398,4 @@ declare class ConnectAppContext {
   update(callback: (error: Error | null, items: ConnectAppInstance) => any): void;
 }
 
-export {ConnectAppListPageOptions, ConnectAppResource, ConnectAppListEachOptions, ConnectAppInstance, ConnectAppListOptions, ConnectAppPage, ConnectAppPermission, ConnectAppList, ConnectAppListInstance, ConnectAppPayload, ConnectAppListFetchOptions, ConnectAppContext, ConnectAppSolution}
+export {ConnectAppResource, ConnectAppListFetchOptions, ConnectAppPage, ConnectAppSolution, ConnectAppListInstance, ConnectAppPermission, ConnectAppListOptions, ConnectAppContext, ConnectAppList, ConnectAppPayload, ConnectAppInstance, ConnectAppListEachOptions, ConnectAppListPageOptions}

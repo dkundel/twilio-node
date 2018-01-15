@@ -434,4 +434,4 @@ declare class OriginationUrlContext {
   update(callback: (error: Error | null, items: OriginationUrlInstance) => any): void;
 }
 
-export {OriginationUrlPayload, OriginationUrlListCreateOptions, OriginationUrlSolution, OriginationUrlListOptions, OriginationUrlListEachOptions, OriginationUrlListPageOptions, OriginationUrlPage, OriginationUrlListFetchOptions, OriginationUrlResource, OriginationUrlList, OriginationUrlListInstance, OriginationUrlContext, OriginationUrlInstance}
+export {OriginationUrlListFetchOptions, OriginationUrlPage, OriginationUrlPayload, OriginationUrlInstance, OriginationUrlContext, OriginationUrlSolution, OriginationUrlListOptions, OriginationUrlListPageOptions, OriginationUrlListInstance, OriginationUrlResource, OriginationUrlListEachOptions, OriginationUrlListCreateOptions, OriginationUrlList}

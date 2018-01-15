@@ -343,4 +343,4 @@ declare class EngagementContext {
   steps: StepListInstance;
 }
 
-export {EngagementSolution, EngagementListEachOptions, EngagementResource, EngagementPayload, EngagementListPageOptions, EngagementListInstance, EngagementInstance, EngagementContext, EngagementPage, EngagementStatus, EngagementListOptions, EngagementList, EngagementListCreateOptions}
+export {EngagementPage, EngagementInstance, EngagementStatus, EngagementListEachOptions, EngagementListPageOptions, EngagementResource, EngagementListInstance, EngagementPayload, EngagementListOptions, EngagementList, EngagementSolution, EngagementListCreateOptions, EngagementContext}

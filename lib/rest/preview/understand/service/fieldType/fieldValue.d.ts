@@ -332,4 +332,4 @@ declare class FieldValueContext {
   remove(callback: (error: Error | null, items: FieldValueInstance) => any): void;
 }
 
-export {FieldValuePayload, FieldValueListCreateOptions, FieldValueListPageOptions, FieldValueListInstance, FieldValuePage, FieldValueInstance, FieldValueListEachOptions, FieldValueSolution, FieldValueResource, FieldValueContext, FieldValueList, FieldValueListOptions}
+export {FieldValuePage, FieldValueListOptions, FieldValueList, FieldValueResource, FieldValueListCreateOptions, FieldValueListInstance, FieldValueListPageOptions, FieldValueInstance, FieldValueListEachOptions, FieldValueSolution, FieldValuePayload, FieldValueContext}

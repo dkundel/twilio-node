@@ -231,4 +231,4 @@ declare class UsageRecordInstance {
   simSid: string;
 }
 
-export {UsageRecordListPageOptions, UsageRecordResource, UsageRecordPayload, UsageRecordList, UsageRecordListEachOptions, UsageRecordListInstance, UsageRecordInstance, UsageRecordGranularity, UsageRecordPage, UsageRecordSolution, UsageRecordListOptions}
+export {UsageRecordListInstance, UsageRecordPayload, UsageRecordListEachOptions, UsageRecordInstance, UsageRecordPage, UsageRecordListPageOptions, UsageRecordSolution, UsageRecordGranularity, UsageRecordResource, UsageRecordList, UsageRecordListOptions}

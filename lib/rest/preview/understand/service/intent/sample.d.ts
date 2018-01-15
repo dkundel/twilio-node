@@ -396,4 +396,4 @@ declare class SampleContext {
   update(callback: (error: Error | null, items: SampleInstance) => any): void;
 }
 
-export {SamplePayload, SampleListOptions, SampleContext, SampleSolution, SampleListEachOptions, SampleListInstance, SampleInstance, SampleListFetchOptions, SampleResource, SampleList, SamplePage, SampleListPageOptions, SampleListCreateOptions}
+export {SampleListInstance, SamplePage, SampleListEachOptions, SampleListCreateOptions, SampleListFetchOptions, SampleInstance, SampleListPageOptions, SampleList, SampleContext, SampleListOptions, SamplePayload, SampleResource, SampleSolution}

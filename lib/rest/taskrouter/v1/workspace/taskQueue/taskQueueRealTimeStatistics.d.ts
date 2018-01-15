@@ -205,4 +205,4 @@ declare class TaskQueueRealTimeStatisticsContext {
   fetch(callback: (error: Error | null, items: TaskQueueRealTimeStatisticsInstance) => any): void;
 }
 
-export {TaskQueueRealTimeStatisticsResource, TaskQueueRealTimeStatisticsPayload, TaskQueueRealTimeStatisticsListInstance, TaskQueueRealTimeStatisticsListFetchOptions, TaskQueueRealTimeStatisticsInstance, TaskQueueRealTimeStatisticsContext, TaskQueueRealTimeStatisticsPage, TaskQueueRealTimeStatisticsList, TaskQueueRealTimeStatisticsSolution}
+export {TaskQueueRealTimeStatisticsSolution, TaskQueueRealTimeStatisticsContext, TaskQueueRealTimeStatisticsListInstance, TaskQueueRealTimeStatisticsListFetchOptions, TaskQueueRealTimeStatisticsResource, TaskQueueRealTimeStatisticsPayload, TaskQueueRealTimeStatisticsList, TaskQueueRealTimeStatisticsInstance, TaskQueueRealTimeStatisticsPage}

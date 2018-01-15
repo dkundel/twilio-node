@@ -272,4 +272,4 @@ declare class AssignedAddOnExtensionContext {
   fetch(callback: (error: Error | null, items: AssignedAddOnExtensionInstance) => any): void;
 }
 
-export {AssignedAddOnExtensionListInstance, AssignedAddOnExtensionListOptions, AssignedAddOnExtensionPage, AssignedAddOnExtensionInstance, AssignedAddOnExtensionContext, AssignedAddOnExtensionListPageOptions, AssignedAddOnExtensionPayload, AssignedAddOnExtensionList, AssignedAddOnExtensionResource, AssignedAddOnExtensionListEachOptions, AssignedAddOnExtensionSolution}
+export {AssignedAddOnExtensionListInstance, AssignedAddOnExtensionPage, AssignedAddOnExtensionListOptions, AssignedAddOnExtensionListPageOptions, AssignedAddOnExtensionSolution, AssignedAddOnExtensionResource, AssignedAddOnExtensionContext, AssignedAddOnExtensionPayload, AssignedAddOnExtensionListEachOptions, AssignedAddOnExtensionList, AssignedAddOnExtensionInstance}

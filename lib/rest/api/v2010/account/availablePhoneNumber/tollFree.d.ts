@@ -474,4 +474,4 @@ declare class TollFreeInstance {
   region: string;
 }
 
-export {TollFreePayload, TollFreeResource, TollFreeListInstance, TollFreeListEachOptions, TollFreePage, TollFreeList, TollFreeSolution, TollFreeInstance, TollFreeListPageOptions, TollFreeListOptions}
+export {TollFreePage, TollFreeList, TollFreeListInstance, TollFreeListOptions, TollFreePayload, TollFreeInstance, TollFreeListPageOptions, TollFreeSolution, TollFreeResource, TollFreeListEachOptions}

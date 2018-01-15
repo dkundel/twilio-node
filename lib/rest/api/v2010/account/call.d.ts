@@ -717,4 +717,4 @@ declare class CallContext {
   update(callback: (error: Error | null, items: CallInstance) => any): void;
 }
 
-export {CallPage, CallListFetchOptions, CallList, CallListCreateOptions, CallResource, CallStatus, CallUpdateStatus, CallListEachOptions, CallListOptions, CallListInstance, CallInstance, CallListPageOptions, CallContext, CallPayload, CallEvent, CallSolution}
+export {CallUpdateStatus, CallPayload, CallListPageOptions, CallInstance, CallStatus, CallList, CallListFetchOptions, CallSolution, CallPage, CallListInstance, CallResource, CallContext, CallEvent, CallListEachOptions, CallListCreateOptions, CallListOptions}

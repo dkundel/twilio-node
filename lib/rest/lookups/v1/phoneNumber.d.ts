@@ -200,4 +200,4 @@ declare class PhoneNumberContext {
   fetch(callback: (error: Error | null, items: PhoneNumberInstance) => any): void;
 }
 
-export {PhoneNumberListInstance, PhoneNumberResource, PhoneNumberInstance, PhoneNumberPayload, PhoneNumberSolution, PhoneNumberType, PhoneNumberPage, PhoneNumberList, PhoneNumberListFetchOptions, PhoneNumberContext}
+export {PhoneNumberPage, PhoneNumberContext, PhoneNumberListInstance, PhoneNumberList, PhoneNumberInstance, PhoneNumberResource, PhoneNumberListFetchOptions, PhoneNumberPayload, PhoneNumberSolution, PhoneNumberType}

@@ -197,4 +197,4 @@ declare class TaskQueueStatisticsContext {
   fetch(callback: (error: Error | null, items: TaskQueueStatisticsInstance) => any): void;
 }
 
-export {TaskQueueStatisticsInstance, TaskQueueStatisticsList, TaskQueueStatisticsListInstance, TaskQueueStatisticsPage, TaskQueueStatisticsPayload, TaskQueueStatisticsContext, TaskQueueStatisticsResource, TaskQueueStatisticsSolution, TaskQueueStatisticsListFetchOptions}
+export {TaskQueueStatisticsPage, TaskQueueStatisticsList, TaskQueueStatisticsListInstance, TaskQueueStatisticsPayload, TaskQueueStatisticsInstance, TaskQueueStatisticsResource, TaskQueueStatisticsListFetchOptions, TaskQueueStatisticsSolution, TaskQueueStatisticsContext}

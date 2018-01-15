@@ -187,4 +187,4 @@ declare class WorkspaceStatisticsContext {
   fetch(callback: (error: Error | null, items: WorkspaceStatisticsInstance) => any): void;
 }
 
-export {WorkspaceStatisticsInstance, WorkspaceStatisticsListInstance, WorkspaceStatisticsResource, WorkspaceStatisticsListFetchOptions, WorkspaceStatisticsPage, WorkspaceStatisticsContext, WorkspaceStatisticsList, WorkspaceStatisticsPayload, WorkspaceStatisticsSolution}
+export {WorkspaceStatisticsResource, WorkspaceStatisticsInstance, WorkspaceStatisticsListFetchOptions, WorkspaceStatisticsPage, WorkspaceStatisticsContext, WorkspaceStatisticsPayload, WorkspaceStatisticsSolution, WorkspaceStatisticsList, WorkspaceStatisticsListInstance}

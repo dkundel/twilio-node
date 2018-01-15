@@ -622,4 +622,4 @@ declare class SimContext {
   usageRecords: UsageRecordListInstance;
 }
 
-export {SimSolution, SimStatus, SimListPageOptions, SimContext, SimResource, SimPayload, SimList, SimPage, SimListInstance, SimInstance, SimListEachOptions, SimListFetchOptions, SimListOptions}
+export {SimPage, SimContext, SimStatus, SimList, SimListEachOptions, SimListFetchOptions, SimSolution, SimListInstance, SimInstance, SimListPageOptions, SimListOptions, SimResource, SimPayload}

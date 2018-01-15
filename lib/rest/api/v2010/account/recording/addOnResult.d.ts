@@ -307,4 +307,4 @@ declare class AddOnResultContext {
   remove(callback: (error: Error | null, items: AddOnResultInstance) => any): void;
 }
 
-export {AddOnResultInstance, AddOnResultStatus, AddOnResultContext, AddOnResultListOptions, AddOnResultPage, AddOnResultPayload, AddOnResultListEachOptions, AddOnResultResource, AddOnResultListInstance, AddOnResultList, AddOnResultSolution, AddOnResultListPageOptions}
+export {AddOnResultInstance, AddOnResultList, AddOnResultResource, AddOnResultSolution, AddOnResultContext, AddOnResultListOptions, AddOnResultListInstance, AddOnResultStatus, AddOnResultListPageOptions, AddOnResultListEachOptions, AddOnResultPayload, AddOnResultPage}

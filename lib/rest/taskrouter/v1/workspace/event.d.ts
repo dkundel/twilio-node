@@ -424,4 +424,4 @@ declare class EventContext {
   fetch(callback: (error: Error | null, items: EventInstance) => any): void;
 }
 
-export {EventList, EventResource, EventInstance, EventListOptions, EventListEachOptions, EventContext, EventListPageOptions, EventPayload, EventSolution, EventListInstance, EventPage}
+export {EventListEachOptions, EventListPageOptions, EventInstance, EventContext, EventSolution, EventListInstance, EventResource, EventPayload, EventPage, EventList, EventListOptions}

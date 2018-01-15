@@ -155,4 +155,4 @@ declare class WorkersRealTimeStatisticsContext {
   fetch(callback: (error: Error | null, items: WorkersRealTimeStatisticsInstance) => any): void;
 }
 
-export {WorkersRealTimeStatisticsList, WorkersRealTimeStatisticsResource, WorkersRealTimeStatisticsInstance, WorkersRealTimeStatisticsSolution, WorkersRealTimeStatisticsListInstance, WorkersRealTimeStatisticsListFetchOptions, WorkersRealTimeStatisticsContext, WorkersRealTimeStatisticsPayload, WorkersRealTimeStatisticsPage}
+export {WorkersRealTimeStatisticsPayload, WorkersRealTimeStatisticsResource, WorkersRealTimeStatisticsSolution, WorkersRealTimeStatisticsList, WorkersRealTimeStatisticsInstance, WorkersRealTimeStatisticsListFetchOptions, WorkersRealTimeStatisticsPage, WorkersRealTimeStatisticsContext, WorkersRealTimeStatisticsListInstance}

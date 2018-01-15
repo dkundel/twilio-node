@@ -286,4 +286,4 @@ declare class StepContext {
   fetch(callback: (error: Error | null, items: StepInstance) => any): void;
 }
 
-export {StepResource, StepPage, StepListInstance, StepListPageOptions, StepSolution, StepListEachOptions, StepContext, StepList, StepPayload, StepListOptions, StepInstance}
+export {StepListOptions, StepList, StepListInstance, StepPage, StepInstance, StepContext, StepResource, StepListEachOptions, StepListPageOptions, StepSolution, StepPayload}

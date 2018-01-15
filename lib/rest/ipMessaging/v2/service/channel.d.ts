@@ -503,4 +503,4 @@ declare class ChannelContext {
   update(callback: (error: Error | null, items: ChannelInstance) => any): void;
 }
 
-export {ChannelChannelType, ChannelListOptions, ChannelListEachOptions, ChannelList, ChannelListInstance, ChannelPayload, ChannelPage, ChannelSolution, ChannelInstance, ChannelListPageOptions, ChannelListFetchOptions, ChannelListCreateOptions, ChannelResource, ChannelContext}
+export {ChannelListFetchOptions, ChannelListOptions, ChannelPayload, ChannelInstance, ChannelContext, ChannelResource, ChannelSolution, ChannelListCreateOptions, ChannelList, ChannelChannelType, ChannelListEachOptions, ChannelListInstance, ChannelListPageOptions, ChannelPage}

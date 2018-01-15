@@ -345,4 +345,4 @@ declare class IpAccessControlListContext {
   update(opts: IpAccessControlListListFetchOptions, callback: (error: Error | null, items: IpAccessControlListInstance) => any): void;
 }
 
-export {IpAccessControlListContext, IpAccessControlListListPageOptions, IpAccessControlListListInstance, IpAccessControlListResource, IpAccessControlListList, IpAccessControlListSolution, IpAccessControlListPage, IpAccessControlListListEachOptions, IpAccessControlListListCreateOptions, IpAccessControlListInstance, IpAccessControlListPayload, IpAccessControlListListOptions, IpAccessControlListListFetchOptions}
+export {IpAccessControlListListOptions, IpAccessControlListSolution, IpAccessControlListListFetchOptions, IpAccessControlListInstance, IpAccessControlListPage, IpAccessControlListListInstance, IpAccessControlListListCreateOptions, IpAccessControlListList, IpAccessControlListListEachOptions, IpAccessControlListPayload, IpAccessControlListResource, IpAccessControlListContext, IpAccessControlListListPageOptions}

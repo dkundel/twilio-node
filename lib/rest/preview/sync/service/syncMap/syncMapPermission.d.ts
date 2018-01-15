@@ -346,4 +346,4 @@ declare class SyncMapPermissionContext {
   update(opts: SyncMapPermissionListFetchOptions, callback: (error: Error | null, items: SyncMapPermissionInstance) => any): void;
 }
 
-export {SyncMapPermissionListPageOptions, SyncMapPermissionContext, SyncMapPermissionResource, SyncMapPermissionPayload, SyncMapPermissionList, SyncMapPermissionSolution, SyncMapPermissionPage, SyncMapPermissionListInstance, SyncMapPermissionListFetchOptions, SyncMapPermissionListEachOptions, SyncMapPermissionInstance, SyncMapPermissionListOptions}
+export {SyncMapPermissionContext, SyncMapPermissionListPageOptions, SyncMapPermissionInstance, SyncMapPermissionSolution, SyncMapPermissionListOptions, SyncMapPermissionListEachOptions, SyncMapPermissionResource, SyncMapPermissionListFetchOptions, SyncMapPermissionListInstance, SyncMapPermissionList, SyncMapPermissionPage, SyncMapPermissionPayload}

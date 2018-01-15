@@ -540,4 +540,4 @@ declare class DomainContext {
   update(callback: (error: Error | null, items: DomainInstance) => any): void;
 }
 
-export {DomainPayload, DomainListInstance, DomainListFetchOptions, DomainInstance, DomainListPageOptions, DomainList, DomainSolution, DomainPage, DomainListEachOptions, DomainListCreateOptions, DomainContext, DomainListOptions, DomainResource}
+export {DomainPage, DomainListOptions, DomainListInstance, DomainPayload, DomainListPageOptions, DomainListFetchOptions, DomainInstance, DomainResource, DomainListCreateOptions, DomainContext, DomainListEachOptions, DomainSolution, DomainList}

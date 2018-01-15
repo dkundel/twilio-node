@@ -390,4 +390,4 @@ declare class ActivityContext {
   update(callback: (error: Error | null, items: ActivityInstance) => any): void;
 }
 
-export {ActivityList, ActivityContext, ActivityPayload, ActivityListPageOptions, ActivityPage, ActivityResource, ActivityListInstance, ActivityInstance, ActivityListOptions, ActivityListEachOptions, ActivitySolution, ActivityListFetchOptions, ActivityListCreateOptions}
+export {ActivityListFetchOptions, ActivityListPageOptions, ActivityContext, ActivityInstance, ActivityList, ActivityListOptions, ActivityListCreateOptions, ActivityListInstance, ActivityListEachOptions, ActivitySolution, ActivityPage, ActivityPayload, ActivityResource}

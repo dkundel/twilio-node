@@ -390,4 +390,4 @@ declare class AlertContext {
   remove(callback: (error: Error | null, items: AlertInstance) => any): void;
 }
 
-export {AlertInstance, AlertListPageOptions, AlertPage, AlertContext, AlertSolution, AlertListOptions, AlertList, AlertListEachOptions, AlertListInstance, AlertPayload, AlertResource}
+export {AlertListInstance, AlertSolution, AlertResource, AlertPage, AlertListPageOptions, AlertInstance, AlertList, AlertListOptions, AlertPayload, AlertContext, AlertListEachOptions}

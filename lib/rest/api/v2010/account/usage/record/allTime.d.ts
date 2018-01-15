@@ -303,4 +303,4 @@ declare class AllTimeInstance {
   usageUnit: string;
 }
 
-export {AllTimeListPageOptions, AllTimeSolution, AllTimeListInstance, AllTimeCategory, AllTimeInstance, AllTimeListEachOptions, AllTimeResource, AllTimeListOptions, AllTimePayload, AllTimePage, AllTimeList}
+export {AllTimeInstance, AllTimeCategory, AllTimePayload, AllTimeListPageOptions, AllTimeSolution, AllTimeListInstance, AllTimeList, AllTimeListEachOptions, AllTimeListOptions, AllTimeResource, AllTimePage}

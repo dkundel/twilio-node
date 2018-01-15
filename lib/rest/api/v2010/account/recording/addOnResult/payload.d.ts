@@ -312,4 +312,4 @@ declare class PayloadContext {
   remove(callback: (error: Error | null, items: PayloadInstance) => any): void;
 }
 
-export {PayloadPage, PayloadListOptions, PayloadList, PayloadListInstance, PayloadListEachOptions, PayloadListPageOptions, PayloadResource, PayloadPayload, PayloadContext, PayloadInstance, PayloadSolution}
+export {PayloadPayload, PayloadListOptions, PayloadInstance, PayloadList, PayloadListInstance, PayloadContext, PayloadPage, PayloadResource, PayloadListEachOptions, PayloadListPageOptions, PayloadSolution}

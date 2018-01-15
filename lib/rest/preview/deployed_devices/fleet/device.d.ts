@@ -452,4 +452,4 @@ declare class DeviceContext {
   update(callback: (error: Error | null, items: DeviceInstance) => any): void;
 }
 
-export {DeviceResource, DeviceListCreateOptions, DevicePage, DeviceListPageOptions, DeviceList, DeviceListFetchOptions, DeviceListInstance, DeviceContext, DeviceInstance, DeviceSolution, DeviceListOptions, DeviceListEachOptions, DevicePayload}
+export {DeviceListInstance, DeviceList, DevicePage, DeviceListEachOptions, DeviceListOptions, DeviceResource, DeviceInstance, DevicePayload, DeviceListFetchOptions, DeviceContext, DeviceSolution, DeviceListCreateOptions, DeviceListPageOptions}

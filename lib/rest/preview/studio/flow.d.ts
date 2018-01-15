@@ -303,4 +303,4 @@ declare class FlowContext {
   remove(callback: (error: Error | null, items: FlowInstance) => any): void;
 }
 
-export {FlowListOptions, FlowListPageOptions, FlowInstance, FlowPayload, FlowListEachOptions, FlowResource, FlowContext, FlowListInstance, FlowSolution, FlowStatus, FlowPage, FlowList}
+export {FlowList, FlowListPageOptions, FlowListEachOptions, FlowPayload, FlowContext, FlowResource, FlowPage, FlowInstance, FlowSolution, FlowStatus, FlowListInstance, FlowListOptions}

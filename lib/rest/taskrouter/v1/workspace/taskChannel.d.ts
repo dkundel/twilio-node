@@ -260,4 +260,4 @@ declare class TaskChannelContext {
   fetch(callback: (error: Error | null, items: TaskChannelInstance) => any): void;
 }
 
-export {TaskChannelContext, TaskChannelListInstance, TaskChannelList, TaskChannelResource, TaskChannelListEachOptions, TaskChannelInstance, TaskChannelSolution, TaskChannelPayload, TaskChannelListPageOptions, TaskChannelPage, TaskChannelListOptions}
+export {TaskChannelList, TaskChannelPayload, TaskChannelPage, TaskChannelListPageOptions, TaskChannelSolution, TaskChannelListOptions, TaskChannelInstance, TaskChannelListInstance, TaskChannelResource, TaskChannelListEachOptions, TaskChannelContext}

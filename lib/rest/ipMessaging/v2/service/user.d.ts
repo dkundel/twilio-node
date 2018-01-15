@@ -444,4 +444,4 @@ declare class UserContext {
   userChannels: UserChannelListInstance;
 }
 
-export {UserResource, UserInstance, UserPage, UserPayload, UserListEachOptions, UserListFetchOptions, UserListInstance, UserList, UserListPageOptions, UserListOptions, UserContext, UserListCreateOptions, UserSolution}
+export {UserListCreateOptions, UserInstance, UserListEachOptions, UserListFetchOptions, UserResource, UserListPageOptions, UserPayload, UserContext, UserSolution, UserListOptions, UserList, UserListInstance, UserPage}

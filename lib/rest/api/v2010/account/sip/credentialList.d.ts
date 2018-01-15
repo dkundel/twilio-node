@@ -345,4 +345,4 @@ declare class CredentialListContext {
   update(opts: CredentialListListFetchOptions, callback: (error: Error | null, items: CredentialListInstance) => any): void;
 }
 
-export {CredentialListListPageOptions, CredentialListList, CredentialListListOptions, CredentialListListCreateOptions, CredentialListPage, CredentialListListFetchOptions, CredentialListListInstance, CredentialListListEachOptions, CredentialListContext, CredentialListPayload, CredentialListInstance, CredentialListSolution, CredentialListResource}
+export {CredentialListSolution, CredentialListListInstance, CredentialListResource, CredentialListListFetchOptions, CredentialListPage, CredentialListList, CredentialListInstance, CredentialListContext, CredentialListListCreateOptions, CredentialListListPageOptions, CredentialListListOptions, CredentialListListEachOptions, CredentialListPayload}

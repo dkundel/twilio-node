@@ -290,4 +290,4 @@ declare class MediaContext {
   remove(callback: (error: Error | null, items: MediaInstance) => any): void;
 }
 
-export {MediaListPageOptions, MediaInstance, MediaPage, MediaListInstance, MediaContext, MediaListEachOptions, MediaResource, MediaSolution, MediaPayload, MediaListOptions, MediaList}
+export {MediaListPageOptions, MediaResource, MediaSolution, MediaPayload, MediaList, MediaListOptions, MediaListEachOptions, MediaInstance, MediaContext, MediaPage, MediaListInstance}

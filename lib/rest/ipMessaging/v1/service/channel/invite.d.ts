@@ -340,4 +340,4 @@ declare class InviteContext {
   remove(callback: (error: Error | null, items: InviteInstance) => any): void;
 }
 
-export {InviteInstance, InviteListPageOptions, InvitePage, InviteContext, InviteResource, InvitePayload, InviteListEachOptions, InviteListInstance, InviteListCreateOptions, InviteListOptions, InviteSolution, InviteList}
+export {InvitePage, InviteListInstance, InviteList, InviteInstance, InviteContext, InviteListCreateOptions, InviteResource, InviteListOptions, InviteSolution, InviteListPageOptions, InvitePayload, InviteListEachOptions}

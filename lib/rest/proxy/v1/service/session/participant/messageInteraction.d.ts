@@ -396,4 +396,4 @@ declare class MessageInteractionContext {
   fetch(callback: (error: Error | null, items: MessageInteractionInstance) => any): void;
 }
 
-export {MessageInteractionListCreateOptions, MessageInteractionResourceStatus, MessageInteractionPage, MessageInteractionListInstance, MessageInteractionList, MessageInteractionPayload, MessageInteractionType, MessageInteractionContext, MessageInteractionListOptions, MessageInteractionListPageOptions, MessageInteractionSolution, MessageInteractionResource, MessageInteractionInstance, MessageInteractionListEachOptions}
+export {MessageInteractionListOptions, MessageInteractionType, MessageInteractionResourceStatus, MessageInteractionSolution, MessageInteractionListCreateOptions, MessageInteractionInstance, MessageInteractionPage, MessageInteractionResource, MessageInteractionContext, MessageInteractionListPageOptions, MessageInteractionList, MessageInteractionPayload, MessageInteractionListEachOptions, MessageInteractionListInstance}

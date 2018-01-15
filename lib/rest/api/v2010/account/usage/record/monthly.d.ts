@@ -303,4 +303,4 @@ declare class MonthlyInstance {
   usageUnit: string;
 }
 
-export {MonthlyPayload, MonthlyListPageOptions, MonthlyResource, MonthlyCategory, MonthlyListInstance, MonthlySolution, MonthlyListOptions, MonthlyList, MonthlyListEachOptions, MonthlyInstance, MonthlyPage}
+export {MonthlySolution, MonthlyListOptions, MonthlyList, MonthlyInstance, MonthlyListEachOptions, MonthlyCategory, MonthlyListInstance, MonthlyListPageOptions, MonthlyResource, MonthlyPayload, MonthlyPage}

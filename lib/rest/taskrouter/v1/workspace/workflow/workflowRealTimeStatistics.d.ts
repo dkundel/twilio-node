@@ -181,4 +181,4 @@ declare class WorkflowRealTimeStatisticsContext {
   fetch(callback: (error: Error | null, items: WorkflowRealTimeStatisticsInstance) => any): void;
 }
 
-export {WorkflowRealTimeStatisticsContext, WorkflowRealTimeStatisticsListInstance, WorkflowRealTimeStatisticsInstance, WorkflowRealTimeStatisticsSolution, WorkflowRealTimeStatisticsList, WorkflowRealTimeStatisticsListFetchOptions, WorkflowRealTimeStatisticsResource, WorkflowRealTimeStatisticsPage, WorkflowRealTimeStatisticsPayload}
+export {WorkflowRealTimeStatisticsResource, WorkflowRealTimeStatisticsPayload, WorkflowRealTimeStatisticsPage, WorkflowRealTimeStatisticsList, WorkflowRealTimeStatisticsContext, WorkflowRealTimeStatisticsSolution, WorkflowRealTimeStatisticsListInstance, WorkflowRealTimeStatisticsListFetchOptions, WorkflowRealTimeStatisticsInstance}

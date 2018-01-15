@@ -458,4 +458,4 @@ declare class QueryContext {
   update(callback: (error: Error | null, items: QueryInstance) => any): void;
 }
 
-export {QueryResource, QueryListOptions, QuerySolution, QueryListCreateOptions, QueryListFetchOptions, QueryPayload, QueryListEachOptions, QueryInstance, QueryPage, QueryListPageOptions, QueryListInstance, QueryList, QueryContext}
+export {QueryContext, QueryPayload, QuerySolution, QueryListOptions, QueryList, QueryInstance, QueryResource, QueryListInstance, QueryListPageOptions, QueryListCreateOptions, QueryListEachOptions, QueryPage, QueryListFetchOptions}

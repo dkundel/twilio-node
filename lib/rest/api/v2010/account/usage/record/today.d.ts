@@ -303,4 +303,4 @@ declare class TodayInstance {
   usageUnit: string;
 }
 
-export {TodayPage, TodaySolution, TodayCategory, TodayInstance, TodayListOptions, TodayPayload, TodayListInstance, TodayListEachOptions, TodayList, TodayListPageOptions, TodayResource}
+export {TodayInstance, TodaySolution, TodayListPageOptions, TodayListOptions, TodayCategory, TodayPayload, TodayList, TodayPage, TodayListInstance, TodayListEachOptions, TodayResource}

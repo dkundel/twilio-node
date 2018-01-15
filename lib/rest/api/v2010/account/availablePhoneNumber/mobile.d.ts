@@ -474,4 +474,4 @@ declare class MobileInstance {
   region: string;
 }
 
-export {MobilePayload, MobilePage, MobileListInstance, MobileInstance, MobileListPageOptions, MobileList, MobileResource, MobileSolution, MobileListOptions, MobileListEachOptions}
+export {MobileListInstance, MobileListEachOptions, MobileList, MobileResource, MobileListPageOptions, MobilePayload, MobileSolution, MobileListOptions, MobilePage, MobileInstance}

@@ -638,4 +638,4 @@ declare class ApplicationContext {
   update(callback: (error: Error | null, items: ApplicationInstance) => any): void;
 }
 
-export {ApplicationListPageOptions, ApplicationListInstance, ApplicationList, ApplicationSolution, ApplicationInstance, ApplicationPayload, ApplicationListEachOptions, ApplicationListFetchOptions, ApplicationListCreateOptions, ApplicationContext, ApplicationResource, ApplicationPage, ApplicationListOptions}
+export {ApplicationList, ApplicationInstance, ApplicationPayload, ApplicationPage, ApplicationListCreateOptions, ApplicationListFetchOptions, ApplicationListEachOptions, ApplicationListPageOptions, ApplicationListOptions, ApplicationSolution, ApplicationContext, ApplicationResource, ApplicationListInstance}

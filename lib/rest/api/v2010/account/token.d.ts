@@ -129,4 +129,4 @@ declare class TokenInstance {
   username: string;
 }
 
-export {TokenResource, TokenPayload, TokenList, TokenSolution, TokenPage, TokenListInstance, TokenInstance, TokenListCreateOptions}
+export {TokenInstance, TokenPayload, TokenListCreateOptions, TokenListInstance, TokenPage, TokenResource, TokenSolution, TokenList}

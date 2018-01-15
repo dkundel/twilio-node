@@ -303,4 +303,4 @@ declare class LastMonthInstance {
   usageUnit: string;
 }
 
-export {LastMonthResource, LastMonthInstance, LastMonthListEachOptions, LastMonthCategory, LastMonthListPageOptions, LastMonthPayload, LastMonthListInstance, LastMonthList, LastMonthListOptions, LastMonthSolution, LastMonthPage}
+export {LastMonthInstance, LastMonthListOptions, LastMonthListPageOptions, LastMonthListEachOptions, LastMonthPayload, LastMonthCategory, LastMonthSolution, LastMonthListInstance, LastMonthResource, LastMonthList, LastMonthPage}

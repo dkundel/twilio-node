@@ -378,4 +378,4 @@ declare class InteractionContext {
   fetch(callback: (error: Error | null, items: InteractionInstance) => any): void;
 }
 
-export {InteractionSolution, InteractionListInstance, InteractionPage, InteractionInstance, InteractionStatus, InteractionResourceStatus, InteractionListPageOptions, InteractionPayload, InteractionContext, InteractionList, InteractionResource, InteractionListOptions, InteractionListEachOptions}
+export {InteractionListEachOptions, InteractionSolution, InteractionStatus, InteractionResource, InteractionInstance, InteractionListInstance, InteractionListOptions, InteractionListPageOptions, InteractionResourceStatus, InteractionPayload, InteractionContext, InteractionList, InteractionPage}

@@ -290,4 +290,4 @@ declare class MemberContext {
   update(opts: MemberListFetchOptions, callback: (error: Error | null, items: MemberInstance) => any): void;
 }
 
-export {MemberPage, MemberListInstance, MemberListEachOptions, MemberListPageOptions, MemberResource, MemberList, MemberContext, MemberPayload, MemberListFetchOptions, MemberListOptions, MemberInstance, MemberSolution}
+export {MemberContext, MemberListEachOptions, MemberInstance, MemberListOptions, MemberListFetchOptions, MemberPayload, MemberSolution, MemberList, MemberListPageOptions, MemberResource, MemberListInstance, MemberPage}

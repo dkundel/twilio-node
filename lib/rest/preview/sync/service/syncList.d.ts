@@ -334,4 +334,4 @@ declare class SyncListContext {
   syncListPermissions: SyncListPermissionListInstance;
 }
 
-export {SyncListContext, SyncListPayload, SyncListListInstance, SyncListList, SyncListListEachOptions, SyncListListOptions, SyncListInstance, SyncListListCreateOptions, SyncListPage, SyncListListPageOptions, SyncListResource, SyncListSolution}
+export {SyncListList, SyncListListEachOptions, SyncListPage, SyncListResource, SyncListPayload, SyncListListInstance, SyncListContext, SyncListListOptions, SyncListListPageOptions, SyncListSolution, SyncListListCreateOptions, SyncListInstance}

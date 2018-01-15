@@ -265,4 +265,4 @@ declare class TaskQueuesStatisticsInstance {
   workspaceSid: string;
 }
 
-export {TaskQueuesStatisticsList, TaskQueuesStatisticsListInstance, TaskQueuesStatisticsListPageOptions, TaskQueuesStatisticsInstance, TaskQueuesStatisticsPayload, TaskQueuesStatisticsListOptions, TaskQueuesStatisticsResource, TaskQueuesStatisticsPage, TaskQueuesStatisticsListEachOptions, TaskQueuesStatisticsSolution}
+export {TaskQueuesStatisticsList, TaskQueuesStatisticsSolution, TaskQueuesStatisticsInstance, TaskQueuesStatisticsListInstance, TaskQueuesStatisticsListOptions, TaskQueuesStatisticsListPageOptions, TaskQueuesStatisticsPayload, TaskQueuesStatisticsPage, TaskQueuesStatisticsListEachOptions, TaskQueuesStatisticsResource}

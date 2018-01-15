@@ -394,4 +394,4 @@ declare class FleetContext {
   update(callback: (error: Error | null, items: FleetInstance) => any): void;
 }
 
-export {FleetListPageOptions, FleetListInstance, FleetPage, FleetContext, FleetInstance, FleetSolution, FleetPayload, FleetList, FleetListEachOptions, FleetListFetchOptions, FleetResource, FleetListOptions, FleetListCreateOptions}
+export {FleetSolution, FleetListPageOptions, FleetContext, FleetPage, FleetListInstance, FleetListFetchOptions, FleetResource, FleetList, FleetListEachOptions, FleetListCreateOptions, FleetPayload, FleetListOptions, FleetInstance}

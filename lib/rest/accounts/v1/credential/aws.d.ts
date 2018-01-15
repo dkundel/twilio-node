@@ -352,4 +352,4 @@ declare class AwsContext {
   update(callback: (error: Error | null, items: AwsInstance) => any): void;
 }
 
-export {AwsInstance, AwsContext, AwsListFetchOptions, AwsListInstance, AwsListCreateOptions, AwsList, AwsListPageOptions, AwsSolution, AwsListEachOptions, AwsListOptions, AwsPage, AwsPayload, AwsResource}
+export {AwsContext, AwsSolution, AwsInstance, AwsPayload, AwsListEachOptions, AwsListPageOptions, AwsResource, AwsListFetchOptions, AwsListCreateOptions, AwsListInstance, AwsListOptions, AwsList, AwsPage}
