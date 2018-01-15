@@ -24,7 +24,7 @@ declare class MessagingResponse {
    *
    * @returns Message
    */
-  message(attributes: MessagingResponse.MessageAttributes, body?: string): MessagingResponse.Message;
+  message(attributes?: MessagingResponse.MessageAttributes, body?: string): MessagingResponse.Message;
   /**
    * <Redirect> TwiML Verb
    *
