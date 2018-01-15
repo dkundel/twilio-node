@@ -57,7 +57,7 @@ export function validateRequest(
   twilioHeader: string,
   url: string,
   params: object
-);
+): boolean;
 
 /**
  * Utility function to validate an incoming request is indeed from Twilio (for use with express).
@@ -70,8 +70,8 @@ export function validateRequest(
 export function validateExpressRequest(
   request: Request,
   authToken: string,
-  opts
-);
+  opts?: RequestValidatorOptions
+): boolean;
 
 /**
  * Express middleware to accompany a Twilio webhook. Provides Twilio
