@@ -368,4 +368,4 @@ declare class RoleContext {
   update(opts: RoleListFetchOptions, callback: (error: Error | null, items: RoleInstance) => any): void;
 }
 
-export {RoleRoleType, RolePayload, RoleResource, RoleListEachOptions, RoleListInstance, RoleListFetchOptions, RoleContext, RoleListCreateOptions, RoleListPageOptions, RoleInstance, RoleListOptions, RolePage, RoleSolution, RoleList}
+export {RoleListOptions, RoleListCreateOptions, RoleResource, RoleListInstance, RoleInstance, RoleContext, RoleRoleType, RoleSolution, RoleListEachOptions, RoleListPageOptions, RoleListFetchOptions, RolePayload, RoleList, RolePage}

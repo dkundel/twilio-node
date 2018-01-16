@@ -463,4 +463,4 @@ declare class AccountContext {
   validationRequests: ValidationRequestListInstance;
 }
 
-export {AccountResource, AccountType, AccountList, AccountContext, AccountListInstance, AccountStatus, AccountListPageOptions, AccountListOptions, AccountPage, AccountListEachOptions, AccountListFetchOptions, AccountPayload, AccountSolution, AccountInstance, AccountListCreateOptions}
+export {AccountResource, AccountPayload, AccountListCreateOptions, AccountPage, AccountListEachOptions, AccountListPageOptions, AccountContext, AccountListInstance, AccountListOptions, AccountStatus, AccountList, AccountType, AccountInstance, AccountListFetchOptions, AccountSolution}

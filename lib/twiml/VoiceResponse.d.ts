@@ -20,7 +20,7 @@ declare class VoiceResponse {
    * <Dial> TwiML Verb
    *
    * @param attributes - TwiML attributes
-   * @param number Phone number to dial
+   * @param number - Phone number to dial
    *
    * @returns Dial
    */
@@ -35,7 +35,7 @@ declare class VoiceResponse {
    * <Enqueue> TwiML Noun
    *
    * @param attributes - TwiML attributes
-   * @param name Friendly name
+   * @param name - Friendly name
    *
    * @returns Enqueue
    */
@@ -70,14 +70,14 @@ declare class VoiceResponse {
    * <Play> TwiML Verb
    *
    * @param attributes - TwiML attributes
-   * @param url Media URL
+   * @param url - Media URL
    */
   play(attributes?: VoiceResponse.PlayAttributes, url?: string): void;
   /**
    * <Queue> TwiML Noun
    *
    * @param attributes - TwiML attributes
-   * @param name Queue name
+   * @param name - Queue name
    */
   queue(attributes: VoiceResponse.QueueAttributes, name: string): void;
   /**
@@ -90,7 +90,7 @@ declare class VoiceResponse {
    * <Redirect> TwiML Verb
    *
    * @param attributes - TwiML attributes
-   * @param url Redirect URL
+   * @param url - Redirect URL
    */
   redirect(attributes: VoiceResponse.RedirectAttributes, url: string): void;
   /**
@@ -103,14 +103,14 @@ declare class VoiceResponse {
    * <Say> TwiML Verb
    *
    * @param attributes - TwiML attributes
-   * @param message Message to say
+   * @param message - Message to say
    */
   say(attributes: VoiceResponse.SayAttributes, message: string): void;
   /**
    * <Sms> TwiML Noun
    *
    * @param attributes - TwiML attributes
-   * @param message Message body
+   * @param message - Message body
    */
   sms(attributes: VoiceResponse.SmsAttributes, message: string): void;
   /**
@@ -123,39 +123,39 @@ declare class VoiceResponse {
 
 declare namespace VoiceResponse {
 
-  type RecordTrim = 'trim-silence'|'do-not-trim';
-
   type ConferenceBeep = 'true'|'false'|'onEnter'|'onExit';
 
-  type GatherInput = 'dtmf'|'speech'|'dtmf speech';
+  type SipEvent = 'initiated'|'ringing'|'answered'|'completed';
 
-  type ConferenceRecord = 'do-not-record'|'record-from-start';
-
-  type RejectReason = 'rejected'|'busy';
+  type SayLanguage = 'da-DK'|'de-DE'|'en-AU'|'en-CA'|'en-GB'|'en-IN'|'en-US'|'ca-ES'|'es-ES'|'es-MX'|'fi-FI'|'fr-CA'|'fr-FR'|'it-IT'|'ja-JP'|'ko-KR'|'nb-NO'|'nl-NL'|'pl-PL'|'pt-BR'|'pt-PT'|'ru-RU'|'sv-SE'|'zh-CN'|'zh-HK'|'zh-TW';
 
   type NumberEvent = 'initiated'|'ringing'|'answered'|'completed';
 
-  type ConferenceTrim = 'trim-silence'|'do-not-trim';
-
-  type ClientEvent = 'initiated'|'ringing'|'answered'|'completed';
-
-  type ConferenceRegion = 'us1'|'ie1'|'sg1'|'br1'|'au1'|'jp1';
+  type DialTrim = 'trim-silence'|'do-not-trim';
 
   type ConferenceEvent = 'start'|'end'|'join'|'leave'|'mute'|'hold'|'speaker';
 
-  type GatherLanguage = 'af-ZA'|'id-ID'|'ms-MY'|'ca-ES'|'cs-CZ'|'da-DK'|'de-DE'|'en-AU'|'en-CA'|'en-GB'|'en-IN'|'en-IE'|'en-NZ'|'en-PH'|'en-ZA'|'en-US'|'es-AR'|'es-BO'|'es-CL'|'es-CO'|'es-CR'|'es-EC'|'es-SV'|'es-ES'|'es-US'|'es-GT'|'es-HN'|'es-MX'|'es-NI'|'es-PA'|'es-PY'|'es-PE'|'es-PR'|'es-DO'|'es-UY'|'es-VE'|'eu-ES'|'il-PH'|'fr-CA'|'fr-FR'|'gl-ES'|'hr-HR'|'zu-ZA'|'is-IS'|'it-IT'|'lt-LT'|'hu-HU'|'nl-NL'|'nb-NO'|'pl-PL'|'pt-BR'|'pt-PT'|'ro-RO'|'sk-SK'|'sl-SI'|'fi-FI'|'sv-SE'|'vi-VN'|'tr-TR'|'el-GR'|'bg-BG'|'ru-RU'|'sr-RS'|'uk-UA'|'he-IL'|'ar-IL'|'ar-JO'|'ar-AE'|'ar-BH'|'ar-DZ'|'ar-SA'|'ar-IQ'|'ar-KW'|'ar-MA'|'ar-TN'|'ar-OM'|'ar-PS'|'ar-QA'|'ar-LB'|'ar-EG'|'fa-IR'|'hi-IN'|'th-TH'|'ko-KR'|'cmn-Hant-TW'|'yue-Hant-HK'|'ja-JP'|'cmn-Hans-HK'|'cmn-Hans-CN';
+  type ConferenceRecord = 'do-not-record'|'record-from-start';
+
+  type ConferenceTrim = 'trim-silence'|'do-not-trim';
 
   type SayVoice = 'man'|'woman'|'alice';
 
   type ConferenceRecordingEvent = 'started'|'stopped'|'paused'|'resumed'|'completed'|'failed';
 
-  type SipEvent = 'initiated'|'ringing'|'answered'|'completed';
+  type ClientEvent = 'initiated'|'ringing'|'answered'|'completed';
 
-  type DialTrim = 'trim-silence'|'do-not-trim';
+  type GatherLanguage = 'af-ZA'|'id-ID'|'ms-MY'|'ca-ES'|'cs-CZ'|'da-DK'|'de-DE'|'en-AU'|'en-CA'|'en-GB'|'en-IN'|'en-IE'|'en-NZ'|'en-PH'|'en-ZA'|'en-US'|'es-AR'|'es-BO'|'es-CL'|'es-CO'|'es-CR'|'es-EC'|'es-SV'|'es-ES'|'es-US'|'es-GT'|'es-HN'|'es-MX'|'es-NI'|'es-PA'|'es-PY'|'es-PE'|'es-PR'|'es-DO'|'es-UY'|'es-VE'|'eu-ES'|'il-PH'|'fr-CA'|'fr-FR'|'gl-ES'|'hr-HR'|'zu-ZA'|'is-IS'|'it-IT'|'lt-LT'|'hu-HU'|'nl-NL'|'nb-NO'|'pl-PL'|'pt-BR'|'pt-PT'|'ro-RO'|'sk-SK'|'sl-SI'|'fi-FI'|'sv-SE'|'vi-VN'|'tr-TR'|'el-GR'|'bg-BG'|'ru-RU'|'sr-RS'|'uk-UA'|'he-IL'|'ar-IL'|'ar-JO'|'ar-AE'|'ar-BH'|'ar-DZ'|'ar-SA'|'ar-IQ'|'ar-KW'|'ar-MA'|'ar-TN'|'ar-OM'|'ar-PS'|'ar-QA'|'ar-LB'|'ar-EG'|'fa-IR'|'hi-IN'|'th-TH'|'ko-KR'|'cmn-Hant-TW'|'yue-Hant-HK'|'ja-JP'|'cmn-Hans-HK'|'cmn-Hans-CN';
 
-  type SayLanguage = 'da-DK'|'de-DE'|'en-AU'|'en-CA'|'en-GB'|'en-IN'|'en-US'|'ca-ES'|'es-ES'|'es-MX'|'fi-FI'|'fr-CA'|'fr-FR'|'it-IT'|'ja-JP'|'ko-KR'|'nb-NO'|'nl-NL'|'pl-PL'|'pt-BR'|'pt-PT'|'ru-RU'|'sv-SE'|'zh-CN'|'zh-HK'|'zh-TW';
+  type RejectReason = 'rejected'|'busy';
 
   type DialRingTone = 'at'|'au'|'bg'|'br'|'be'|'ch'|'cl'|'cn'|'cz'|'de'|'dk'|'ee'|'es'|'fi'|'fr'|'gr'|'hu'|'il'|'in'|'it'|'lt'|'jp'|'mx'|'my'|'nl'|'no'|'nz'|'ph'|'pl'|'pt'|'ru'|'se'|'sg'|'th'|'uk'|'us'|'us-old'|'tw'|'ve'|'za';
+
+  type ConferenceRegion = 'us1'|'ie1'|'sg1'|'br1'|'au1'|'jp1';
+
+  type GatherInput = 'dtmf'|'speech'|'dtmf speech';
+
+  type RecordTrim = 'trim-silence'|'do-not-trim';
 
   type DialRecordingEvent = 'in-progress'|'completed'|'failed';
 
@@ -1308,7 +1308,7 @@ declare namespace VoiceResponse {
     /**
      * <Gather> TwiML Verb
      *
-     * @param gather <Gather> TwiML Verb
+     * @param gather - <Gather> TwiML Verb
      */
     constructor(gather: any);
 
@@ -1322,14 +1322,14 @@ declare namespace VoiceResponse {
      * <Play> TwiML Verb
      *
      * @param attributes - TwiML attributes
-     * @param url Media URL
+     * @param url - Media URL
      */
     play(attributes?: VoiceResponse.PlayAttributes, url?: string): void;
     /**
      * <Say> TwiML Verb
      *
      * @param attributes - TwiML attributes
-     * @param message Message to say
+     * @param message - Message to say
      */
     say(attributes: VoiceResponse.SayAttributes, message: string): void;
   }
@@ -1341,7 +1341,7 @@ declare namespace VoiceResponse {
     /**
      * <Enqueue> TwiML Noun
      *
-     * @param enqueue <Enqueue> TwiML Noun
+     * @param enqueue - <Enqueue> TwiML Noun
      */
     constructor(enqueue: any);
 
@@ -1349,7 +1349,7 @@ declare namespace VoiceResponse {
      * <Task> TwiML Noun
      *
      * @param attributes - TwiML attributes
-     * @param body TaskRouter task attributes
+     * @param body - TaskRouter task attributes
      */
     task(attributes: VoiceResponse.TaskAttributes, body: string): void;
   }
@@ -1361,7 +1361,7 @@ declare namespace VoiceResponse {
     /**
      * <Dial> TwiML Verb
      *
-     * @param dial <Dial> TwiML Verb
+     * @param dial - <Dial> TwiML Verb
      */
     constructor(dial: any);
 
@@ -1369,42 +1369,42 @@ declare namespace VoiceResponse {
      * <Client> TwiML Noun
      *
      * @param attributes - TwiML attributes
-     * @param name Client name
+     * @param name - Client name
      */
     client(attributes: VoiceResponse.ClientAttributes, name: string): void;
     /**
      * <Conference> TwiML Noun
      *
      * @param attributes - TwiML attributes
-     * @param name Conference name
+     * @param name - Conference name
      */
     conference(attributes: VoiceResponse.ConferenceAttributes, name: string): void;
     /**
      * <Number> TwiML Noun
      *
      * @param attributes - TwiML attributes
-     * @param phoneNumber Phone Number to dial
+     * @param phoneNumber - Phone Number to dial
      */
     number(attributes: VoiceResponse.NumberAttributes, phoneNumber: string): void;
     /**
      * <Queue> TwiML Noun
      *
      * @param attributes - TwiML attributes
-     * @param name Queue name
+     * @param name - Queue name
      */
     queue(attributes: VoiceResponse.QueueAttributes, name: string): void;
     /**
      * <Sim> TwiML Noun
      *
      * @param attributes - TwiML attributes
-     * @param simSid SIM SID
+     * @param simSid - SIM SID
      */
     sim(attributes: VoiceResponse.SimAttributes, simSid: string): void;
     /**
      * <Sip> TwiML Noun
      *
      * @param attributes - TwiML attributes
-     * @param sipUrl SIP URL
+     * @param sipUrl - SIP URL
      */
     sip(attributes: VoiceResponse.SipAttributes, sipUrl: string): void;
   }

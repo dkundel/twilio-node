@@ -402,4 +402,4 @@ declare class InteractionContext {
   remove(callback: (error: Error | null, items: InteractionInstance) => any): void;
 }
 
-export {InteractionListEachOptions, InteractionSolution, InteractionResource, InteractionInstance, InteractionListInstance, InteractionListOptions, InteractionListPageOptions, InteractionResourceStatus, InteractionPayload, InteractionType, InteractionContext, InteractionList, InteractionPage}
+export {InteractionContext, InteractionSolution, InteractionListInstance, InteractionPayload, InteractionListEachOptions, InteractionListOptions, InteractionListPageOptions, InteractionResourceStatus, InteractionInstance, InteractionResource, InteractionPage, InteractionList, InteractionType}

@@ -474,4 +474,4 @@ declare class LocalInstance {
   region: string;
 }
 
-export {LocalInstance, LocalListInstance, LocalResource, LocalListEachOptions, LocalPayload, LocalListPageOptions, LocalSolution, LocalListOptions, LocalList, LocalPage}
+export {LocalInstance, LocalListEachOptions, LocalList, LocalListOptions, LocalSolution, LocalListPageOptions, LocalResource, LocalPage, LocalPayload, LocalListInstance}

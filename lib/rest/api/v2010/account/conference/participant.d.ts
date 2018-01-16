@@ -570,4 +570,4 @@ declare class ParticipantContext {
   update(callback: (error: Error | null, items: ParticipantInstance) => any): void;
 }
 
-export {ParticipantSolution, ParticipantListInstance, ParticipantResource, ParticipantList, ParticipantStatus, ParticipantListFetchOptions, ParticipantListCreateOptions, ParticipantListEachOptions, ParticipantPage, ParticipantInstance, ParticipantListOptions, ParticipantPayload, ParticipantListPageOptions, ParticipantContext}
+export {ParticipantResource, ParticipantListInstance, ParticipantListEachOptions, ParticipantListPageOptions, ParticipantPayload, ParticipantInstance, ParticipantPage, ParticipantListCreateOptions, ParticipantListFetchOptions, ParticipantListOptions, ParticipantList, ParticipantStatus, ParticipantSolution, ParticipantContext}

@@ -356,4 +356,4 @@ declare class OutgoingCallerIdContext {
   update(callback: (error: Error | null, items: OutgoingCallerIdInstance) => any): void;
 }
 
-export {OutgoingCallerIdContext, OutgoingCallerIdPage, OutgoingCallerIdPayload, OutgoingCallerIdListPageOptions, OutgoingCallerIdList, OutgoingCallerIdListInstance, OutgoingCallerIdInstance, OutgoingCallerIdListEachOptions, OutgoingCallerIdListOptions, OutgoingCallerIdResource, OutgoingCallerIdSolution, OutgoingCallerIdListFetchOptions}
+export {OutgoingCallerIdListInstance, OutgoingCallerIdList, OutgoingCallerIdPayload, OutgoingCallerIdResource, OutgoingCallerIdContext, OutgoingCallerIdPage, OutgoingCallerIdListPageOptions, OutgoingCallerIdSolution, OutgoingCallerIdListOptions, OutgoingCallerIdListEachOptions, OutgoingCallerIdInstance, OutgoingCallerIdListFetchOptions}

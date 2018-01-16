@@ -385,4 +385,4 @@ declare class QueueContext {
   update(callback: (error: Error | null, items: QueueInstance) => any): void;
 }
 
-export {QueueInstance, QueueListCreateOptions, QueueList, QueueResource, QueueListOptions, QueueSolution, QueueListPageOptions, QueuePayload, QueueContext, QueuePage, QueueListInstance, QueueListEachOptions, QueueListFetchOptions}
+export {QueueInstance, QueueResource, QueueListEachOptions, QueueListOptions, QueueListFetchOptions, QueueList, QueuePage, QueuePayload, QueueListPageOptions, QueueContext, QueueListInstance, QueueListCreateOptions, QueueSolution}

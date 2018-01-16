@@ -380,4 +380,4 @@ declare class DeploymentContext {
   update(callback: (error: Error | null, items: DeploymentInstance) => any): void;
 }
 
-export {DeploymentListCreateOptions, DeploymentListPageOptions, DeploymentContext, DeploymentPage, DeploymentResource, DeploymentSolution, DeploymentListOptions, DeploymentPayload, DeploymentList, DeploymentListFetchOptions, DeploymentListEachOptions, DeploymentListInstance, DeploymentInstance}
+export {DeploymentListInstance, DeploymentListCreateOptions, DeploymentListOptions, DeploymentInstance, DeploymentListEachOptions, DeploymentResource, DeploymentListFetchOptions, DeploymentSolution, DeploymentContext, DeploymentList, DeploymentListPageOptions, DeploymentPage, DeploymentPayload}

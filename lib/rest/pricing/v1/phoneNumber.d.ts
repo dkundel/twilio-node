@@ -68,4 +68,4 @@ declare class PhoneNumberInstance {
   url: string;
 }
 
-export {PhoneNumberPage, PhoneNumberListInstance, PhoneNumberList, PhoneNumberInstance, PhoneNumberResource, PhoneNumberPayload, PhoneNumberSolution}
+export {PhoneNumberList, PhoneNumberResource, PhoneNumberPage, PhoneNumberListInstance, PhoneNumberSolution, PhoneNumberPayload, PhoneNumberInstance}

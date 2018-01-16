@@ -303,4 +303,4 @@ declare class DailyInstance {
   usageUnit: string;
 }
 
-export {DailyListPageOptions, DailyListEachOptions, DailyInstance, DailyResource, DailyPayload, DailyList, DailyListOptions, DailyListInstance, DailyPage, DailyCategory, DailySolution}
+export {DailyResource, DailyInstance, DailySolution, DailyListPageOptions, DailyList, DailyListInstance, DailyCategory, DailyPayload, DailyListOptions, DailyPage, DailyListEachOptions}

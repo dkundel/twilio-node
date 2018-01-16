@@ -486,4 +486,4 @@ declare class TrunkContext {
   update(callback: (error: Error | null, items: TrunkInstance) => any): void;
 }
 
-export {TrunkListFetchOptions, TrunkInstance, TrunkSolution, TrunkPayload, TrunkList, TrunkListOptions, TrunkListPageOptions, TrunkContext, TrunkResource, TrunkPage, TrunkListEachOptions, TrunkListCreateOptions, TrunkListInstance}
+export {TrunkListPageOptions, TrunkListOptions, TrunkInstance, TrunkList, TrunkPayload, TrunkResource, TrunkSolution, TrunkListEachOptions, TrunkListCreateOptions, TrunkListInstance, TrunkListFetchOptions, TrunkPage, TrunkContext}

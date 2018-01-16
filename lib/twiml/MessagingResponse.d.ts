@@ -20,7 +20,7 @@ declare class MessagingResponse {
    * <Message> TwiML Verb
    *
    * @param attributes - TwiML attributes
-   * @param body Message Body
+   * @param body - Message Body
    *
    * @returns Message
    */
@@ -29,7 +29,7 @@ declare class MessagingResponse {
    * <Redirect> TwiML Verb
    *
    * @param attributes - TwiML attributes
-   * @param url Redirect URL
+   * @param url - Redirect URL
    */
   redirect(attributes: MessagingResponse.RedirectAttributes, url: string): void;
   /**
@@ -143,7 +143,7 @@ declare namespace MessagingResponse {
     /**
      * <Message> TwiML Verb
      *
-     * @param message <Message> TwiML Verb
+     * @param message - <Message> TwiML Verb
      */
     constructor(message: any);
 
@@ -151,14 +151,14 @@ declare namespace MessagingResponse {
      * <Body> TwiML Noun
      *
      * @param attributes - TwiML attributes
-     * @param message Message Body
+     * @param message - Message Body
      */
     body(attributes: MessagingResponse.BodyAttributes, message: string): void;
     /**
      * <Media> TwiML Noun
      *
      * @param attributes - TwiML attributes
-     * @param url Media URL
+     * @param url - Media URL
      */
     media(attributes: MessagingResponse.MediaAttributes, url: string): void;
   }

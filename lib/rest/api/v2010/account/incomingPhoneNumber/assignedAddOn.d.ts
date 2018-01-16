@@ -335,4 +335,4 @@ declare class AssignedAddOnContext {
   remove(callback: (error: Error | null, items: AssignedAddOnInstance) => any): void;
 }
 
-export {AssignedAddOnListEachOptions, AssignedAddOnList, AssignedAddOnListCreateOptions, AssignedAddOnSolution, AssignedAddOnPage, AssignedAddOnListInstance, AssignedAddOnInstance, AssignedAddOnListPageOptions, AssignedAddOnListOptions, AssignedAddOnPayload, AssignedAddOnContext, AssignedAddOnResource}
+export {AssignedAddOnResource, AssignedAddOnPayload, AssignedAddOnListPageOptions, AssignedAddOnContext, AssignedAddOnSolution, AssignedAddOnInstance, AssignedAddOnListInstance, AssignedAddOnList, AssignedAddOnListCreateOptions, AssignedAddOnPage, AssignedAddOnListOptions, AssignedAddOnListEachOptions}

@@ -517,4 +517,4 @@ declare class MobileInstance {
   voiceUrl: string;
 }
 
-export {MobileListInstance, MobileAddressRequirement, MobileList, MobileListEachOptions, MobileResource, MobileListPageOptions, MobilePayload, MobileSolution, MobileListOptions, MobileListCreateOptions, MobilePage, MobileInstance}
+export {MobileListPageOptions, MobileList, MobileListOptions, MobileListEachOptions, MobileResource, MobileListCreateOptions, MobileAddressRequirement, MobilePayload, MobilePage, MobileSolution, MobileListInstance, MobileInstance}

@@ -68,4 +68,4 @@ declare class MessagingInstance {
   url: string;
 }
 
-export {MessagingPayload, MessagingResource, MessagingInstance, MessagingListInstance, MessagingList, MessagingPage, MessagingSolution}
+export {MessagingPayload, MessagingResource, MessagingInstance, MessagingSolution, MessagingList, MessagingPage, MessagingListInstance}

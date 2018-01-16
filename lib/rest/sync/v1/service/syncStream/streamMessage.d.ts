@@ -84,4 +84,4 @@ declare class StreamMessageInstance {
   sid: string;
 }
 
-export {StreamMessageList, StreamMessageListInstance, StreamMessageSolution, StreamMessagePayload, StreamMessageListCreateOptions, StreamMessageInstance, StreamMessageResource, StreamMessagePage}
+export {StreamMessageResource, StreamMessageListCreateOptions, StreamMessageListInstance, StreamMessageSolution, StreamMessageInstance, StreamMessagePayload, StreamMessagePage, StreamMessageList}

@@ -414,4 +414,4 @@ declare class UserBindingContext {
   remove(callback: (error: Error | null, items: UserBindingInstance) => any): void;
 }
 
-export {UserBindingSolution, UserBindingPage, UserBindingContext, UserBindingResource, UserBindingListEachOptions, UserBindingListOptions, UserBindingList, UserBindingListPageOptions, UserBindingBindingType, UserBindingPayload, UserBindingInstance, UserBindingListCreateOptions, UserBindingListInstance}
+export {UserBindingSolution, UserBindingResource, UserBindingListEachOptions, UserBindingInstance, UserBindingListOptions, UserBindingListInstance, UserBindingPage, UserBindingListCreateOptions, UserBindingListPageOptions, UserBindingBindingType, UserBindingList, UserBindingPayload, UserBindingContext}

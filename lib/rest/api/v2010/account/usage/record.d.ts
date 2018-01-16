@@ -303,4 +303,4 @@ declare class RecordInstance {
   usageUnit: string;
 }
 
-export {RecordList, RecordListPageOptions, RecordPage, RecordCategory, RecordInstance, RecordPayload, RecordResource, RecordListEachOptions, RecordListOptions, RecordSolution, RecordListInstance}
+export {RecordListOptions, RecordPage, RecordCategory, RecordResource, RecordList, RecordSolution, RecordListPageOptions, RecordInstance, RecordListEachOptions, RecordPayload, RecordListInstance}

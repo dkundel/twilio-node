@@ -374,4 +374,4 @@ declare class WorkerChannelContext {
   update(callback: (error: Error | null, items: WorkerChannelInstance) => any): void;
 }
 
-export {WorkerChannelList, WorkerChannelResource, WorkerChannelSolution, WorkerChannelPage, WorkerChannelListInstance, WorkerChannelListOptions, WorkerChannelListPageOptions, WorkerChannelInstance, WorkerChannelListFetchOptions, WorkerChannelContext, WorkerChannelPayload, WorkerChannelListEachOptions}
+export {WorkerChannelPayload, WorkerChannelListEachOptions, WorkerChannelListOptions, WorkerChannelResource, WorkerChannelSolution, WorkerChannelContext, WorkerChannelInstance, WorkerChannelListFetchOptions, WorkerChannelListPageOptions, WorkerChannelList, WorkerChannelListInstance, WorkerChannelPage}

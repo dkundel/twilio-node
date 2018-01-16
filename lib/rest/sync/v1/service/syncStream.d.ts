@@ -391,4 +391,4 @@ declare class SyncStreamContext {
   update(callback: (error: Error | null, items: SyncStreamInstance) => any): void;
 }
 
-export {SyncStreamListFetchOptions, SyncStreamResource, SyncStreamPage, SyncStreamContext, SyncStreamInstance, SyncStreamSolution, SyncStreamListCreateOptions, SyncStreamListInstance, SyncStreamListOptions, SyncStreamList, SyncStreamPayload, SyncStreamListPageOptions, SyncStreamListEachOptions}
+export {SyncStreamListEachOptions, SyncStreamResource, SyncStreamListCreateOptions, SyncStreamPage, SyncStreamContext, SyncStreamListOptions, SyncStreamPayload, SyncStreamSolution, SyncStreamList, SyncStreamListPageOptions, SyncStreamInstance, SyncStreamListInstance, SyncStreamListFetchOptions}

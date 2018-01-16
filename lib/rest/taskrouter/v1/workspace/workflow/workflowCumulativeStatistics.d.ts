@@ -325,4 +325,4 @@ declare class WorkflowCumulativeStatisticsContext {
   fetch(callback: (error: Error | null, items: WorkflowCumulativeStatisticsInstance) => any): void;
 }
 
-export {WorkflowCumulativeStatisticsListFetchOptions, WorkflowCumulativeStatisticsContext, WorkflowCumulativeStatisticsSolution, WorkflowCumulativeStatisticsResource, WorkflowCumulativeStatisticsListInstance, WorkflowCumulativeStatisticsList, WorkflowCumulativeStatisticsInstance, WorkflowCumulativeStatisticsPayload, WorkflowCumulativeStatisticsPage}
+export {WorkflowCumulativeStatisticsListInstance, WorkflowCumulativeStatisticsSolution, WorkflowCumulativeStatisticsListFetchOptions, WorkflowCumulativeStatisticsPayload, WorkflowCumulativeStatisticsList, WorkflowCumulativeStatisticsInstance, WorkflowCumulativeStatisticsResource, WorkflowCumulativeStatisticsPage, WorkflowCumulativeStatisticsContext}

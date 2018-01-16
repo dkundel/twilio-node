@@ -197,4 +197,4 @@ declare class WorkflowStatisticsContext {
   fetch(callback: (error: Error | null, items: WorkflowStatisticsInstance) => any): void;
 }
 
-export {WorkflowStatisticsResource, WorkflowStatisticsListInstance, WorkflowStatisticsPayload, WorkflowStatisticsContext, WorkflowStatisticsListFetchOptions, WorkflowStatisticsList, WorkflowStatisticsPage, WorkflowStatisticsSolution, WorkflowStatisticsInstance}
+export {WorkflowStatisticsInstance, WorkflowStatisticsPayload, WorkflowStatisticsListInstance, WorkflowStatisticsSolution, WorkflowStatisticsListFetchOptions, WorkflowStatisticsPage, WorkflowStatisticsResource, WorkflowStatisticsContext, WorkflowStatisticsList}

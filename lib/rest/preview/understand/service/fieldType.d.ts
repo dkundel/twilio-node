@@ -385,4 +385,4 @@ declare class FieldTypeContext {
   update(callback: (error: Error | null, items: FieldTypeInstance) => any): void;
 }
 
-export {FieldTypeListOptions, FieldTypeContext, FieldTypeInstance, FieldTypeListEachOptions, FieldTypeListCreateOptions, FieldTypeListFetchOptions, FieldTypePage, FieldTypeListInstance, FieldTypeResource, FieldTypeListPageOptions, FieldTypeSolution, FieldTypeList, FieldTypePayload}
+export {FieldTypeResource, FieldTypeList, FieldTypeSolution, FieldTypeListOptions, FieldTypePayload, FieldTypeListPageOptions, FieldTypeListCreateOptions, FieldTypeListFetchOptions, FieldTypeListEachOptions, FieldTypeInstance, FieldTypeListInstance, FieldTypeContext, FieldTypePage}

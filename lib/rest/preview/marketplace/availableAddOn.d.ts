@@ -253,4 +253,4 @@ declare class AvailableAddOnContext {
   fetch(callback: (error: Error | null, items: AvailableAddOnInstance) => any): void;
 }
 
-export {AvailableAddOnContext, AvailableAddOnInstance, AvailableAddOnListOptions, AvailableAddOnSolution, AvailableAddOnPayload, AvailableAddOnList, AvailableAddOnListInstance, AvailableAddOnResource, AvailableAddOnListPageOptions, AvailableAddOnPage, AvailableAddOnListEachOptions}
+export {AvailableAddOnPayload, AvailableAddOnListEachOptions, AvailableAddOnListOptions, AvailableAddOnListInstance, AvailableAddOnResource, AvailableAddOnInstance, AvailableAddOnListPageOptions, AvailableAddOnPage, AvailableAddOnList, AvailableAddOnSolution, AvailableAddOnContext}

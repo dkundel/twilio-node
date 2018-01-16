@@ -68,8 +68,7 @@ interface DocumentPermissionListInstance {
   /**
    * Gets context of a single DocumentPermission resource
    *
-   * @param identity -
-   *          Identity of the user to whom the Sync Document Permission applies.
+   * @param identity - Identity of the user to whom the Sync Document Permission applies.
    */
   (identity: string): DocumentPermissionContext;
   /**
@@ -101,8 +100,7 @@ interface DocumentPermissionListInstance {
   /**
    * Gets context of a single DocumentPermission resource
    *
-   * @param identity -
-   *          Identity of the user to whom the Sync Document Permission applies.
+   * @param identity - Identity of the user to whom the Sync Document Permission applies.
    */
   get(identity: string): DocumentPermissionContext;
   /**
@@ -226,8 +224,7 @@ declare class DocumentPermissionInstance {
    * @param payload - The instance payload
    * @param serviceSid - The service_sid
    * @param documentSid - Sync Document SID or unique name.
-   * @param identity -
-   *          Identity of the user to whom the Sync Document Permission applies.
+   * @param identity - Identity of the user to whom the Sync Document Permission applies.
    */
   constructor(version: V1, payload: DocumentPermissionPayload, serviceSid: string, documentSid: string, identity: string);
 
@@ -349,4 +346,4 @@ declare class DocumentPermissionContext {
   update(opts: DocumentPermissionListFetchOptions, callback: (error: Error | null, items: DocumentPermissionInstance) => any): void;
 }
 
-export {DocumentPermissionListEachOptions, DocumentPermissionListOptions, DocumentPermissionInstance, DocumentPermissionResource, DocumentPermissionListInstance, DocumentPermissionContext, DocumentPermissionListFetchOptions, DocumentPermissionSolution, DocumentPermissionListPageOptions, DocumentPermissionPayload, DocumentPermissionList, DocumentPermissionPage}
+export {DocumentPermissionList, DocumentPermissionListPageOptions, DocumentPermissionPayload, DocumentPermissionPage, DocumentPermissionSolution, DocumentPermissionListEachOptions, DocumentPermissionContext, DocumentPermissionInstance, DocumentPermissionListInstance, DocumentPermissionResource, DocumentPermissionListFetchOptions, DocumentPermissionListOptions}

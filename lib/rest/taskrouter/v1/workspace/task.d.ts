@@ -625,4 +625,4 @@ declare class TaskContext {
   update(callback: (error: Error | null, items: TaskInstance) => any): void;
 }
 
-export {TaskPayload, TaskListOptions, TaskStatus, TaskListFetchOptions, TaskSolution, TaskListInstance, TaskResource, TaskInstance, TaskContext, TaskListPageOptions, TaskList, TaskListCreateOptions, TaskPage, TaskListEachOptions}
+export {TaskList, TaskListInstance, TaskListOptions, TaskContext, TaskSolution, TaskListCreateOptions, TaskPage, TaskInstance, TaskPayload, TaskStatus, TaskResource, TaskListEachOptions, TaskListFetchOptions, TaskListPageOptions}

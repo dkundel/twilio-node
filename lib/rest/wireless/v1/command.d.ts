@@ -358,4 +358,4 @@ declare class CommandContext {
   fetch(callback: (error: Error | null, items: CommandInstance) => any): void;
 }
 
-export {CommandSolution, CommandListEachOptions, CommandStatus, CommandListPageOptions, CommandListInstance, CommandPage, CommandDirection, CommandList, CommandPayload, CommandInstance, CommandListOptions, CommandListCreateOptions, CommandContext, CommandCommandMode, CommandResource}
+export {CommandCommandMode, CommandListOptions, CommandPage, CommandPayload, CommandListInstance, CommandSolution, CommandStatus, CommandContext, CommandDirection, CommandInstance, CommandList, CommandListCreateOptions, CommandResource, CommandListPageOptions, CommandListEachOptions}

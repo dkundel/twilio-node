@@ -609,4 +609,4 @@ declare class SimContext {
   usage: UsageListInstance;
 }
 
-export {SimPage, SimContext, SimList, SimListEachOptions, SimListFetchOptions, SimSolution, SimListInstance, SimInstance, SimListPageOptions, SimListOptions, SimResource, SimPayload}
+export {SimPayload, SimListEachOptions, SimListFetchOptions, SimPage, SimInstance, SimListOptions, SimResource, SimSolution, SimListPageOptions, SimContext, SimListInstance, SimList}

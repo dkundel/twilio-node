@@ -374,4 +374,4 @@ declare class ModelBuildContext {
   update(callback: (error: Error | null, items: ModelBuildInstance) => any): void;
 }
 
-export {ModelBuildStatus, ModelBuildSolution, ModelBuildList, ModelBuildListInstance, ModelBuildResource, ModelBuildListCreateOptions, ModelBuildListOptions, ModelBuildInstance, ModelBuildContext, ModelBuildPage, ModelBuildListEachOptions, ModelBuildListPageOptions, ModelBuildListFetchOptions, ModelBuildPayload}
+export {ModelBuildInstance, ModelBuildList, ModelBuildContext, ModelBuildListEachOptions, ModelBuildPage, ModelBuildSolution, ModelBuildListOptions, ModelBuildListInstance, ModelBuildResource, ModelBuildStatus, ModelBuildListFetchOptions, ModelBuildListCreateOptions, ModelBuildListPageOptions, ModelBuildPayload}

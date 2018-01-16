@@ -527,4 +527,4 @@ declare class FaxContext {
   update(callback: (error: Error | null, items: FaxInstance) => any): void;
 }
 
-export {FaxStatus, FaxInstance, FaxUpdateStatus, FaxPayload, FaxContext, FaxListCreateOptions, FaxListInstance, FaxList, FaxSolution, FaxPage, FaxListOptions, FaxResource, FaxListPageOptions, FaxListFetchOptions, FaxDirection, FaxListEachOptions, FaxQuality}
+export {FaxListInstance, FaxPage, FaxQuality, FaxListEachOptions, FaxList, FaxSolution, FaxStatus, FaxUpdateStatus, FaxPayload, FaxResource, FaxListCreateOptions, FaxListFetchOptions, FaxDirection, FaxContext, FaxInstance, FaxListOptions, FaxListPageOptions}

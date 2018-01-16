@@ -399,4 +399,4 @@ declare class InstalledAddOnContext {
   update(callback: (error: Error | null, items: InstalledAddOnInstance) => any): void;
 }
 
-export {InstalledAddOnResource, InstalledAddOnContext, InstalledAddOnListPageOptions, InstalledAddOnPayload, InstalledAddOnPage, InstalledAddOnListFetchOptions, InstalledAddOnInstance, InstalledAddOnListCreateOptions, InstalledAddOnListInstance, InstalledAddOnListOptions, InstalledAddOnList, InstalledAddOnSolution, InstalledAddOnListEachOptions}
+export {InstalledAddOnPage, InstalledAddOnListEachOptions, InstalledAddOnList, InstalledAddOnListOptions, InstalledAddOnSolution, InstalledAddOnContext, InstalledAddOnResource, InstalledAddOnListCreateOptions, InstalledAddOnListFetchOptions, InstalledAddOnListInstance, InstalledAddOnPayload, InstalledAddOnInstance, InstalledAddOnListPageOptions}

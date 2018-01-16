@@ -556,4 +556,4 @@ declare class MessageContext {
   update(opts: MessageListFetchOptions, callback: (error: Error | null, items: MessageInstance) => any): void;
 }
 
-export {MessageResource, MessageListCreateOptions, MessagePayload, MessageListOptions, MessageDirection, MessageSolution, MessageListPageOptions, MessageAddressRetention, MessageListFetchOptions, MessageContext, MessageInstance, MessagePage, MessageListInstance, MessageContentRetention, MessageList, MessageListEachOptions, MessageStatus}
+export {MessagePage, MessageContext, MessageListCreateOptions, MessageListEachOptions, MessagePayload, MessageResource, MessageStatus, MessageListOptions, MessageList, MessageInstance, MessageDirection, MessageListPageOptions, MessageListFetchOptions, MessageContentRetention, MessageSolution, MessageListInstance, MessageAddressRetention}

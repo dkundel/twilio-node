@@ -440,4 +440,4 @@ declare class SyncListItemContext {
   update(callback: (error: Error | null, items: SyncListItemInstance) => any): void;
 }
 
-export {SyncListItemResource, SyncListItemListOptions, SyncListItemInstance, SyncListItemListInstance, SyncListItemPayload, SyncListItemList, SyncListItemListPageOptions, SyncListItemListFetchOptions, SyncListItemListEachOptions, SyncListItemListCreateOptions, SyncListItemQueryFromBoundType, SyncListItemContext, SyncListItemSolution, SyncListItemQueryResultOrder, SyncListItemPage}
+export {SyncListItemResource, SyncListItemListOptions, SyncListItemContext, SyncListItemListEachOptions, SyncListItemSolution, SyncListItemListPageOptions, SyncListItemListInstance, SyncListItemListFetchOptions, SyncListItemList, SyncListItemQueryFromBoundType, SyncListItemListCreateOptions, SyncListItemPage, SyncListItemInstance, SyncListItemQueryResultOrder, SyncListItemPayload}

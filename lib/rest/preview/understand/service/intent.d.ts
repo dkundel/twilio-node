@@ -388,4 +388,4 @@ declare class IntentContext {
   update(callback: (error: Error | null, items: IntentInstance) => any): void;
 }
 
-export {IntentListOptions, IntentResource, IntentPayload, IntentPage, IntentListCreateOptions, IntentListEachOptions, IntentList, IntentContext, IntentListFetchOptions, IntentSolution, IntentListPageOptions, IntentListInstance, IntentInstance}
+export {IntentListFetchOptions, IntentListEachOptions, IntentResource, IntentListPageOptions, IntentList, IntentListCreateOptions, IntentPage, IntentSolution, IntentContext, IntentPayload, IntentInstance, IntentListInstance, IntentListOptions}

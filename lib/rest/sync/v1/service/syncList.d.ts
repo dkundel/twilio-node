@@ -402,4 +402,4 @@ declare class SyncListContext {
   update(callback: (error: Error | null, items: SyncListInstance) => any): void;
 }
 
-export {SyncListList, SyncListListEachOptions, SyncListPage, SyncListResource, SyncListPayload, SyncListListInstance, SyncListContext, SyncListListOptions, SyncListListFetchOptions, SyncListListPageOptions, SyncListSolution, SyncListListCreateOptions, SyncListInstance}
+export {SyncListListInstance, SyncListList, SyncListListFetchOptions, SyncListPayload, SyncListResource, SyncListSolution, SyncListListEachOptions, SyncListListOptions, SyncListListPageOptions, SyncListPage, SyncListContext, SyncListListCreateOptions, SyncListInstance}

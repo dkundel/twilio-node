@@ -297,4 +297,4 @@ declare class DataSessionInstance {
   start: Date;
 }
 
-export {DataSessionSolution, DataSessionResource, DataSessionListInstance, DataSessionList, DataSessionInstance, DataSessionListPageOptions, DataSessionListEachOptions, DataSessionPayload, DataSessionPage, DataSessionListOptions}
+export {DataSessionInstance, DataSessionSolution, DataSessionListOptions, DataSessionPage, DataSessionListEachOptions, DataSessionPayload, DataSessionList, DataSessionListPageOptions, DataSessionResource, DataSessionListInstance}

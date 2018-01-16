@@ -272,4 +272,4 @@ declare class PublishedTrackContext {
   fetch(callback: (error: Error | null, items: PublishedTrackInstance) => any): void;
 }
 
-export {PublishedTrackList, PublishedTrackInstance, PublishedTrackListInstance, PublishedTrackListPageOptions, PublishedTrackPage, PublishedTrackContext, PublishedTrackSolution, PublishedTrackPayload, PublishedTrackListEachOptions, PublishedTrackListOptions, PublishedTrackKind, PublishedTrackResource}
+export {PublishedTrackListEachOptions, PublishedTrackContext, PublishedTrackListPageOptions, PublishedTrackSolution, PublishedTrackList, PublishedTrackPage, PublishedTrackListOptions, PublishedTrackPayload, PublishedTrackResource, PublishedTrackListInstance, PublishedTrackKind, PublishedTrackInstance}

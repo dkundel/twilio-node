@@ -342,4 +342,4 @@ declare class BindingContext {
   remove(callback: (error: Error | null, items: BindingInstance) => any): void;
 }
 
-export {BindingResource, BindingPayload, BindingSolution, BindingListEachOptions, BindingPage, BindingList, BindingBindingType, BindingListOptions, BindingListPageOptions, BindingListInstance, BindingInstance, BindingContext}
+export {BindingListPageOptions, BindingList, BindingContext, BindingBindingType, BindingSolution, BindingListEachOptions, BindingInstance, BindingResource, BindingListOptions, BindingPage, BindingPayload, BindingListInstance}

@@ -308,4 +308,4 @@ declare class SigningKeyContext {
   update(callback: (error: Error | null, items: SigningKeyInstance) => any): void;
 }
 
-export {SigningKeySolution, SigningKeyContext, SigningKeyListPageOptions, SigningKeyListFetchOptions, SigningKeyPage, SigningKeyList, SigningKeyListInstance, SigningKeyListEachOptions, SigningKeyResource, SigningKeyPayload, SigningKeyInstance, SigningKeyListOptions}
+export {SigningKeyListEachOptions, SigningKeyListOptions, SigningKeyListPageOptions, SigningKeySolution, SigningKeyContext, SigningKeyList, SigningKeyInstance, SigningKeyPayload, SigningKeyListInstance, SigningKeyListFetchOptions, SigningKeyResource, SigningKeyPage}

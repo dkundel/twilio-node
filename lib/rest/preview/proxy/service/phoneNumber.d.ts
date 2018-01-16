@@ -314,4 +314,4 @@ declare class PhoneNumberContext {
   remove(callback: (error: Error | null, items: PhoneNumberInstance) => any): void;
 }
 
-export {PhoneNumberPage, PhoneNumberContext, PhoneNumberListInstance, PhoneNumberList, PhoneNumberListOptions, PhoneNumberListPageOptions, PhoneNumberInstance, PhoneNumberResource, PhoneNumberPayload, PhoneNumberSolution, PhoneNumberListEachOptions, PhoneNumberListCreateOptions}
+export {PhoneNumberList, PhoneNumberPage, PhoneNumberResource, PhoneNumberListPageOptions, PhoneNumberListInstance, PhoneNumberListOptions, PhoneNumberSolution, PhoneNumberPayload, PhoneNumberListEachOptions, PhoneNumberContext, PhoneNumberListCreateOptions, PhoneNumberInstance}

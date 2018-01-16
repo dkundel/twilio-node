@@ -412,4 +412,4 @@ declare class ShortCodeContext {
   update(callback: (error: Error | null, items: ShortCodeInstance) => any): void;
 }
 
-export {ShortCodeContext, ShortCodeList, ShortCodeListInstance, ShortCodeListPageOptions, ShortCodeListEachOptions, ShortCodePayload, ShortCodeInstance, ShortCodeSolution, ShortCodePage, ShortCodeListOptions, ShortCodeListFetchOptions, ShortCodeResource}
+export {ShortCodeContext, ShortCodeListPageOptions, ShortCodeListEachOptions, ShortCodeListInstance, ShortCodeListOptions, ShortCodeListFetchOptions, ShortCodeSolution, ShortCodeInstance, ShortCodePayload, ShortCodeResource, ShortCodeList, ShortCodePage}

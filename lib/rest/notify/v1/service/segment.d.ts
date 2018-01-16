@@ -201,4 +201,4 @@ declare class SegmentInstance {
   uniqueName: string;
 }
 
-export {SegmentListOptions, SegmentListPageOptions, SegmentSolution, SegmentList, SegmentResource, SegmentPage, SegmentInstance, SegmentPayload, SegmentListEachOptions, SegmentListInstance}
+export {SegmentListEachOptions, SegmentResource, SegmentListInstance, SegmentListOptions, SegmentPayload, SegmentInstance, SegmentList, SegmentPage, SegmentSolution, SegmentListPageOptions}

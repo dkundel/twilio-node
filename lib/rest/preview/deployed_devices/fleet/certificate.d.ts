@@ -398,4 +398,4 @@ declare class CertificateContext {
   update(callback: (error: Error | null, items: CertificateInstance) => any): void;
 }
 
-export {CertificateListCreateOptions, CertificateListPageOptions, CertificateListInstance, CertificatePage, CertificateList, CertificateSolution, CertificateListFetchOptions, CertificateInstance, CertificatePayload, CertificateListOptions, CertificateListEachOptions, CertificateResource, CertificateContext}
+export {CertificateResource, CertificateListInstance, CertificateSolution, CertificateListPageOptions, CertificateListOptions, CertificateContext, CertificateInstance, CertificatePage, CertificateListFetchOptions, CertificateListCreateOptions, CertificateList, CertificateListEachOptions, CertificatePayload}

@@ -364,4 +364,4 @@ declare class RoomRecordingContext {
   fetch(callback: (error: Error | null, items: RoomRecordingInstance) => any): void;
 }
 
-export {RoomRecordingContext, RoomRecordingType, RoomRecordingFormat, RoomRecordingListEachOptions, RoomRecordingInstance, RoomRecordingPayload, RoomRecordingSolution, RoomRecordingList, RoomRecordingResource, RoomRecordingListInstance, RoomRecordingStatus, RoomRecordingCodec, RoomRecordingListOptions, RoomRecordingPage, RoomRecordingListPageOptions}
+export {RoomRecordingListEachOptions, RoomRecordingListOptions, RoomRecordingListPageOptions, RoomRecordingInstance, RoomRecordingFormat, RoomRecordingResource, RoomRecordingListInstance, RoomRecordingStatus, RoomRecordingPage, RoomRecordingSolution, RoomRecordingType, RoomRecordingPayload, RoomRecordingList, RoomRecordingContext, RoomRecordingCodec}

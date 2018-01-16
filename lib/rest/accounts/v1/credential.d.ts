@@ -21,4 +21,4 @@ interface CredentialSolution {
 interface CredentialListInstance {
 }
 
-export {CredentialList, CredentialResource, CredentialPayload, CredentialListInstance, CredentialSolution}
+export {CredentialList, CredentialPayload, CredentialListInstance, CredentialSolution, CredentialResource}

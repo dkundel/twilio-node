@@ -303,4 +303,4 @@ declare class YearlyInstance {
   usageUnit: string;
 }
 
-export {YearlyPayload, YearlyResource, YearlyInstance, YearlyListEachOptions, YearlySolution, YearlyListPageOptions, YearlyPage, YearlyListOptions, YearlyCategory, YearlyListInstance, YearlyList}
+export {YearlyList, YearlyInstance, YearlyListInstance, YearlyListEachOptions, YearlyCategory, YearlyPayload, YearlyListOptions, YearlyPage, YearlyListPageOptions, YearlySolution, YearlyResource}

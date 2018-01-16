@@ -28,10 +28,8 @@ declare class Twilio {
   /**
    * Twilio Client to interact with the Rest API
    *
-   * @param username -
-   *          The username used for authentication. This is normally account sid, but if using key/secret auth will be the api key sid.
-   * @param password -
-   *          The password used for authentication. This is normally auth token, but if using key/secret auth will be the secret.
+   * @param username - The username used for authentication. This is normally account sid, but if using key/secret auth will be the api key sid.
+   * @param password - The password used for authentication. This is normally auth token, but if using key/secret auth will be the secret.
    * @param opts - Options to alter the behavior of the Twilio Client
    *
    * @returns A new instance of Twilio client

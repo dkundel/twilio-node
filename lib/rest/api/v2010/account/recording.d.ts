@@ -382,4 +382,4 @@ declare class RecordingContext {
   transcriptions: TranscriptionListInstance;
 }
 
-export {RecordingListEachOptions, RecordingInstance, RecordingPage, RecordingSolution, RecordingListPageOptions, RecordingListInstance, RecordingPayload, RecordingSource, RecordingListOptions, RecordingStatus, RecordingList, RecordingResource, RecordingContext}
+export {RecordingResource, RecordingPayload, RecordingContext, RecordingList, RecordingListInstance, RecordingListOptions, RecordingSource, RecordingPage, RecordingInstance, RecordingStatus, RecordingListPageOptions, RecordingSolution, RecordingListEachOptions}

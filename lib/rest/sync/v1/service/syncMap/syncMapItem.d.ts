@@ -444,4 +444,4 @@ declare class SyncMapItemContext {
   update(callback: (error: Error | null, items: SyncMapItemInstance) => any): void;
 }
 
-export {SyncMapItemListFetchOptions, SyncMapItemList, SyncMapItemPayload, SyncMapItemListEachOptions, SyncMapItemContext, SyncMapItemListInstance, SyncMapItemQueryFromBoundType, SyncMapItemSolution, SyncMapItemPage, SyncMapItemResource, SyncMapItemListCreateOptions, SyncMapItemInstance, SyncMapItemListPageOptions, SyncMapItemListOptions, SyncMapItemQueryResultOrder}
+export {SyncMapItemSolution, SyncMapItemListOptions, SyncMapItemListPageOptions, SyncMapItemInstance, SyncMapItemContext, SyncMapItemListCreateOptions, SyncMapItemQueryFromBoundType, SyncMapItemQueryResultOrder, SyncMapItemListEachOptions, SyncMapItemPayload, SyncMapItemList, SyncMapItemResource, SyncMapItemPage, SyncMapItemListFetchOptions, SyncMapItemListInstance}

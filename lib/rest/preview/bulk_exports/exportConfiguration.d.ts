@@ -198,4 +198,4 @@ declare class ExportConfigurationContext {
   update(callback: (error: Error | null, items: ExportConfigurationInstance) => any): void;
 }
 
-export {ExportConfigurationContext, ExportConfigurationPage, ExportConfigurationListInstance, ExportConfigurationListFetchOptions, ExportConfigurationSolution, ExportConfigurationList, ExportConfigurationPayload, ExportConfigurationInstance, ExportConfigurationResource}
+export {ExportConfigurationInstance, ExportConfigurationSolution, ExportConfigurationPayload, ExportConfigurationResource, ExportConfigurationContext, ExportConfigurationPage, ExportConfigurationListInstance, ExportConfigurationList, ExportConfigurationListFetchOptions}

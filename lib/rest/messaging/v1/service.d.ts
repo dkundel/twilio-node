@@ -623,4 +623,4 @@ declare class ServiceContext {
   update(callback: (error: Error | null, items: ServiceInstance) => any): void;
 }
 
-export {ServiceScanMessageContent, ServiceResource, ServiceListCreateOptions, ServiceListEachOptions, ServiceListOptions, ServiceListInstance, ServiceList, ServicePayload, ServiceListFetchOptions, ServiceListPageOptions, ServiceSolution, ServicePage, ServiceInstance, ServiceContext}
+export {ServiceContext, ServiceListOptions, ServicePayload, ServiceListEachOptions, ServiceInstance, ServiceListFetchOptions, ServicePage, ServiceResource, ServiceSolution, ServiceListCreateOptions, ServiceListInstance, ServiceScanMessageContent, ServiceList, ServiceListPageOptions}

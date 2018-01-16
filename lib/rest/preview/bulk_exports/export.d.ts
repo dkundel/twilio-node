@@ -113,4 +113,4 @@ declare class ExportContext {
   fetch(callback: (error: Error | null, items: ExportInstance) => any): void;
 }
 
-export {ExportInstance, ExportSolution, ExportPayload, ExportPage, ExportListInstance, ExportContext, ExportResource, ExportList}
+export {ExportList, ExportContext, ExportListInstance, ExportPage, ExportResource, ExportSolution, ExportInstance, ExportPayload}

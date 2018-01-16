@@ -176,4 +176,4 @@ declare class SegmentMembershipContext {
   remove(callback: (error: Error | null, items: SegmentMembershipInstance) => any): void;
 }
 
-export {SegmentMembershipListInstance, SegmentMembershipList, SegmentMembershipPage, SegmentMembershipContext, SegmentMembershipListCreateOptions, SegmentMembershipInstance, SegmentMembershipResource, SegmentMembershipPayload, SegmentMembershipSolution}
+export {SegmentMembershipPayload, SegmentMembershipSolution, SegmentMembershipPage, SegmentMembershipListCreateOptions, SegmentMembershipResource, SegmentMembershipListInstance, SegmentMembershipContext, SegmentMembershipList, SegmentMembershipInstance}
