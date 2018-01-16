@@ -276,4 +276,4 @@ declare class FaxMediaContext {
   remove(callback: (error: Error | null, items: FaxMediaInstance) => any): void;
 }
 
-export {FaxMediaListEachOptions, FaxMediaResource, FaxMediaListOptions, FaxMediaSolution, FaxMediaList, FaxMediaListInstance, FaxMediaPayload, FaxMediaListPageOptions, FaxMediaContext, FaxMediaPage, FaxMediaInstance}
+export { FaxMediaContext, FaxMediaInstance, FaxMediaList, FaxMediaListEachOptions, FaxMediaListInstance, FaxMediaListOptions, FaxMediaListPageOptions, FaxMediaPage, FaxMediaPayload, FaxMediaResource, FaxMediaSolution }

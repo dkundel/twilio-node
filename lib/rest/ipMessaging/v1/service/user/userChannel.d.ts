@@ -220,4 +220,4 @@ declare class UserChannelInstance {
   unreadMessagesCount: number;
 }
 
-export {UserChannelResource, UserChannelChannelStatus, UserChannelPage, UserChannelSolution, UserChannelListPageOptions, UserChannelPayload, UserChannelListEachOptions, UserChannelInstance, UserChannelListInstance, UserChannelList, UserChannelListOptions}
+export { UserChannelChannelStatus, UserChannelInstance, UserChannelList, UserChannelListEachOptions, UserChannelListInstance, UserChannelListOptions, UserChannelListPageOptions, UserChannelPage, UserChannelPayload, UserChannelResource, UserChannelSolution }

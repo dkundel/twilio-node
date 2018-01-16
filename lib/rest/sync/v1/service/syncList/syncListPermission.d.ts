@@ -346,4 +346,4 @@ declare class SyncListPermissionContext {
   update(opts: SyncListPermissionListFetchOptions, callback: (error: Error | null, items: SyncListPermissionInstance) => any): void;
 }
 
-export {SyncListPermissionListInstance, SyncListPermissionInstance, SyncListPermissionPage, SyncListPermissionListPageOptions, SyncListPermissionSolution, SyncListPermissionListEachOptions, SyncListPermissionListFetchOptions, SyncListPermissionListOptions, SyncListPermissionPayload, SyncListPermissionList, SyncListPermissionResource, SyncListPermissionContext}
+export { SyncListPermissionContext, SyncListPermissionInstance, SyncListPermissionList, SyncListPermissionListEachOptions, SyncListPermissionListFetchOptions, SyncListPermissionListInstance, SyncListPermissionListOptions, SyncListPermissionListPageOptions, SyncListPermissionPage, SyncListPermissionPayload, SyncListPermissionResource, SyncListPermissionSolution }

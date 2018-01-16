@@ -406,4 +406,4 @@ declare class AuthorizationDocumentContext {
   update(callback: (error: Error | null, items: AuthorizationDocumentInstance) => any): void;
 }
 
-export {AuthorizationDocumentListOptions, AuthorizationDocumentListCreateOptions, AuthorizationDocumentContext, AuthorizationDocumentListEachOptions, AuthorizationDocumentPayload, AuthorizationDocumentListInstance, AuthorizationDocumentList, AuthorizationDocumentListPageOptions, AuthorizationDocumentResource, AuthorizationDocumentPage, AuthorizationDocumentListFetchOptions, AuthorizationDocumentSolution, AuthorizationDocumentInstance, AuthorizationDocumentStatus}
+export { AuthorizationDocumentContext, AuthorizationDocumentInstance, AuthorizationDocumentList, AuthorizationDocumentListCreateOptions, AuthorizationDocumentListEachOptions, AuthorizationDocumentListFetchOptions, AuthorizationDocumentListInstance, AuthorizationDocumentListOptions, AuthorizationDocumentListPageOptions, AuthorizationDocumentPage, AuthorizationDocumentPayload, AuthorizationDocumentResource, AuthorizationDocumentSolution, AuthorizationDocumentStatus }

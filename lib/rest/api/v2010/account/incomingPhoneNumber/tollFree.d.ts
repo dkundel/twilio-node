@@ -517,4 +517,4 @@ declare class TollFreeInstance {
   voiceUrl: string;
 }
 
-export {TollFreeAddressRequirement, TollFreePage, TollFreeList, TollFreeListCreateOptions, TollFreeListOptions, TollFreeListInstance, TollFreeResource, TollFreePayload, TollFreeInstance, TollFreeSolution, TollFreeListEachOptions, TollFreeListPageOptions}
+export { TollFreeAddressRequirement, TollFreeInstance, TollFreeList, TollFreeListCreateOptions, TollFreeListEachOptions, TollFreeListInstance, TollFreeListOptions, TollFreeListPageOptions, TollFreePage, TollFreePayload, TollFreeResource, TollFreeSolution }

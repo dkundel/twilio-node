@@ -142,4 +142,4 @@ declare class NumberContext {
   fetch(callback: (error: Error | null, items: NumberInstance) => any): void;
 }
 
-export {NumberContext, NumberInstance, NumberSolution, NumberPage, NumberPayload, NumberResource, NumberList, NumberListInstance}
+export { NumberContext, NumberInstance, NumberList, NumberListInstance, NumberPage, NumberPayload, NumberResource, NumberSolution }

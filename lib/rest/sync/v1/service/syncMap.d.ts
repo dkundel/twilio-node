@@ -402,4 +402,4 @@ declare class SyncMapContext {
   update(callback: (error: Error | null, items: SyncMapInstance) => any): void;
 }
 
-export {SyncMapListEachOptions, SyncMapList, SyncMapListCreateOptions, SyncMapPage, SyncMapInstance, SyncMapListPageOptions, SyncMapSolution, SyncMapListOptions, SyncMapPayload, SyncMapListFetchOptions, SyncMapResource, SyncMapListInstance, SyncMapContext}
+export { SyncMapContext, SyncMapInstance, SyncMapList, SyncMapListCreateOptions, SyncMapListEachOptions, SyncMapListFetchOptions, SyncMapListInstance, SyncMapListOptions, SyncMapListPageOptions, SyncMapPage, SyncMapPayload, SyncMapResource, SyncMapSolution }

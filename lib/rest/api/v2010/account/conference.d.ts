@@ -387,4 +387,4 @@ declare class ConferenceContext {
   update(callback: (error: Error | null, items: ConferenceInstance) => any): void;
 }
 
-export {ConferenceListInstance, ConferenceListPageOptions, ConferenceStatus, ConferenceResource, ConferencePage, ConferencePayload, ConferenceContext, ConferenceSolution, ConferenceListEachOptions, ConferenceListFetchOptions, ConferenceUpdateStatus, ConferenceList, ConferenceListOptions, ConferenceInstance}
+export { ConferenceContext, ConferenceInstance, ConferenceList, ConferenceListEachOptions, ConferenceListFetchOptions, ConferenceListInstance, ConferenceListOptions, ConferenceListPageOptions, ConferencePage, ConferencePayload, ConferenceResource, ConferenceSolution, ConferenceStatus, ConferenceUpdateStatus }

@@ -528,4 +528,4 @@ declare class WorkspaceContext {
   workflows: WorkflowListInstance;
 }
 
-export {WorkspaceListEachOptions, WorkspaceInstance, WorkspaceContext, WorkspaceListOptions, WorkspaceListInstance, WorkspaceListPageOptions, WorkspaceListCreateOptions, WorkspaceQueueOrder, WorkspaceSolution, WorkspaceList, WorkspacePage, WorkspaceResource, WorkspacePayload, WorkspaceListFetchOptions}
+export { WorkspaceContext, WorkspaceInstance, WorkspaceList, WorkspaceListCreateOptions, WorkspaceListEachOptions, WorkspaceListFetchOptions, WorkspaceListInstance, WorkspaceListOptions, WorkspaceListPageOptions, WorkspacePage, WorkspacePayload, WorkspaceQueueOrder, WorkspaceResource, WorkspaceSolution }

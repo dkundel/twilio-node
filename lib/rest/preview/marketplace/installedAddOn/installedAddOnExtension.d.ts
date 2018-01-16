@@ -296,4 +296,4 @@ declare class InstalledAddOnExtensionContext {
   update(opts: InstalledAddOnExtensionListFetchOptions, callback: (error: Error | null, items: InstalledAddOnExtensionInstance) => any): void;
 }
 
-export {InstalledAddOnExtensionListEachOptions, InstalledAddOnExtensionContext, InstalledAddOnExtensionPayload, InstalledAddOnExtensionList, InstalledAddOnExtensionResource, InstalledAddOnExtensionListPageOptions, InstalledAddOnExtensionListFetchOptions, InstalledAddOnExtensionSolution, InstalledAddOnExtensionInstance, InstalledAddOnExtensionPage, InstalledAddOnExtensionListInstance, InstalledAddOnExtensionListOptions}
+export { InstalledAddOnExtensionContext, InstalledAddOnExtensionInstance, InstalledAddOnExtensionList, InstalledAddOnExtensionListEachOptions, InstalledAddOnExtensionListFetchOptions, InstalledAddOnExtensionListInstance, InstalledAddOnExtensionListOptions, InstalledAddOnExtensionListPageOptions, InstalledAddOnExtensionPage, InstalledAddOnExtensionPayload, InstalledAddOnExtensionResource, InstalledAddOnExtensionSolution }

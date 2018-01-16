@@ -244,4 +244,4 @@ declare class AvailableAddOnExtensionContext {
   fetch(callback: (error: Error | null, items: AvailableAddOnExtensionInstance) => any): void;
 }
 
-export {AvailableAddOnExtensionResource, AvailableAddOnExtensionSolution, AvailableAddOnExtensionListEachOptions, AvailableAddOnExtensionListOptions, AvailableAddOnExtensionListInstance, AvailableAddOnExtensionList, AvailableAddOnExtensionPayload, AvailableAddOnExtensionContext, AvailableAddOnExtensionListPageOptions, AvailableAddOnExtensionPage, AvailableAddOnExtensionInstance}
+export { AvailableAddOnExtensionContext, AvailableAddOnExtensionInstance, AvailableAddOnExtensionList, AvailableAddOnExtensionListEachOptions, AvailableAddOnExtensionListInstance, AvailableAddOnExtensionListOptions, AvailableAddOnExtensionListPageOptions, AvailableAddOnExtensionPage, AvailableAddOnExtensionPayload, AvailableAddOnExtensionResource, AvailableAddOnExtensionSolution }

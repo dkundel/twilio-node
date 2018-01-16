@@ -426,4 +426,4 @@ declare class CredentialContext {
   update(callback: (error: Error | null, items: CredentialInstance) => any): void;
 }
 
-export {CredentialList, CredentialListEachOptions, CredentialListFetchOptions, CredentialContext, CredentialPayload, CredentialInstance, CredentialPushService, CredentialListInstance, CredentialListOptions, CredentialListPageOptions, CredentialSolution, CredentialListCreateOptions, CredentialResource, CredentialPage}
+export { CredentialContext, CredentialInstance, CredentialList, CredentialListCreateOptions, CredentialListEachOptions, CredentialListFetchOptions, CredentialListInstance, CredentialListOptions, CredentialListPageOptions, CredentialPage, CredentialPayload, CredentialPushService, CredentialResource, CredentialSolution }

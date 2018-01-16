@@ -298,4 +298,4 @@ declare class CredentialListContext {
   remove(callback: (error: Error | null, items: CredentialListInstance) => any): void;
 }
 
-export {CredentialListListCreateOptions, CredentialListListOptions, CredentialListListInstance, CredentialListResource, CredentialListPayload, CredentialListSolution, CredentialListInstance, CredentialListPage, CredentialListListPageOptions, CredentialListContext, CredentialListListEachOptions, CredentialListList}
+export { CredentialListContext, CredentialListInstance, CredentialListList, CredentialListListCreateOptions, CredentialListListEachOptions, CredentialListListInstance, CredentialListListOptions, CredentialListListPageOptions, CredentialListPage, CredentialListPayload, CredentialListResource, CredentialListSolution }

@@ -458,4 +458,4 @@ declare class RatePlanContext {
   update(callback: (error: Error | null, items: RatePlanInstance) => any): void;
 }
 
-export {RatePlanContext, RatePlanResource, RatePlanListInstance, RatePlanPayload, RatePlanListCreateOptions, RatePlanListFetchOptions, RatePlanInstance, RatePlanListOptions, RatePlanSolution, RatePlanListPageOptions, RatePlanListEachOptions, RatePlanPage, RatePlanList}
+export { RatePlanContext, RatePlanInstance, RatePlanList, RatePlanListCreateOptions, RatePlanListEachOptions, RatePlanListFetchOptions, RatePlanListInstance, RatePlanListOptions, RatePlanListPageOptions, RatePlanPage, RatePlanPayload, RatePlanResource, RatePlanSolution }

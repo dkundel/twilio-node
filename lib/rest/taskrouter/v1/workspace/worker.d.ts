@@ -525,4 +525,4 @@ declare class WorkerContext {
   workerChannels: WorkerChannelListInstance;
 }
 
-export {WorkerListInstance, WorkerListOptions, WorkerResource, WorkerPage, WorkerListEachOptions, WorkerListCreateOptions, WorkerContext, WorkerPayload, WorkerInstance, WorkerListFetchOptions, WorkerListPageOptions, WorkerSolution, WorkerList}
+export { WorkerContext, WorkerInstance, WorkerList, WorkerListCreateOptions, WorkerListEachOptions, WorkerListFetchOptions, WorkerListInstance, WorkerListOptions, WorkerListPageOptions, WorkerPage, WorkerPayload, WorkerResource, WorkerSolution }

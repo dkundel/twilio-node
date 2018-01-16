@@ -537,4 +537,4 @@ declare class AddressContext {
   update(callback: (error: Error | null, items: AddressInstance) => any): void;
 }
 
-export {AddressListOptions, AddressContext, AddressListPageOptions, AddressListEachOptions, AddressInstance, AddressListInstance, AddressResource, AddressPayload, AddressSolution, AddressListFetchOptions, AddressList, AddressPage, AddressListCreateOptions}
+export { AddressContext, AddressInstance, AddressList, AddressListCreateOptions, AddressListEachOptions, AddressListFetchOptions, AddressListInstance, AddressListOptions, AddressListPageOptions, AddressPage, AddressPayload, AddressResource, AddressSolution }

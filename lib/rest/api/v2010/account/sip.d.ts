@@ -22,4 +22,4 @@ interface SipSolution {
 interface SipListInstance {
 }
 
-export {SipPayload, SipList, SipSolution, SipListInstance, SipResource}
+export { SipList, SipListInstance, SipPayload, SipResource, SipSolution }

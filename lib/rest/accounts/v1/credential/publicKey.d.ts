@@ -352,4 +352,4 @@ declare class PublicKeyContext {
   update(callback: (error: Error | null, items: PublicKeyInstance) => any): void;
 }
 
-export {PublicKeySolution, PublicKeyListEachOptions, PublicKeyResource, PublicKeyListInstance, PublicKeyInstance, PublicKeyListOptions, PublicKeyListPageOptions, PublicKeyList, PublicKeyPayload, PublicKeyListCreateOptions, PublicKeyPage, PublicKeyContext, PublicKeyListFetchOptions}
+export { PublicKeyContext, PublicKeyInstance, PublicKeyList, PublicKeyListCreateOptions, PublicKeyListEachOptions, PublicKeyListFetchOptions, PublicKeyListInstance, PublicKeyListOptions, PublicKeyListPageOptions, PublicKeyPage, PublicKeyPayload, PublicKeyResource, PublicKeySolution }

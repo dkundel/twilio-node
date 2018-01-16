@@ -195,4 +195,4 @@ declare class UsageContext {
   fetch(callback: (error: Error | null, items: UsageInstance) => any): void;
 }
 
-export {UsageInstance, UsagePayload, UsageList, UsagePage, UsageResource, UsageListInstance, UsageListFetchOptions, UsageSolution, UsageContext}
+export { UsageContext, UsageInstance, UsageList, UsageListFetchOptions, UsageListInstance, UsagePage, UsagePayload, UsageResource, UsageSolution }

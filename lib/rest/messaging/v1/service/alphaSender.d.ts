@@ -306,4 +306,4 @@ declare class AlphaSenderContext {
   remove(callback: (error: Error | null, items: AlphaSenderInstance) => any): void;
 }
 
-export {AlphaSenderListInstance, AlphaSenderPage, AlphaSenderListOptions, AlphaSenderListPageOptions, AlphaSenderContext, AlphaSenderResource, AlphaSenderSolution, AlphaSenderListCreateOptions, AlphaSenderInstance, AlphaSenderList, AlphaSenderPayload, AlphaSenderListEachOptions}
+export { AlphaSenderContext, AlphaSenderInstance, AlphaSenderList, AlphaSenderListCreateOptions, AlphaSenderListEachOptions, AlphaSenderListInstance, AlphaSenderListOptions, AlphaSenderListPageOptions, AlphaSenderPage, AlphaSenderPayload, AlphaSenderResource, AlphaSenderSolution }

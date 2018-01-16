@@ -315,4 +315,4 @@ declare class WorkspaceCumulativeStatisticsContext {
   fetch(callback: (error: Error | null, items: WorkspaceCumulativeStatisticsInstance) => any): void;
 }
 
-export {WorkspaceCumulativeStatisticsList, WorkspaceCumulativeStatisticsPage, WorkspaceCumulativeStatisticsPayload, WorkspaceCumulativeStatisticsSolution, WorkspaceCumulativeStatisticsListFetchOptions, WorkspaceCumulativeStatisticsResource, WorkspaceCumulativeStatisticsListInstance, WorkspaceCumulativeStatisticsInstance, WorkspaceCumulativeStatisticsContext}
+export { WorkspaceCumulativeStatisticsContext, WorkspaceCumulativeStatisticsInstance, WorkspaceCumulativeStatisticsList, WorkspaceCumulativeStatisticsListFetchOptions, WorkspaceCumulativeStatisticsListInstance, WorkspaceCumulativeStatisticsPage, WorkspaceCumulativeStatisticsPayload, WorkspaceCumulativeStatisticsResource, WorkspaceCumulativeStatisticsSolution }

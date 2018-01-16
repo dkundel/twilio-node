@@ -299,4 +299,4 @@ declare class NotificationInstance {
   ttl: number;
 }
 
-export {NotificationInstance, NotificationList, NotificationListCreateOptions, NotificationListInstance, NotificationSolution, NotificationPage, NotificationResource, NotificationPayload, NotificationPriority}
+export { NotificationInstance, NotificationList, NotificationListCreateOptions, NotificationListInstance, NotificationPage, NotificationPayload, NotificationPriority, NotificationResource, NotificationSolution }

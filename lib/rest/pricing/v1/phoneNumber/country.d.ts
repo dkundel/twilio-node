@@ -234,4 +234,4 @@ declare class CountryContext {
   fetch(callback: (error: Error | null, items: CountryInstance) => any): void;
 }
 
-export {CountryListOptions, CountryListInstance, CountrySolution, CountryPage, CountryContext, CountryList, CountryResource, CountryInstance, CountryListPageOptions, CountryListEachOptions, CountryPayload}
+export { CountryContext, CountryInstance, CountryList, CountryListEachOptions, CountryListInstance, CountryListOptions, CountryListPageOptions, CountryPage, CountryPayload, CountryResource, CountrySolution }

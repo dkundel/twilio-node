@@ -185,4 +185,4 @@ declare class DayInstance {
   size: number;
 }
 
-export {DayResource, DayListPageOptions, DayListInstance, DayPage, DayListOptions, DaySolution, DayListEachOptions, DayList, DayInstance, DayPayload}
+export { DayInstance, DayList, DayListEachOptions, DayListInstance, DayListOptions, DayListPageOptions, DayPage, DayPayload, DayResource, DaySolution }

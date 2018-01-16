@@ -127,4 +127,4 @@ declare class ValidationRequestInstance {
   validationCode: number;
 }
 
-export {ValidationRequestListCreateOptions, ValidationRequestPage, ValidationRequestListInstance, ValidationRequestList, ValidationRequestSolution, ValidationRequestResource, ValidationRequestInstance, ValidationRequestPayload}
+export { ValidationRequestInstance, ValidationRequestList, ValidationRequestListCreateOptions, ValidationRequestListInstance, ValidationRequestPage, ValidationRequestPayload, ValidationRequestResource, ValidationRequestSolution }

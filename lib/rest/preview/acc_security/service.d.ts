@@ -354,4 +354,4 @@ declare class ServiceContext {
   verifications: VerificationListInstance;
 }
 
-export {ServiceContext, ServiceListOptions, ServiceListEachOptions, ServiceInstance, ServiceListFetchOptions, ServicePage, ServiceResource, ServiceSolution, ServiceListCreateOptions, ServiceListInstance, ServicePayload, ServiceList, ServiceListPageOptions}
+export { ServiceContext, ServiceInstance, ServiceList, ServiceListCreateOptions, ServiceListEachOptions, ServiceListFetchOptions, ServiceListInstance, ServiceListOptions, ServiceListPageOptions, ServicePage, ServicePayload, ServiceResource, ServiceSolution }

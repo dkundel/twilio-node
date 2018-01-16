@@ -376,4 +376,4 @@ declare class IpAddressContext {
   update(callback: (error: Error | null, items: IpAddressInstance) => any): void;
 }
 
-export {IpAddressContext, IpAddressSolution, IpAddressListEachOptions, IpAddressListOptions, IpAddressResource, IpAddressInstance, IpAddressPayload, IpAddressListInstance, IpAddressListPageOptions, IpAddressList, IpAddressListFetchOptions, IpAddressListCreateOptions, IpAddressPage}
+export { IpAddressContext, IpAddressInstance, IpAddressList, IpAddressListCreateOptions, IpAddressListEachOptions, IpAddressListFetchOptions, IpAddressListInstance, IpAddressListOptions, IpAddressListPageOptions, IpAddressPage, IpAddressPayload, IpAddressResource, IpAddressSolution }

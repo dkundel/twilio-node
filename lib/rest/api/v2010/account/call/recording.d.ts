@@ -358,4 +358,4 @@ declare class RecordingContext {
   remove(callback: (error: Error | null, items: RecordingInstance) => any): void;
 }
 
-export {RecordingResource, RecordingPayload, RecordingContext, RecordingList, RecordingListInstance, RecordingListOptions, RecordingSource, RecordingPage, RecordingInstance, RecordingStatus, RecordingListPageOptions, RecordingSolution, RecordingListEachOptions}
+export { RecordingContext, RecordingInstance, RecordingList, RecordingListEachOptions, RecordingListInstance, RecordingListOptions, RecordingListPageOptions, RecordingPage, RecordingPayload, RecordingResource, RecordingSolution, RecordingSource, RecordingStatus }

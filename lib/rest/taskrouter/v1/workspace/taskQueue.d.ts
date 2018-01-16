@@ -525,4 +525,4 @@ declare class TaskQueueContext {
   update(callback: (error: Error | null, items: TaskQueueInstance) => any): void;
 }
 
-export {TaskQueueListCreateOptions, TaskQueueListPageOptions, TaskQueuePayload, TaskQueueListEachOptions, TaskQueueListFetchOptions, TaskQueuePage, TaskQueueSolution, TaskQueueListOptions, TaskQueueListInstance, TaskQueueContext, TaskQueueResource, TaskQueueList, TaskQueueTaskOrder, TaskQueueInstance}
+export { TaskQueueContext, TaskQueueInstance, TaskQueueList, TaskQueueListCreateOptions, TaskQueueListEachOptions, TaskQueueListFetchOptions, TaskQueueListInstance, TaskQueueListOptions, TaskQueueListPageOptions, TaskQueuePage, TaskQueuePayload, TaskQueueResource, TaskQueueSolution, TaskQueueTaskOrder }

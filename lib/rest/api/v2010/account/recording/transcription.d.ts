@@ -328,4 +328,4 @@ declare class TranscriptionContext {
   remove(callback: (error: Error | null, items: TranscriptionInstance) => any): void;
 }
 
-export {TranscriptionPage, TranscriptionList, TranscriptionListEachOptions, TranscriptionListOptions, TranscriptionListPageOptions, TranscriptionSolution, TranscriptionInstance, TranscriptionResource, TranscriptionStatus, TranscriptionPayload, TranscriptionListInstance, TranscriptionContext}
+export { TranscriptionContext, TranscriptionInstance, TranscriptionList, TranscriptionListEachOptions, TranscriptionListInstance, TranscriptionListOptions, TranscriptionListPageOptions, TranscriptionPage, TranscriptionPayload, TranscriptionResource, TranscriptionSolution, TranscriptionStatus }

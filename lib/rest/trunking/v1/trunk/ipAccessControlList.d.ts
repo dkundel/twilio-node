@@ -298,4 +298,4 @@ declare class IpAccessControlListContext {
   remove(callback: (error: Error | null, items: IpAccessControlListInstance) => any): void;
 }
 
-export {IpAccessControlListPayload, IpAccessControlListPage, IpAccessControlListListEachOptions, IpAccessControlListListOptions, IpAccessControlListListPageOptions, IpAccessControlListListCreateOptions, IpAccessControlListSolution, IpAccessControlListContext, IpAccessControlListList, IpAccessControlListResource, IpAccessControlListInstance, IpAccessControlListListInstance}
+export { IpAccessControlListContext, IpAccessControlListInstance, IpAccessControlListList, IpAccessControlListListCreateOptions, IpAccessControlListListEachOptions, IpAccessControlListListInstance, IpAccessControlListListOptions, IpAccessControlListListPageOptions, IpAccessControlListPage, IpAccessControlListPayload, IpAccessControlListResource, IpAccessControlListSolution }

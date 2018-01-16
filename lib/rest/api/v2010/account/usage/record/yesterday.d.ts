@@ -303,4 +303,4 @@ declare class YesterdayInstance {
   usageUnit: string;
 }
 
-export {YesterdayListOptions, YesterdayInstance, YesterdayResource, YesterdayCategory, YesterdayPage, YesterdayListInstance, YesterdayPayload, YesterdaySolution, YesterdayListPageOptions, YesterdayList, YesterdayListEachOptions}
+export { YesterdayCategory, YesterdayInstance, YesterdayList, YesterdayListEachOptions, YesterdayListInstance, YesterdayListOptions, YesterdayListPageOptions, YesterdayPage, YesterdayPayload, YesterdayResource, YesterdaySolution }

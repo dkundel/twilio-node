@@ -308,4 +308,4 @@ declare class KeyContext {
   update(callback: (error: Error | null, items: KeyInstance) => any): void;
 }
 
-export {KeyInstance, KeyListOptions, KeyPage, KeyContext, KeyResource, KeySolution, KeyListPageOptions, KeyListInstance, KeyPayload, KeyList, KeyListEachOptions, KeyListFetchOptions}
+export { KeyContext, KeyInstance, KeyList, KeyListEachOptions, KeyListFetchOptions, KeyListInstance, KeyListOptions, KeyListPageOptions, KeyPage, KeyPayload, KeyResource, KeySolution }

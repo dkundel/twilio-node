@@ -239,4 +239,4 @@ declare class FeedbackContext {
   update(opts: FeedbackListFetchOptions, callback: (error: Error | null, items: FeedbackInstance) => any): void;
 }
 
-export {FeedbackInstance, FeedbackPage, FeedbackList, FeedbackListCreateOptions, FeedbackIssues, FeedbackResource, FeedbackListFetchOptions, FeedbackContext, FeedbackListInstance, FeedbackSolution, FeedbackPayload}
+export { FeedbackContext, FeedbackInstance, FeedbackIssues, FeedbackList, FeedbackListCreateOptions, FeedbackListFetchOptions, FeedbackListInstance, FeedbackPage, FeedbackPayload, FeedbackResource, FeedbackSolution }

@@ -502,4 +502,4 @@ declare class RoomContext {
   update(opts: RoomListFetchOptions, callback: (error: Error | null, items: RoomInstance) => any): void;
 }
 
-export {RoomInstance, RoomVideoCodec, RoomRoomStatus, RoomRoomType, RoomListFetchOptions, RoomListOptions, RoomContext, RoomResource, RoomPayload, RoomSolution, RoomListPageOptions, RoomListEachOptions, RoomListCreateOptions, RoomPage, RoomListInstance, RoomList}
+export { RoomContext, RoomInstance, RoomList, RoomListCreateOptions, RoomListEachOptions, RoomListFetchOptions, RoomListInstance, RoomListOptions, RoomListPageOptions, RoomPage, RoomPayload, RoomResource, RoomRoomStatus, RoomRoomType, RoomSolution, RoomVideoCodec }

@@ -471,4 +471,4 @@ declare class WorkflowContext {
   update(callback: (error: Error | null, items: WorkflowInstance) => any): void;
 }
 
-export {WorkflowListCreateOptions, WorkflowSolution, WorkflowListOptions, WorkflowListFetchOptions, WorkflowListInstance, WorkflowInstance, WorkflowResource, WorkflowPage, WorkflowContext, WorkflowPayload, WorkflowListEachOptions, WorkflowList, WorkflowListPageOptions}
+export { WorkflowContext, WorkflowInstance, WorkflowList, WorkflowListCreateOptions, WorkflowListEachOptions, WorkflowListFetchOptions, WorkflowListInstance, WorkflowListOptions, WorkflowListPageOptions, WorkflowPage, WorkflowPayload, WorkflowResource, WorkflowSolution }

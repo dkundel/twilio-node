@@ -508,4 +508,4 @@ declare class TriggerContext {
   update(callback: (error: Error | null, items: TriggerInstance) => any): void;
 }
 
-export {TriggerRecurring, TriggerListCreateOptions, TriggerResource, TriggerListOptions, TriggerUsageCategory, TriggerListInstance, TriggerPage, TriggerTriggerField, TriggerSolution, TriggerListFetchOptions, TriggerContext, TriggerList, TriggerListEachOptions, TriggerInstance, TriggerPayload, TriggerListPageOptions}
+export { TriggerContext, TriggerInstance, TriggerList, TriggerListCreateOptions, TriggerListEachOptions, TriggerListFetchOptions, TriggerListInstance, TriggerListOptions, TriggerListPageOptions, TriggerPage, TriggerPayload, TriggerRecurring, TriggerResource, TriggerSolution, TriggerTriggerField, TriggerUsageCategory }

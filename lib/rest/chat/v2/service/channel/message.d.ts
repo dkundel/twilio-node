@@ -504,4 +504,4 @@ declare class MessageContext {
   update(callback: (error: Error | null, items: MessageInstance) => any): void;
 }
 
-export {MessagePage, MessageContext, MessageOrderType, MessageListCreateOptions, MessagePayload, MessageListEachOptions, MessageResource, MessageListOptions, MessageList, MessageInstance, MessageListPageOptions, MessageListFetchOptions, MessageSolution, MessageListInstance}
+export { MessageContext, MessageInstance, MessageList, MessageListCreateOptions, MessageListEachOptions, MessageListFetchOptions, MessageListInstance, MessageListOptions, MessageListPageOptions, MessageOrderType, MessagePage, MessagePayload, MessageResource, MessageSolution }

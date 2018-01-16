@@ -346,4 +346,4 @@ declare class DocumentPermissionContext {
   update(opts: DocumentPermissionListFetchOptions, callback: (error: Error | null, items: DocumentPermissionInstance) => any): void;
 }
 
-export {DocumentPermissionList, DocumentPermissionListPageOptions, DocumentPermissionPayload, DocumentPermissionPage, DocumentPermissionSolution, DocumentPermissionListEachOptions, DocumentPermissionContext, DocumentPermissionInstance, DocumentPermissionListInstance, DocumentPermissionResource, DocumentPermissionListFetchOptions, DocumentPermissionListOptions}
+export { DocumentPermissionContext, DocumentPermissionInstance, DocumentPermissionList, DocumentPermissionListEachOptions, DocumentPermissionListFetchOptions, DocumentPermissionListInstance, DocumentPermissionListOptions, DocumentPermissionListPageOptions, DocumentPermissionPage, DocumentPermissionPayload, DocumentPermissionResource, DocumentPermissionSolution }

@@ -203,4 +203,4 @@ declare class WorkersStatisticsContext {
   fetch(callback: (error: Error | null, items: WorkersStatisticsInstance) => any): void;
 }
 
-export {WorkersStatisticsListInstance, WorkersStatisticsSolution, WorkersStatisticsResource, WorkersStatisticsContext, WorkersStatisticsInstance, WorkersStatisticsListFetchOptions, WorkersStatisticsPayload, WorkersStatisticsPage, WorkersStatisticsList}
+export { WorkersStatisticsContext, WorkersStatisticsInstance, WorkersStatisticsList, WorkersStatisticsListFetchOptions, WorkersStatisticsListInstance, WorkersStatisticsPage, WorkersStatisticsPayload, WorkersStatisticsResource, WorkersStatisticsSolution }

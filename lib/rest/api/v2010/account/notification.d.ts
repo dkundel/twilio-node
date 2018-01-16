@@ -380,4 +380,4 @@ declare class NotificationContext {
   remove(callback: (error: Error | null, items: NotificationInstance) => any): void;
 }
 
-export {NotificationContext, NotificationInstance, NotificationList, NotificationListInstance, NotificationSolution, NotificationPage, NotificationListOptions, NotificationResource, NotificationListEachOptions, NotificationPayload, NotificationListPageOptions}
+export { NotificationContext, NotificationInstance, NotificationList, NotificationListEachOptions, NotificationListInstance, NotificationListOptions, NotificationListPageOptions, NotificationPage, NotificationPayload, NotificationResource, NotificationSolution }

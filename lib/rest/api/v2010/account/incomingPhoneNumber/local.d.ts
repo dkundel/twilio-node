@@ -517,4 +517,4 @@ declare class LocalInstance {
   voiceUrl: string;
 }
 
-export {LocalInstance, LocalListEachOptions, LocalList, LocalAddressRequirement, LocalSolution, LocalListOptions, LocalListCreateOptions, LocalListPageOptions, LocalPage, LocalResource, LocalPayload, LocalListInstance}
+export { LocalAddressRequirement, LocalInstance, LocalList, LocalListCreateOptions, LocalListEachOptions, LocalListInstance, LocalListOptions, LocalListPageOptions, LocalPage, LocalPayload, LocalResource, LocalSolution }

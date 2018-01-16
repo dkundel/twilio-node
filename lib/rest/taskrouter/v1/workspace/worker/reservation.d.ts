@@ -744,4 +744,4 @@ declare class ReservationContext {
   update(callback: (error: Error | null, items: ReservationInstance) => any): void;
 }
 
-export {ReservationCallStatus, ReservationPayload, ReservationListOptions, ReservationSolution, ReservationListFetchOptions, ReservationPage, ReservationStatus, ReservationResource, ReservationListPageOptions, ReservationConferenceEvent, ReservationInstance, ReservationListInstance, ReservationList, ReservationListEachOptions, ReservationContext}
+export { ReservationCallStatus, ReservationConferenceEvent, ReservationContext, ReservationInstance, ReservationList, ReservationListEachOptions, ReservationListFetchOptions, ReservationListInstance, ReservationListOptions, ReservationListPageOptions, ReservationPage, ReservationPayload, ReservationResource, ReservationSolution, ReservationStatus }

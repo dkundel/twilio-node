@@ -113,4 +113,4 @@ declare class NewKeyInstance {
   sid: string;
 }
 
-export {NewKeyPayload, NewKeyResource, NewKeyPage, NewKeyList, NewKeySolution, NewKeyListInstance, NewKeyInstance, NewKeyListCreateOptions}
+export { NewKeyInstance, NewKeyList, NewKeyListCreateOptions, NewKeyListInstance, NewKeyPage, NewKeyPayload, NewKeyResource, NewKeySolution }

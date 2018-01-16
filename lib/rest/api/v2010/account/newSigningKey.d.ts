@@ -113,4 +113,4 @@ declare class NewSigningKeyInstance {
   sid: string;
 }
 
-export {NewSigningKeyResource, NewSigningKeyListCreateOptions, NewSigningKeySolution, NewSigningKeyListInstance, NewSigningKeyInstance, NewSigningKeyList, NewSigningKeyPayload, NewSigningKeyPage}
+export { NewSigningKeyInstance, NewSigningKeyList, NewSigningKeyListCreateOptions, NewSigningKeyListInstance, NewSigningKeyPage, NewSigningKeyPayload, NewSigningKeyResource, NewSigningKeySolution }

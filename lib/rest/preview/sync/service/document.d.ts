@@ -387,4 +387,4 @@ declare class DocumentContext {
   update(opts: DocumentListFetchOptions, callback: (error: Error | null, items: DocumentInstance) => any): void;
 }
 
-export {DocumentPage, DocumentListFetchOptions, DocumentPayload, DocumentContext, DocumentResource, DocumentListPageOptions, DocumentListEachOptions, DocumentListOptions, DocumentListInstance, DocumentSolution, DocumentListCreateOptions, DocumentList, DocumentInstance}
+export { DocumentContext, DocumentInstance, DocumentList, DocumentListCreateOptions, DocumentListEachOptions, DocumentListFetchOptions, DocumentListInstance, DocumentListOptions, DocumentListPageOptions, DocumentPage, DocumentPayload, DocumentResource, DocumentSolution }

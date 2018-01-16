@@ -468,4 +468,4 @@ declare class SessionContext {
   update(callback: (error: Error | null, items: SessionInstance) => any): void;
 }
 
-export {SessionPage, SessionListCreateOptions, SessionStatus, SessionPayload, SessionSolution, SessionListOptions, SessionList, SessionResource, SessionContext, SessionListPageOptions, SessionListEachOptions, SessionInstance, SessionListFetchOptions, SessionListInstance}
+export { SessionContext, SessionInstance, SessionList, SessionListCreateOptions, SessionListEachOptions, SessionListFetchOptions, SessionListInstance, SessionListOptions, SessionListPageOptions, SessionPage, SessionPayload, SessionResource, SessionSolution, SessionStatus }

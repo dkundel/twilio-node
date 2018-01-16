@@ -124,4 +124,4 @@ declare class FeedbackInstance {
   uri: string;
 }
 
-export {FeedbackInstance, FeedbackPage, FeedbackList, FeedbackListCreateOptions, FeedbackResource, FeedbackListInstance, FeedbackOutcome, FeedbackSolution, FeedbackPayload}
+export { FeedbackInstance, FeedbackList, FeedbackListCreateOptions, FeedbackListInstance, FeedbackOutcome, FeedbackPage, FeedbackPayload, FeedbackResource, FeedbackSolution }

@@ -317,4 +317,4 @@ declare class TaskQueueCumulativeStatisticsContext {
   fetch(callback: (error: Error | null, items: TaskQueueCumulativeStatisticsInstance) => any): void;
 }
 
-export {TaskQueueCumulativeStatisticsList, TaskQueueCumulativeStatisticsSolution, TaskQueueCumulativeStatisticsListFetchOptions, TaskQueueCumulativeStatisticsListInstance, TaskQueueCumulativeStatisticsContext, TaskQueueCumulativeStatisticsPage, TaskQueueCumulativeStatisticsInstance, TaskQueueCumulativeStatisticsResource, TaskQueueCumulativeStatisticsPayload}
+export { TaskQueueCumulativeStatisticsContext, TaskQueueCumulativeStatisticsInstance, TaskQueueCumulativeStatisticsList, TaskQueueCumulativeStatisticsListFetchOptions, TaskQueueCumulativeStatisticsListInstance, TaskQueueCumulativeStatisticsPage, TaskQueueCumulativeStatisticsPayload, TaskQueueCumulativeStatisticsResource, TaskQueueCumulativeStatisticsSolution }

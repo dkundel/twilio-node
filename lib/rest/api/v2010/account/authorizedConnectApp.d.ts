@@ -278,4 +278,4 @@ declare class AuthorizedConnectAppContext {
   fetch(callback: (error: Error | null, items: AuthorizedConnectAppInstance) => any): void;
 }
 
-export {AuthorizedConnectAppContext, AuthorizedConnectAppListInstance, AuthorizedConnectAppPage, AuthorizedConnectAppListPageOptions, AuthorizedConnectAppListOptions, AuthorizedConnectAppList, AuthorizedConnectAppPayload, AuthorizedConnectAppSolution, AuthorizedConnectAppPermission, AuthorizedConnectAppInstance, AuthorizedConnectAppListEachOptions, AuthorizedConnectAppResource}
+export { AuthorizedConnectAppContext, AuthorizedConnectAppInstance, AuthorizedConnectAppList, AuthorizedConnectAppListEachOptions, AuthorizedConnectAppListInstance, AuthorizedConnectAppListOptions, AuthorizedConnectAppListPageOptions, AuthorizedConnectAppPage, AuthorizedConnectAppPayload, AuthorizedConnectAppPermission, AuthorizedConnectAppResource, AuthorizedConnectAppSolution }

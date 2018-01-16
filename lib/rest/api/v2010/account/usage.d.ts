@@ -22,4 +22,4 @@ interface UsageSolution {
 interface UsageListInstance {
 }
 
-export {UsagePayload, UsageList, UsageResource, UsageListInstance, UsageSolution}
+export { UsageList, UsageListInstance, UsagePayload, UsageResource, UsageSolution }

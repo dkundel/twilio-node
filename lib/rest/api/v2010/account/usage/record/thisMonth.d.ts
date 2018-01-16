@@ -303,4 +303,4 @@ declare class ThisMonthInstance {
   usageUnit: string;
 }
 
-export {ThisMonthInstance, ThisMonthListOptions, ThisMonthListPageOptions, ThisMonthListInstance, ThisMonthListEachOptions, ThisMonthList, ThisMonthPayload, ThisMonthCategory, ThisMonthSolution, ThisMonthResource, ThisMonthPage}
+export { ThisMonthCategory, ThisMonthInstance, ThisMonthList, ThisMonthListEachOptions, ThisMonthListInstance, ThisMonthListOptions, ThisMonthListPageOptions, ThisMonthPage, ThisMonthPayload, ThisMonthResource, ThisMonthSolution }

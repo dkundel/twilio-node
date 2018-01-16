@@ -624,4 +624,4 @@ declare class HostedNumberOrderContext {
   update(callback: (error: Error | null, items: HostedNumberOrderInstance) => any): void;
 }
 
-export {HostedNumberOrderResource, HostedNumberOrderContext, HostedNumberOrderListInstance, HostedNumberOrderPage, HostedNumberOrderListEachOptions, HostedNumberOrderListPageOptions, HostedNumberOrderList, HostedNumberOrderInstance, HostedNumberOrderStatus, HostedNumberOrderSolution, HostedNumberOrderListOptions, HostedNumberOrderPayload, HostedNumberOrderListFetchOptions, HostedNumberOrderListCreateOptions, HostedNumberOrderVerificationType}
+export { HostedNumberOrderContext, HostedNumberOrderInstance, HostedNumberOrderList, HostedNumberOrderListCreateOptions, HostedNumberOrderListEachOptions, HostedNumberOrderListFetchOptions, HostedNumberOrderListInstance, HostedNumberOrderListOptions, HostedNumberOrderListPageOptions, HostedNumberOrderPage, HostedNumberOrderPayload, HostedNumberOrderResource, HostedNumberOrderSolution, HostedNumberOrderStatus, HostedNumberOrderVerificationType }

@@ -334,4 +334,4 @@ declare class SyncMapContext {
   syncMapPermissions: SyncMapPermissionListInstance;
 }
 
-export {SyncMapListEachOptions, SyncMapList, SyncMapListCreateOptions, SyncMapPage, SyncMapInstance, SyncMapListPageOptions, SyncMapSolution, SyncMapListOptions, SyncMapPayload, SyncMapResource, SyncMapListInstance, SyncMapContext}
+export { SyncMapContext, SyncMapInstance, SyncMapList, SyncMapListCreateOptions, SyncMapListEachOptions, SyncMapListInstance, SyncMapListOptions, SyncMapListPageOptions, SyncMapPage, SyncMapPayload, SyncMapResource, SyncMapSolution }

@@ -264,4 +264,4 @@ declare class FeedbackSummaryContext {
   remove(callback: (error: Error | null, items: FeedbackSummaryInstance) => any): void;
 }
 
-export {FeedbackSummarySolution, FeedbackSummaryListInstance, FeedbackSummaryPayload, FeedbackSummaryPage, FeedbackSummaryResource, FeedbackSummaryInstance, FeedbackSummaryContext, FeedbackSummaryList, FeedbackSummaryStatus, FeedbackSummaryListCreateOptions}
+export { FeedbackSummaryContext, FeedbackSummaryInstance, FeedbackSummaryList, FeedbackSummaryListCreateOptions, FeedbackSummaryListInstance, FeedbackSummaryPage, FeedbackSummaryPayload, FeedbackSummaryResource, FeedbackSummarySolution, FeedbackSummaryStatus }

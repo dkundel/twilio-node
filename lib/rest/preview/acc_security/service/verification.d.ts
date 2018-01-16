@@ -149,4 +149,4 @@ declare class VerificationInstance {
   valid: boolean;
 }
 
-export {VerificationPage, VerificationPayload, VerificationList, VerificationChannel, VerificationSolution, VerificationInstance, VerificationResource, VerificationListInstance, VerificationListCreateOptions}
+export { VerificationChannel, VerificationInstance, VerificationList, VerificationListCreateOptions, VerificationListInstance, VerificationPage, VerificationPayload, VerificationResource, VerificationSolution }

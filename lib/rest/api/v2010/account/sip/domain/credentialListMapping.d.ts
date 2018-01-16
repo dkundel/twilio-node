@@ -300,4 +300,4 @@ declare class CredentialListMappingContext {
   remove(callback: (error: Error | null, items: CredentialListMappingInstance) => any): void;
 }
 
-export {CredentialListMappingListPageOptions, CredentialListMappingSolution, CredentialListMappingInstance, CredentialListMappingPayload, CredentialListMappingPage, CredentialListMappingListInstance, CredentialListMappingListEachOptions, CredentialListMappingListCreateOptions, CredentialListMappingListOptions, CredentialListMappingList, CredentialListMappingResource, CredentialListMappingContext}
+export { CredentialListMappingContext, CredentialListMappingInstance, CredentialListMappingList, CredentialListMappingListCreateOptions, CredentialListMappingListEachOptions, CredentialListMappingListInstance, CredentialListMappingListOptions, CredentialListMappingListPageOptions, CredentialListMappingPage, CredentialListMappingPayload, CredentialListMappingResource, CredentialListMappingSolution }

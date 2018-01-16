@@ -68,4 +68,4 @@ declare class VoiceInstance {
   url: string;
 }
 
-export {VoiceList, VoicePayload, VoicePage, VoiceInstance, VoiceSolution, VoiceListInstance, VoiceResource}
+export { VoiceInstance, VoiceList, VoiceListInstance, VoicePage, VoicePayload, VoiceResource, VoiceSolution }

@@ -348,4 +348,4 @@ declare class UserContext {
   segmentMemberships: SegmentMembershipListInstance;
 }
 
-export {UserResource, UserInstance, UserList, UserPage, UserListCreateOptions, UserPayload, UserListInstance, UserListPageOptions, UserListEachOptions, UserSolution, UserListOptions, UserContext}
+export { UserContext, UserInstance, UserList, UserListCreateOptions, UserListEachOptions, UserListInstance, UserListOptions, UserListPageOptions, UserPage, UserPayload, UserResource, UserSolution }
