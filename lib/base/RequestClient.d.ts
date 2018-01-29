@@ -48,6 +48,10 @@ declare namespace RequestClient {
      * Should the client follow redirects
      */
     allowRedirects?: boolean;
+    /**
+     * Set to true to use the forever-agent
+     */
+    forever?: boolean;
   }
 
   export interface Headers {
