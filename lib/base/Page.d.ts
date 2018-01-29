@@ -87,16 +87,16 @@ declare class Page<TVersion extends Version, TPayload extends Page.TwilioRespons
 
 declare namespace Page {
   export interface TwilioResponsePayload {
-    // end: any;
+    // DEPRECTATED: end: any;
     first_page_uri: string;
-    // last_page_uri: string;
+    // DEPRECTATED: last_page_uri: string;
     next_page_uri: string;
-    // num_pages: number;
+    // DEPRECTATED: num_pages: number;
     page: number;
     page_size: number;
     previous_page_uri: string;
-    // start: number;
-    // total: number;
+    // DEPRECTATED: start: number;
+    // DEPRECTATED: total: number;
     uri: string;
     meta?: {
       key?: string;
