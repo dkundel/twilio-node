@@ -57,11 +57,7 @@ export function validateRequest(
   twilioHeader: string,
   url: string,
   params: object
-<<<<<<< HEAD
 ): boolean;
-=======
-);
->>>>>>> Initial typescript definitions
 
 /**
  * Utility function to validate an incoming request is indeed from Twilio (for use with express).
@@ -74,13 +70,8 @@ export function validateRequest(
 export function validateExpressRequest(
   request: Request,
   authToken: string,
-<<<<<<< HEAD
   opts?: RequestValidatorOptions
 ): boolean;
-=======
-  opts
-);
->>>>>>> Initial typescript definitions
 
 /**
  * Express middleware to accompany a Twilio webhook. Provides Twilio

@@ -4,18 +4,10 @@
  *  | (_)\/(_)(_|\/| |(/_  v1.0.0
  *       /       /
  */
-<<<<<<< HEAD
 
 import Version = require('../../base/Version');
 import { CredentialListInstance } from './v2/credential';
 import { ServiceListInstance } from './v2/service';
-=======
-/// <reference types="node" />
-
-import Version = require('../../base/Version');
-import { CredentialList } from './v2/credential';
-import { ServiceList } from './v2/service';
->>>>>>> Initial typescript definitions
 
 
 /**
@@ -29,13 +21,8 @@ declare class V2 extends Version {
    */
   constructor(domain: any);
 
-<<<<<<< HEAD
   readonly credentials: CredentialListInstance;
   readonly services: ServiceListInstance;
-=======
-  readonly credentials: CredentialList;
-  readonly services: ServiceList;
->>>>>>> Initial typescript definitions
 }
 
 export = V2;
