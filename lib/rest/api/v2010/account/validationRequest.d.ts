@@ -104,7 +104,6 @@ declare class ValidationRequestInstance {
    */
   constructor(version: V2010, payload: ValidationRequestPayload);
 
-  private _proxy: ValidationRequestContext;
   /**
    * The account_sid
    */

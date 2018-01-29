@@ -402,7 +402,6 @@ declare class MobileInstance {
    */
   constructor(version: V2010, payload: MobilePayload);
 
-  private _proxy: MobileContext;
   /**
    * The account_sid
    */

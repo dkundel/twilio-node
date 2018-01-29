@@ -244,7 +244,6 @@ declare class AllTimeInstance {
    */
   constructor(version: V2010, payload: AllTimePayload);
 
-  private _proxy: AllTimeContext;
   /**
    * The account_sid
    */

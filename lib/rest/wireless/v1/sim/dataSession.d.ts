@@ -234,7 +234,6 @@ declare class DataSessionInstance {
    */
   constructor(version: V1, payload: DataSessionPayload);
 
-  private _proxy: DataSessionContext;
   /**
    * The account_sid
    */

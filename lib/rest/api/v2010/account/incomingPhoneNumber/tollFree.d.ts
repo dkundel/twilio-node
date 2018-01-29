@@ -402,7 +402,6 @@ declare class TollFreeInstance {
    */
   constructor(version: V2010, payload: TollFreePayload);
 
-  private _proxy: TollFreeContext;
   /**
    * The account_sid
    */

@@ -98,7 +98,6 @@ declare class TokenInstance {
    */
   constructor(version: V2010, payload: TokenPayload);
 
-  private _proxy: TokenContext;
   /**
    * The unique id of the Account that created this Token.
    */

@@ -1,5 +1,5 @@
 import { HttpMethod } from '../interfaces';
-import * as Response from '../http/response';
+import Response = require('../http/response');
 
 declare class RequestClient {
   constructor();
@@ -7,7 +7,7 @@ declare class RequestClient {
    * Make an HTTP request
    * @param opts The request options
    */
-  request(opts: RequestClientOptions<TData>): Promise<Response<TData>>
+  request<TData>(opts: RequestClient.RequestOptions<TData>): Promise<Response<TData>>;
 }
 
 declare namespace RequestClient {

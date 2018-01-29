@@ -90,7 +90,6 @@ declare class NewSigningKeyInstance {
    */
   constructor(version: V2010, payload: NewSigningKeyPayload);
 
-  private _proxy: NewSigningKeyContext;
   /**
    * The date_created
    */

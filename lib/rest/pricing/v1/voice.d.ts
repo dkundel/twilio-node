@@ -53,7 +53,6 @@ declare class VoiceInstance {
    */
   constructor(version: V1, payload: VoicePayload);
 
-  private _proxy: VoiceContext;
   /**
    * The links
    */

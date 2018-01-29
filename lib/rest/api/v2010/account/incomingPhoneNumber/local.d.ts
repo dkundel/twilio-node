@@ -402,7 +402,6 @@ declare class LocalInstance {
    */
   constructor(version: V2010, payload: LocalPayload);
 
-  private _proxy: LocalContext;
   /**
    * The account_sid
    */

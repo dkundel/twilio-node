@@ -174,7 +174,6 @@ declare class SegmentInstance {
    */
   constructor(version: V1, payload: SegmentPayload);
 
-  private _proxy: SegmentContext;
   /**
    * The account_sid
    */

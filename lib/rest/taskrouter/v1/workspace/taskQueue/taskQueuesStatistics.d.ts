@@ -242,7 +242,6 @@ declare class TaskQueuesStatisticsInstance {
    */
   constructor(version: V1, payload: TaskQueuesStatisticsPayload);
 
-  private _proxy: TaskQueuesStatisticsContext;
   /**
    * The account_sid
    */

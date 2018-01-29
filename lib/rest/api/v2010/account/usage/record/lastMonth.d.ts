@@ -244,7 +244,6 @@ declare class LastMonthInstance {
    */
   constructor(version: V2010, payload: LastMonthPayload);
 
-  private _proxy: LastMonthContext;
   /**
    * The account_sid
    */

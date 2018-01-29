@@ -24,7 +24,7 @@ declare class Page<TVersion extends Version, TPayload extends Page.TwilioRespons
    * @return url of the previous page
    */
   getPreviousPageUrl(): string;
-  /**
+  /**w
    * Get the url of the next page of records
    *
    * @return url of the next page
@@ -87,16 +87,16 @@ declare class Page<TVersion extends Version, TPayload extends Page.TwilioRespons
 
 declare namespace Page {
   export interface TwilioResponsePayload {
-    end: any;
+    // end: any;
     first_page_uri: string;
-    last_page_uri: string;
+    // last_page_uri: string;
     next_page_uri: string;
-    num_pages: number;
+    // num_pages: number;
     page: number;
     page_size: number;
     previous_page_uri: string;
-    start: number;
-    total: number;
+    // start: number;
+    // total: number;
     uri: string;
     meta?: {
       key?: string;

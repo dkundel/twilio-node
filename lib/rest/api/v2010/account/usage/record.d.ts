@@ -244,7 +244,6 @@ declare class RecordInstance {
    */
   constructor(version: V2010, payload: RecordPayload);
 
-  private _proxy: RecordContext;
   /**
    * The Account that accrued the usage
    */

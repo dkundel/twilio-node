@@ -53,7 +53,6 @@ declare class MessagingInstance {
    */
   constructor(version: V1, payload: MessagingPayload);
 
-  private _proxy: MessagingContext;
   /**
    * The links
    */

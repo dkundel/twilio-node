@@ -185,7 +185,6 @@ declare class UserChannelInstance {
    */
   constructor(version: V1, payload: UserChannelPayload);
 
-  private _proxy: UserChannelContext;
   /**
    * The account_sid
    */

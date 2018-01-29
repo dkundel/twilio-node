@@ -22,13 +22,15 @@ declare namespace ClientCapability {
   }
 
   export class EventStreamScope implements Scope {
-    constructor(public filters: object = {});
+    constructor(filters: object);
+    filters: object;
     scope: 'scope:stream:subscribe';
     payload(): string;
   }
 
   export class IncomingClientScope implements Scope {
-    constructor(public clientName: string);
+    constructor(clientName: string);
+    clientName: string
     scope: 'scope:client:incoming';
     payload(): string;
   }

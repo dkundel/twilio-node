@@ -166,7 +166,6 @@ declare class DayInstance {
    */
   constructor(version: BulkExports, payload: DayPayload);
 
-  private _proxy: DayContext;
   /**
    * The day
    */

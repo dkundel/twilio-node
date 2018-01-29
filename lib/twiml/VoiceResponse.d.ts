@@ -123,39 +123,39 @@ declare class VoiceResponse {
 
 declare namespace VoiceResponse {
 
-  type NumberEvent = 'initiated'|'ringing'|'answered'|'completed';
-
-  type DialTrim = 'trim-silence'|'do-not-trim';
-
-  type RecordTrim = 'trim-silence'|'do-not-trim';
-
-  type RejectReason = 'rejected'|'busy';
-
-  type SayVoice = 'man'|'woman'|'alice';
+  type ConferenceRecord = 'do-not-record'|'record-from-start';
 
   type ClientEvent = 'initiated'|'ringing'|'answered'|'completed';
 
-  type DialRingTone = 'at'|'au'|'bg'|'br'|'be'|'ch'|'cl'|'cn'|'cz'|'de'|'dk'|'ee'|'es'|'fi'|'fr'|'gr'|'hu'|'il'|'in'|'it'|'lt'|'jp'|'mx'|'my'|'nl'|'no'|'nz'|'ph'|'pl'|'pt'|'ru'|'se'|'sg'|'th'|'uk'|'us'|'us-old'|'tw'|'ve'|'za';
+  type SipEvent = 'initiated'|'ringing'|'answered'|'completed';
 
-  type ConferenceRecord = 'do-not-record'|'record-from-start';
+  type GatherInput = 'dtmf'|'speech'|'dtmf_speech';
+
+  type RejectReason = 'rejected'|'busy';
+
+  type DialTrim = 'trim-silence'|'do-not-trim';
 
   type ConferenceRegion = 'us1'|'ie1'|'sg1'|'br1'|'au1'|'jp1';
 
-  type ConferenceEvent = 'start'|'end'|'join'|'leave'|'mute'|'hold'|'speaker';
-
-  type ConferenceRecordingEvent = 'started'|'stopped'|'paused'|'resumed'|'completed'|'failed';
-
-  type SipEvent = 'initiated'|'ringing'|'answered'|'completed';
-
-  type ConferenceBeep = 'true'|'false'|'onEnter'|'onExit';
-
-  type GatherInput = 'dtmf'|'speech'|'dtmf speech';
+  type GatherLanguage = 'af-ZA'|'id-ID'|'ms-MY'|'ca-ES'|'cs-CZ'|'da-DK'|'de-DE'|'en-AU'|'en-CA'|'en-GB'|'en-IN'|'en-IE'|'en-NZ'|'en-PH'|'en-ZA'|'en-US'|'es-AR'|'es-BO'|'es-CL'|'es-CO'|'es-CR'|'es-EC'|'es-SV'|'es-ES'|'es-US'|'es-GT'|'es-HN'|'es-MX'|'es-NI'|'es-PA'|'es-PY'|'es-PE'|'es-PR'|'es-DO'|'es-UY'|'es-VE'|'eu-ES'|'il-PH'|'fr-CA'|'fr-FR'|'gl-ES'|'hr-HR'|'zu-ZA'|'is-IS'|'it-IT'|'lt-LT'|'hu-HU'|'nl-NL'|'nb-NO'|'pl-PL'|'pt-BR'|'pt-PT'|'ro-RO'|'sk-SK'|'sl-SI'|'fi-FI'|'sv-SE'|'vi-VN'|'tr-TR'|'el-GR'|'bg-BG'|'ru-RU'|'sr-RS'|'uk-UA'|'he-IL'|'ar-IL'|'ar-JO'|'ar-AE'|'ar-BH'|'ar-DZ'|'ar-SA'|'ar-IQ'|'ar-KW'|'ar-MA'|'ar-TN'|'ar-OM'|'ar-PS'|'ar-QA'|'ar-LB'|'ar-EG'|'fa-IR'|'hi-IN'|'th-TH'|'ko-KR'|'cmn-Hant-TW'|'yue-Hant-HK'|'ja-JP'|'cmn-Hans-HK'|'cmn-Hans-CN';
 
   type SayLanguage = 'da-DK'|'de-DE'|'en-AU'|'en-CA'|'en-GB'|'en-IN'|'en-US'|'ca-ES'|'es-ES'|'es-MX'|'fi-FI'|'fr-CA'|'fr-FR'|'it-IT'|'ja-JP'|'ko-KR'|'nb-NO'|'nl-NL'|'pl-PL'|'pt-BR'|'pt-PT'|'ru-RU'|'sv-SE'|'zh-CN'|'zh-HK'|'zh-TW';
 
-  type GatherLanguage = 'af-ZA'|'id-ID'|'ms-MY'|'ca-ES'|'cs-CZ'|'da-DK'|'de-DE'|'en-AU'|'en-CA'|'en-GB'|'en-IN'|'en-IE'|'en-NZ'|'en-PH'|'en-ZA'|'en-US'|'es-AR'|'es-BO'|'es-CL'|'es-CO'|'es-CR'|'es-EC'|'es-SV'|'es-ES'|'es-US'|'es-GT'|'es-HN'|'es-MX'|'es-NI'|'es-PA'|'es-PY'|'es-PE'|'es-PR'|'es-DO'|'es-UY'|'es-VE'|'eu-ES'|'il-PH'|'fr-CA'|'fr-FR'|'gl-ES'|'hr-HR'|'zu-ZA'|'is-IS'|'it-IT'|'lt-LT'|'hu-HU'|'nl-NL'|'nb-NO'|'pl-PL'|'pt-BR'|'pt-PT'|'ro-RO'|'sk-SK'|'sl-SI'|'fi-FI'|'sv-SE'|'vi-VN'|'tr-TR'|'el-GR'|'bg-BG'|'ru-RU'|'sr-RS'|'uk-UA'|'he-IL'|'ar-IL'|'ar-JO'|'ar-AE'|'ar-BH'|'ar-DZ'|'ar-SA'|'ar-IQ'|'ar-KW'|'ar-MA'|'ar-TN'|'ar-OM'|'ar-PS'|'ar-QA'|'ar-LB'|'ar-EG'|'fa-IR'|'hi-IN'|'th-TH'|'ko-KR'|'cmn-Hant-TW'|'yue-Hant-HK'|'ja-JP'|'cmn-Hans-HK'|'cmn-Hans-CN';
+  type ConferenceBeep = 'true'|'false'|'onEnter'|'onExit';
+
+  type RecordTrim = 'trim-silence'|'do-not-trim';
+
+  type SayVoice = 'man'|'woman'|'alice';
 
   type ConferenceTrim = 'trim-silence'|'do-not-trim';
+
+  type ConferenceRecordingEvent = 'started'|'stopped'|'paused'|'resumed'|'completed'|'failed';
+
+  type ConferenceEvent = 'start'|'end'|'join'|'leave'|'mute'|'hold'|'speaker';
+
+  type DialRingTone = 'at'|'au'|'bg'|'br'|'be'|'ch'|'cl'|'cn'|'cz'|'de'|'dk'|'ee'|'es'|'fi'|'fr'|'gr'|'hu'|'il'|'in'|'it'|'lt'|'jp'|'mx'|'my'|'nl'|'no'|'nz'|'ph'|'pl'|'pt'|'ru'|'se'|'sg'|'th'|'uk'|'us'|'us-old'|'tw'|'ve'|'za';
+
+  type NumberEvent = 'initiated'|'ringing'|'answered'|'completed';
 
   type DialRecordingEvent = 'in-progress'|'completed'|'failed';
 
@@ -172,7 +172,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Preserve the ringing behavior of the inbound call until the Dialed call picks up
      */
@@ -188,23 +188,23 @@ declare namespace VoiceResponse {
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Record the call
      */
-    record?: ConferenceTrim;
+    record?: DialTrim;
     /**
      * Recording status callback URL
      */
-    recordingStatusCallback?: Url;
+    recordingStatusCallback?: string;
     /**
      * Recording status callback events
      */
-    recordingStatusCallbackEvent?: ConferenceRecordingEvent;
+    recordingStatusCallbackEvent?: DialRecordingEvent;
     /**
      * Recording status callback URL method
      */
-    recordingStatusCallbackMethod?: HttpMethod;
+    recordingStatusCallbackMethod?: string;
     /**
      * Ringtone allows you to override the ringback tone that Twilio will play back to the caller while executing the Dial
      */
@@ -220,7 +220,7 @@ declare namespace VoiceResponse {
     /**
      * Trim the recording
      */
-    trim?: ConferenceTrim;
+    trim?: DialTrim;
   }
 
   /**
@@ -236,19 +236,19 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Wait URL
      */
-    waitUrl?: Url;
+    waitUrl?: string;
     /**
      * Wait URL method
      */
-    waitUrlMethod?: HttpMethod;
+    waitUrlMethod?: string;
     /**
      * TaskRouter Workflow SID
      */
@@ -262,7 +262,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Stop playing media upon speech
      */
@@ -282,7 +282,7 @@ declare namespace VoiceResponse {
     /**
      * Language to use
      */
-    language?: SayLanguage;
+    language?: GatherLanguage;
     /**
      * Max allowed time for speech input
      */
@@ -290,7 +290,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Number of digits to collect
      */
@@ -298,11 +298,11 @@ declare namespace VoiceResponse {
     /**
      * Partial result callback URL
      */
-    partialResultCallback?: Url;
+    partialResultCallback?: string;
     /**
      * Partial result callback URL method
      */
-    partialResultCallbackMethod?: HttpMethod;
+    partialResultCallbackMethod?: string;
     /**
      * Profanity Filter on speech
      */
@@ -360,7 +360,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * TaskRouter Activity SID
      */
@@ -372,7 +372,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    url?: Url;
+    url?: string;
   }
 
   /**
@@ -382,7 +382,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Finish recording on key
      */
@@ -394,7 +394,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Play beep
      */
@@ -402,11 +402,11 @@ declare namespace VoiceResponse {
     /**
      * Status callback URL
      */
-    recordingStatusCallback?: Url;
+    recordingStatusCallback?: string;
     /**
      * Status callback URL method
      */
-    recordingStatusCallbackMethod?: HttpMethod;
+    recordingStatusCallbackMethod?: string;
     /**
      * Timeout to begin recording
      */
@@ -418,11 +418,11 @@ declare namespace VoiceResponse {
     /**
      * Transcribe callback URL
      */
-    transcribeCallback?: Url;
+    transcribeCallback?: string;
     /**
      * Trim the recording
      */
-    trim?: ConferenceTrim;
+    trim?: RecordTrim;
   }
 
   /**
@@ -432,7 +432,7 @@ declare namespace VoiceResponse {
     /**
      * Redirect URL method
      */
-    method?: HttpMethod;
+    method?: string;
   }
 
   /**
@@ -470,23 +470,23 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Number to send message from
      */
-    from?: PhoneNumber;
+    from?: string;
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Status callback URL
      */
-    statusCallback?: Url;
+    statusCallback?: string;
     /**
      * Number to send message to
      */
-    to?: PhoneNumber;
+    to?: string;
   }
 
   /**
@@ -496,7 +496,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Preserve the ringing behavior of the inbound call until the Dialed call picks up
      */
@@ -512,23 +512,23 @@ declare namespace VoiceResponse {
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Record the call
      */
-    record?: ConferenceTrim;
+    record?: DialTrim;
     /**
      * Recording status callback URL
      */
-    recordingStatusCallback?: Url;
+    recordingStatusCallback?: string;
     /**
      * Recording status callback events
      */
-    recordingStatusCallbackEvent?: ConferenceRecordingEvent;
+    recordingStatusCallbackEvent?: DialRecordingEvent;
     /**
      * Recording status callback URL method
      */
-    recordingStatusCallbackMethod?: HttpMethod;
+    recordingStatusCallbackMethod?: string;
     /**
      * Ringtone allows you to override the ringback tone that Twilio will play back to the caller while executing the Dial
      */
@@ -544,7 +544,7 @@ declare namespace VoiceResponse {
     /**
      * Trim the recording
      */
-    trim?: ConferenceTrim;
+    trim?: DialTrim;
   }
 
   /**
@@ -560,19 +560,19 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Wait URL
      */
-    waitUrl?: Url;
+    waitUrl?: string;
     /**
      * Wait URL method
      */
-    waitUrlMethod?: HttpMethod;
+    waitUrlMethod?: string;
     /**
      * TaskRouter Workflow SID
      */
@@ -586,7 +586,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Stop playing media upon speech
      */
@@ -606,7 +606,7 @@ declare namespace VoiceResponse {
     /**
      * Language to use
      */
-    language?: SayLanguage;
+    language?: GatherLanguage;
     /**
      * Max allowed time for speech input
      */
@@ -614,7 +614,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Number of digits to collect
      */
@@ -622,11 +622,11 @@ declare namespace VoiceResponse {
     /**
      * Partial result callback URL
      */
-    partialResultCallback?: Url;
+    partialResultCallback?: string;
     /**
      * Partial result callback URL method
      */
-    partialResultCallbackMethod?: HttpMethod;
+    partialResultCallbackMethod?: string;
     /**
      * Profanity Filter on speech
      */
@@ -684,7 +684,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * TaskRouter Activity SID
      */
@@ -696,7 +696,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    url?: Url;
+    url?: string;
   }
 
   /**
@@ -706,7 +706,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Finish recording on key
      */
@@ -718,7 +718,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Play beep
      */
@@ -726,11 +726,11 @@ declare namespace VoiceResponse {
     /**
      * Status callback URL
      */
-    recordingStatusCallback?: Url;
+    recordingStatusCallback?: string;
     /**
      * Status callback URL method
      */
-    recordingStatusCallbackMethod?: HttpMethod;
+    recordingStatusCallbackMethod?: string;
     /**
      * Timeout to begin recording
      */
@@ -742,11 +742,11 @@ declare namespace VoiceResponse {
     /**
      * Transcribe callback URL
      */
-    transcribeCallback?: Url;
+    transcribeCallback?: string;
     /**
      * Trim the recording
      */
-    trim?: ConferenceTrim;
+    trim?: RecordTrim;
   }
 
   /**
@@ -756,7 +756,7 @@ declare namespace VoiceResponse {
     /**
      * Redirect URL method
      */
-    method?: HttpMethod;
+    method?: string;
   }
 
   /**
@@ -794,23 +794,23 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Number to send message from
      */
-    from?: PhoneNumber;
+    from?: string;
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Status callback URL
      */
-    statusCallback?: Url;
+    statusCallback?: string;
     /**
      * Number to send message to
      */
-    to?: PhoneNumber;
+    to?: string;
   }
 
   /**
@@ -820,23 +820,23 @@ declare namespace VoiceResponse {
     /**
      * Client URL Method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Status Callback URL
      */
-    statusCallback?: Url;
+    statusCallback?: string;
     /**
      * Events to trigger status callback
      */
-    statusCallbackEvent?: SipEvent;
+    statusCallbackEvent?: ClientEvent;
     /**
      * Status Callback URL Method
      */
-    statusCallbackMethod?: HttpMethod;
+    statusCallbackMethod?: string;
     /**
      * Client URL
      */
-    url?: Url;
+    url?: string;
   }
 
   /**
@@ -854,7 +854,7 @@ declare namespace VoiceResponse {
     /**
      * Event callback URL
      */
-    eventCallbackUrl?: Url;
+    eventCallbackUrl?: string;
     /**
      * Maximum number of participants
      */
@@ -870,7 +870,7 @@ declare namespace VoiceResponse {
     /**
      * Recording status callback URL
      */
-    recordingStatusCallback?: Url;
+    recordingStatusCallback?: string;
     /**
      * Recording status callback events
      */
@@ -878,7 +878,7 @@ declare namespace VoiceResponse {
     /**
      * Recording status callback URL method
      */
-    recordingStatusCallbackMethod?: HttpMethod;
+    recordingStatusCallbackMethod?: string;
     /**
      * Conference region
      */
@@ -890,15 +890,15 @@ declare namespace VoiceResponse {
     /**
      * Status callback URL
      */
-    statusCallback?: Url;
+    statusCallback?: string;
     /**
      * Events to call status callback URL
      */
-    statusCallbackEvent?: SipEvent;
+    statusCallbackEvent?: ConferenceEvent;
     /**
      * Status callback URL method
      */
-    statusCallbackMethod?: HttpMethod;
+    statusCallbackMethod?: string;
     /**
      * Trim the conference recording
      */
@@ -906,15 +906,15 @@ declare namespace VoiceResponse {
     /**
      * Wait URL method
      */
-    waitMethod?: HttpMethod;
+    waitMethod?: string;
     /**
      * Wait URL
      */
-    waitUrl?: Url;
+    waitUrl?: string;
     /**
      * Call whisper
      */
-    whisper?: Sid;
+    whisper?: string;
   }
 
   /**
@@ -924,7 +924,7 @@ declare namespace VoiceResponse {
     /**
      * TwiML URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * DTMF tones to play when the call is answered
      */
@@ -932,19 +932,19 @@ declare namespace VoiceResponse {
     /**
      * Status callback URL
      */
-    statusCallback?: Url;
+    statusCallback?: string;
     /**
      * Events to call status callback
      */
-    statusCallbackEvent?: SipEvent;
+    statusCallbackEvent?: NumberEvent;
     /**
      * Status callback URL method
      */
-    statusCallbackMethod?: HttpMethod;
+    statusCallbackMethod?: string;
     /**
      * TwiML URL
      */
-    url?: Url;
+    url?: string;
   }
 
   /**
@@ -954,7 +954,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * TaskRouter Activity SID
      */
@@ -966,7 +966,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    url?: Url;
+    url?: string;
   }
 
   /**
@@ -982,7 +982,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * SIP Password
      */
@@ -990,7 +990,7 @@ declare namespace VoiceResponse {
     /**
      * Status callback URL
      */
-    statusCallback?: Url;
+    statusCallback?: string;
     /**
      * Status callback events
      */
@@ -998,11 +998,11 @@ declare namespace VoiceResponse {
     /**
      * Status callback URL method
      */
-    statusCallbackMethod?: HttpMethod;
+    statusCallbackMethod?: string;
     /**
      * Action URL
      */
-    url?: Url;
+    url?: string;
     /**
      * SIP Username
      */
@@ -1064,23 +1064,23 @@ declare namespace VoiceResponse {
     /**
      * Client URL Method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Status Callback URL
      */
-    statusCallback?: Url;
+    statusCallback?: string;
     /**
      * Events to trigger status callback
      */
-    statusCallbackEvent?: SipEvent;
+    statusCallbackEvent?: ClientEvent;
     /**
      * Status Callback URL Method
      */
-    statusCallbackMethod?: HttpMethod;
+    statusCallbackMethod?: string;
     /**
      * Client URL
      */
-    url?: Url;
+    url?: string;
   }
 
   /**
@@ -1098,7 +1098,7 @@ declare namespace VoiceResponse {
     /**
      * Event callback URL
      */
-    eventCallbackUrl?: Url;
+    eventCallbackUrl?: string;
     /**
      * Maximum number of participants
      */
@@ -1114,7 +1114,7 @@ declare namespace VoiceResponse {
     /**
      * Recording status callback URL
      */
-    recordingStatusCallback?: Url;
+    recordingStatusCallback?: string;
     /**
      * Recording status callback events
      */
@@ -1122,7 +1122,7 @@ declare namespace VoiceResponse {
     /**
      * Recording status callback URL method
      */
-    recordingStatusCallbackMethod?: HttpMethod;
+    recordingStatusCallbackMethod?: string;
     /**
      * Conference region
      */
@@ -1134,15 +1134,15 @@ declare namespace VoiceResponse {
     /**
      * Status callback URL
      */
-    statusCallback?: Url;
+    statusCallback?: string;
     /**
      * Events to call status callback URL
      */
-    statusCallbackEvent?: SipEvent;
+    statusCallbackEvent?: ConferenceEvent;
     /**
      * Status callback URL method
      */
-    statusCallbackMethod?: HttpMethod;
+    statusCallbackMethod?: string;
     /**
      * Trim the conference recording
      */
@@ -1150,15 +1150,15 @@ declare namespace VoiceResponse {
     /**
      * Wait URL method
      */
-    waitMethod?: HttpMethod;
+    waitMethod?: string;
     /**
      * Wait URL
      */
-    waitUrl?: Url;
+    waitUrl?: string;
     /**
      * Call whisper
      */
-    whisper?: Sid;
+    whisper?: string;
   }
 
   /**
@@ -1168,7 +1168,7 @@ declare namespace VoiceResponse {
     /**
      * TwiML URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * DTMF tones to play when the call is answered
      */
@@ -1176,19 +1176,19 @@ declare namespace VoiceResponse {
     /**
      * Status callback URL
      */
-    statusCallback?: Url;
+    statusCallback?: string;
     /**
      * Events to call status callback
      */
-    statusCallbackEvent?: SipEvent;
+    statusCallbackEvent?: NumberEvent;
     /**
      * Status callback URL method
      */
-    statusCallbackMethod?: HttpMethod;
+    statusCallbackMethod?: string;
     /**
      * TwiML URL
      */
-    url?: Url;
+    url?: string;
   }
 
   /**
@@ -1198,7 +1198,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * TaskRouter Activity SID
      */
@@ -1210,7 +1210,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL
      */
-    url?: Url;
+    url?: string;
   }
 
   /**
@@ -1226,7 +1226,7 @@ declare namespace VoiceResponse {
     /**
      * Action URL method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * SIP Password
      */
@@ -1234,7 +1234,7 @@ declare namespace VoiceResponse {
     /**
      * Status callback URL
      */
-    statusCallback?: Url;
+    statusCallback?: string;
     /**
      * Status callback events
      */
@@ -1242,11 +1242,11 @@ declare namespace VoiceResponse {
     /**
      * Status callback URL method
      */
-    statusCallbackMethod?: HttpMethod;
+    statusCallbackMethod?: string;
     /**
      * Action URL
      */
-    url?: Url;
+    url?: string;
     /**
      * SIP Username
      */

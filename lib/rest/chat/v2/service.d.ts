@@ -282,70 +282,48 @@ interface ServiceListFetchOptions {
    * The friendly_name
    */
   friendlyName?: string;
-  /**
-   * The limits.channel_members
-   */
-  limits.channelMembers?: number;
-  /**
-   * The limits.user_channels
-   */
-  limits.userChannels?: number;
-  /**
-   * The media.compatibility_message
-   */
-  media.compatibilityMessage?: string;
-  /**
-   * The notifications.added_to_channel.enabled
-   */
-  notifications.addedToChannel.enabled?: boolean;
-  /**
-   * The notifications.added_to_channel.sound
-   */
-  notifications.addedToChannel.sound?: string;
-  /**
-   * The notifications.added_to_channel.template
-   */
-  notifications.addedToChannel.template?: string;
-  /**
-   * The notifications.invited_to_channel.enabled
-   */
-  notifications.invitedToChannel.enabled?: boolean;
-  /**
-   * The notifications.invited_to_channel.sound
-   */
-  notifications.invitedToChannel.sound?: string;
-  /**
-   * The notifications.invited_to_channel.template
-   */
-  notifications.invitedToChannel.template?: string;
-  /**
-   * The notifications.new_message.badge_count_enabled
-   */
-  notifications.newMessage.badgeCountEnabled?: boolean;
-  /**
-   * The notifications.new_message.enabled
-   */
-  notifications.newMessage.enabled?: boolean;
-  /**
-   * The notifications.new_message.sound
-   */
-  notifications.newMessage.sound?: string;
-  /**
-   * The notifications.new_message.template
-   */
-  notifications.newMessage.template?: string;
-  /**
-   * The notifications.removed_from_channel.enabled
-   */
-  notifications.removedFromChannel.enabled?: boolean;
-  /**
-   * The notifications.removed_from_channel.sound
-   */
-  notifications.removedFromChannel.sound?: string;
-  /**
-   * The notifications.removed_from_channel.template
-   */
-  notifications.removedFromChannel.template?: string;
+  limits?: {
+    /**
+     * The limits.channel_members
+     */
+    channelMembers?: number;
+    /**
+     * The limits.user_channels
+     */
+    userChannels?: number;
+  };
+  media?: {
+    /**
+     * The media.compatibility_message
+     */
+    compatibilityMessage?: string;
+  };
+  notifications?: {
+    newMessage?: {
+        /**
+         * The notifications.new_message.badge_count_enabled
+         */
+        badgeCountEnabled?: boolean;
+    };
+    addedToChannel?: {
+        /**
+         * The notifications.added_to_channel.sound
+         */
+        sound?: string;
+    };
+    removedFromChannel?: {
+        /**
+         * The notifications.removed_from_channel.sound
+         */
+        sound?: string;
+    };
+    invitedToChannel?: {
+        /**
+         * The notifications.invited_to_channel.sound
+         */
+        sound?: string;
+    };
+  };
   /**
    * The post_webhook_retry_count
    */
@@ -405,70 +383,48 @@ interface ServiceListFetchOptions {
    * The friendly_name
    */
   friendlyName?: string;
-  /**
-   * The limits.channel_members
-   */
-  limits.channelMembers?: number;
-  /**
-   * The limits.user_channels
-   */
-  limits.userChannels?: number;
-  /**
-   * The media.compatibility_message
-   */
-  media.compatibilityMessage?: string;
-  /**
-   * The notifications.added_to_channel.enabled
-   */
-  notifications.addedToChannel.enabled?: boolean;
-  /**
-   * The notifications.added_to_channel.sound
-   */
-  notifications.addedToChannel.sound?: string;
-  /**
-   * The notifications.added_to_channel.template
-   */
-  notifications.addedToChannel.template?: string;
-  /**
-   * The notifications.invited_to_channel.enabled
-   */
-  notifications.invitedToChannel.enabled?: boolean;
-  /**
-   * The notifications.invited_to_channel.sound
-   */
-  notifications.invitedToChannel.sound?: string;
-  /**
-   * The notifications.invited_to_channel.template
-   */
-  notifications.invitedToChannel.template?: string;
-  /**
-   * The notifications.new_message.badge_count_enabled
-   */
-  notifications.newMessage.badgeCountEnabled?: boolean;
-  /**
-   * The notifications.new_message.enabled
-   */
-  notifications.newMessage.enabled?: boolean;
-  /**
-   * The notifications.new_message.sound
-   */
-  notifications.newMessage.sound?: string;
-  /**
-   * The notifications.new_message.template
-   */
-  notifications.newMessage.template?: string;
-  /**
-   * The notifications.removed_from_channel.enabled
-   */
-  notifications.removedFromChannel.enabled?: boolean;
-  /**
-   * The notifications.removed_from_channel.sound
-   */
-  notifications.removedFromChannel.sound?: string;
-  /**
-   * The notifications.removed_from_channel.template
-   */
-  notifications.removedFromChannel.template?: string;
+  limits?: {
+    /**
+     * The limits.channel_members
+     */
+    channelMembers?: number;
+    /**
+     * The limits.user_channels
+     */
+    userChannels?: number;
+  };
+  media?: {
+    /**
+     * The media.compatibility_message
+     */
+    compatibilityMessage?: string;
+  };
+  notifications?: {
+    newMessage?: {
+        /**
+         * The notifications.new_message.badge_count_enabled
+         */
+        badgeCountEnabled?: boolean;
+    };
+    addedToChannel?: {
+        /**
+         * The notifications.added_to_channel.sound
+         */
+        sound?: string;
+    };
+    removedFromChannel?: {
+        /**
+         * The notifications.removed_from_channel.sound
+         */
+        sound?: string;
+    };
+    invitedToChannel?: {
+        /**
+         * The notifications.invited_to_channel.sound
+         */
+        sound?: string;
+    };
+  };
   /**
    * The post_webhook_retry_count
    */

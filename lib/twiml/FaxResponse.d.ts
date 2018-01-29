@@ -45,11 +45,11 @@ declare namespace FaxResponse {
     /**
      * Receive action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Receive action URL method
      */
-    method?: HttpMethod;
+    method?: string;
   }
 
   /**
@@ -59,11 +59,11 @@ declare namespace FaxResponse {
     /**
      * Receive action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Receive action URL method
      */
-    method?: HttpMethod;
+    method?: string;
   }
 
 }

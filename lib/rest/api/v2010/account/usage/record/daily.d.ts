@@ -244,7 +244,6 @@ declare class DailyInstance {
    */
   constructor(version: V2010, payload: DailyPayload);
 
-  private _proxy: DailyContext;
   /**
    * The account_sid
    */

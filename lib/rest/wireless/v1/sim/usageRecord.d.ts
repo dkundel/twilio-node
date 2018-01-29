@@ -208,7 +208,6 @@ declare class UsageRecordInstance {
    */
   constructor(version: V1, payload: UsageRecordPayload);
 
-  private _proxy: UsageRecordContext;
   /**
    * The account_sid
    */

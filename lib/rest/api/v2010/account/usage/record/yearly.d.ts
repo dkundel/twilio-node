@@ -244,7 +244,6 @@ declare class YearlyInstance {
    */
   constructor(version: V2010, payload: YearlyPayload);
 
-  private _proxy: YearlyContext;
   /**
    * The account_sid
    */

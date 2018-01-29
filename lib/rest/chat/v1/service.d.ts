@@ -273,46 +273,42 @@ interface ServiceListFetchOptions {
    * The friendly_name
    */
   friendlyName?: string;
-  /**
-   * The limits.channel_members
-   */
-  limits.channelMembers?: number;
-  /**
-   * The limits.user_channels
-   */
-  limits.userChannels?: number;
-  /**
-   * The notifications.added_to_channel.enabled
-   */
-  notifications.addedToChannel.enabled?: boolean;
-  /**
-   * The notifications.added_to_channel.template
-   */
-  notifications.addedToChannel.template?: string;
-  /**
-   * The notifications.invited_to_channel.enabled
-   */
-  notifications.invitedToChannel.enabled?: boolean;
-  /**
-   * The notifications.invited_to_channel.template
-   */
-  notifications.invitedToChannel.template?: string;
-  /**
-   * The notifications.new_message.enabled
-   */
-  notifications.newMessage.enabled?: boolean;
-  /**
-   * The notifications.new_message.template
-   */
-  notifications.newMessage.template?: string;
-  /**
-   * The notifications.removed_from_channel.enabled
-   */
-  notifications.removedFromChannel.enabled?: boolean;
-  /**
-   * The notifications.removed_from_channel.template
-   */
-  notifications.removedFromChannel.template?: string;
+  limits?: {
+    /**
+     * The limits.channel_members
+     */
+    channelMembers?: number;
+    /**
+     * The limits.user_channels
+     */
+    userChannels?: number;
+  };
+  notifications?: {
+    newMessage?: {
+        /**
+         * The notifications.new_message.template
+         */
+        template?: string;
+    };
+    addedToChannel?: {
+        /**
+         * The notifications.added_to_channel.template
+         */
+        template?: string;
+    };
+    removedFromChannel?: {
+        /**
+         * The notifications.removed_from_channel.template
+         */
+        template?: string;
+    };
+    invitedToChannel?: {
+        /**
+         * The notifications.invited_to_channel.template
+         */
+        template?: string;
+    };
+  };
   /**
    * The post_webhook_url
    */
@@ -341,198 +337,104 @@ interface ServiceListFetchOptions {
    * The webhook_method
    */
   webhookMethod?: string;
-  /**
-   * The webhooks.on_channel_add.format
-   */
-  webhooks.onChannelAdd.format?: string;
-  /**
-   * The webhooks.on_channel_add.method
-   */
-  webhooks.onChannelAdd.method?: string;
-  /**
-   * The webhooks.on_channel_add.url
-   */
-  webhooks.onChannelAdd.url?: string;
-  /**
-   * The webhooks.on_channel_added.format
-   */
-  webhooks.onChannelAdded.format?: string;
-  /**
-   * The webhooks.on_channel_added.method
-   */
-  webhooks.onChannelAdded.method?: string;
-  /**
-   * The webhooks.on_channel_added.url
-   */
-  webhooks.onChannelAdded.url?: string;
-  /**
-   * The webhooks.on_channel_destroy.format
-   */
-  webhooks.onChannelDestroy.format?: string;
-  /**
-   * The webhooks.on_channel_destroy.method
-   */
-  webhooks.onChannelDestroy.method?: string;
-  /**
-   * The webhooks.on_channel_destroy.url
-   */
-  webhooks.onChannelDestroy.url?: string;
-  /**
-   * The webhooks.on_channel_destroyed.format
-   */
-  webhooks.onChannelDestroyed.format?: string;
-  /**
-   * The webhooks.on_channel_destroyed.method
-   */
-  webhooks.onChannelDestroyed.method?: string;
-  /**
-   * The webhooks.on_channel_destroyed.url
-   */
-  webhooks.onChannelDestroyed.url?: string;
-  /**
-   * The webhooks.on_channel_update.format
-   */
-  webhooks.onChannelUpdate.format?: string;
-  /**
-   * The webhooks.on_channel_update.method
-   */
-  webhooks.onChannelUpdate.method?: string;
-  /**
-   * The webhooks.on_channel_update.url
-   */
-  webhooks.onChannelUpdate.url?: string;
-  /**
-   * The webhooks.on_channel_updated.format
-   */
-  webhooks.onChannelUpdated.format?: string;
-  /**
-   * The webhooks.on_channel_updated.method
-   */
-  webhooks.onChannelUpdated.method?: string;
-  /**
-   * The webhooks.on_channel_updated.url
-   */
-  webhooks.onChannelUpdated.url?: string;
-  /**
-   * The webhooks.on_member_add.format
-   */
-  webhooks.onMemberAdd.format?: string;
-  /**
-   * The webhooks.on_member_add.method
-   */
-  webhooks.onMemberAdd.method?: string;
-  /**
-   * The webhooks.on_member_add.url
-   */
-  webhooks.onMemberAdd.url?: string;
-  /**
-   * The webhooks.on_member_added.format
-   */
-  webhooks.onMemberAdded.format?: string;
-  /**
-   * The webhooks.on_member_added.method
-   */
-  webhooks.onMemberAdded.method?: string;
-  /**
-   * The webhooks.on_member_added.url
-   */
-  webhooks.onMemberAdded.url?: string;
-  /**
-   * The webhooks.on_member_remove.format
-   */
-  webhooks.onMemberRemove.format?: string;
-  /**
-   * The webhooks.on_member_remove.method
-   */
-  webhooks.onMemberRemove.method?: string;
-  /**
-   * The webhooks.on_member_remove.url
-   */
-  webhooks.onMemberRemove.url?: string;
-  /**
-   * The webhooks.on_member_removed.format
-   */
-  webhooks.onMemberRemoved.format?: string;
-  /**
-   * The webhooks.on_member_removed.method
-   */
-  webhooks.onMemberRemoved.method?: string;
-  /**
-   * The webhooks.on_member_removed.url
-   */
-  webhooks.onMemberRemoved.url?: string;
-  /**
-   * The webhooks.on_message_remove.format
-   */
-  webhooks.onMessageRemove.format?: string;
-  /**
-   * The webhooks.on_message_remove.method
-   */
-  webhooks.onMessageRemove.method?: string;
-  /**
-   * The webhooks.on_message_remove.url
-   */
-  webhooks.onMessageRemove.url?: string;
-  /**
-   * The webhooks.on_message_removed.format
-   */
-  webhooks.onMessageRemoved.format?: string;
-  /**
-   * The webhooks.on_message_removed.method
-   */
-  webhooks.onMessageRemoved.method?: string;
-  /**
-   * The webhooks.on_message_removed.url
-   */
-  webhooks.onMessageRemoved.url?: string;
-  /**
-   * The webhooks.on_message_send.format
-   */
-  webhooks.onMessageSend.format?: string;
-  /**
-   * The webhooks.on_message_send.method
-   */
-  webhooks.onMessageSend.method?: string;
-  /**
-   * The webhooks.on_message_send.url
-   */
-  webhooks.onMessageSend.url?: string;
-  /**
-   * The webhooks.on_message_sent.format
-   */
-  webhooks.onMessageSent.format?: string;
-  /**
-   * The webhooks.on_message_sent.method
-   */
-  webhooks.onMessageSent.method?: string;
-  /**
-   * The webhooks.on_message_sent.url
-   */
-  webhooks.onMessageSent.url?: string;
-  /**
-   * The webhooks.on_message_update.format
-   */
-  webhooks.onMessageUpdate.format?: string;
-  /**
-   * The webhooks.on_message_update.method
-   */
-  webhooks.onMessageUpdate.method?: string;
-  /**
-   * The webhooks.on_message_update.url
-   */
-  webhooks.onMessageUpdate.url?: string;
-  /**
-   * The webhooks.on_message_updated.format
-   */
-  webhooks.onMessageUpdated.format?: string;
-  /**
-   * The webhooks.on_message_updated.method
-   */
-  webhooks.onMessageUpdated.method?: string;
-  /**
-   * The webhooks.on_message_updated.url
-   */
-  webhooks.onMessageUpdated.url?: string;
+  webhooks?: {
+    onMessageSend?: {
+        /**
+         * The webhooks.on_message_send.format
+         */
+        format?: string;
+    };
+    onMessageUpdate?: {
+        /**
+         * The webhooks.on_message_update.format
+         */
+        format?: string;
+    };
+    onMessageRemove?: {
+        /**
+         * The webhooks.on_message_remove.format
+         */
+        format?: string;
+    };
+    onChannelAdd?: {
+        /**
+         * The webhooks.on_channel_add.format
+         */
+        format?: string;
+    };
+    onChannelDestroy?: {
+        /**
+         * The webhooks.on_channel_destroy.format
+         */
+        format?: string;
+    };
+    onChannelUpdate?: {
+        /**
+         * The webhooks.on_channel_update.format
+         */
+        format?: string;
+    };
+    onMemberAdd?: {
+        /**
+         * The webhooks.on_member_add.format
+         */
+        format?: string;
+    };
+    onMemberRemove?: {
+        /**
+         * The webhooks.on_member_remove.format
+         */
+        format?: string;
+    };
+    onMessageSent?: {
+        /**
+         * The webhooks.on_message_sent.format
+         */
+        format?: string;
+    };
+    onMessageUpdated?: {
+        /**
+         * The webhooks.on_message_updated.format
+         */
+        format?: string;
+    };
+    onMessageRemoved?: {
+        /**
+         * The webhooks.on_message_removed.format
+         */
+        format?: string;
+    };
+    onChannelAdded?: {
+        /**
+         * The webhooks.on_channel_added.format
+         */
+        format?: string;
+    };
+    onChannelDestroyed?: {
+        /**
+         * The webhooks.on_channel_destroyed.format
+         */
+        format?: string;
+    };
+    onChannelUpdated?: {
+        /**
+         * The webhooks.on_channel_updated.format
+         */
+        format?: string;
+    };
+    onMemberAdded?: {
+        /**
+         * The webhooks.on_member_added.format
+         */
+        format?: string;
+    };
+    onMemberRemoved?: {
+        /**
+         * The webhooks.on_member_removed.format
+         */
+        format?: string;
+    };
+  };
 }
 
 interface ServiceListFetchOptions {
@@ -556,46 +458,42 @@ interface ServiceListFetchOptions {
    * The friendly_name
    */
   friendlyName?: string;
-  /**
-   * The limits.channel_members
-   */
-  limits.channelMembers?: number;
-  /**
-   * The limits.user_channels
-   */
-  limits.userChannels?: number;
-  /**
-   * The notifications.added_to_channel.enabled
-   */
-  notifications.addedToChannel.enabled?: boolean;
-  /**
-   * The notifications.added_to_channel.template
-   */
-  notifications.addedToChannel.template?: string;
-  /**
-   * The notifications.invited_to_channel.enabled
-   */
-  notifications.invitedToChannel.enabled?: boolean;
-  /**
-   * The notifications.invited_to_channel.template
-   */
-  notifications.invitedToChannel.template?: string;
-  /**
-   * The notifications.new_message.enabled
-   */
-  notifications.newMessage.enabled?: boolean;
-  /**
-   * The notifications.new_message.template
-   */
-  notifications.newMessage.template?: string;
-  /**
-   * The notifications.removed_from_channel.enabled
-   */
-  notifications.removedFromChannel.enabled?: boolean;
-  /**
-   * The notifications.removed_from_channel.template
-   */
-  notifications.removedFromChannel.template?: string;
+  limits?: {
+    /**
+     * The limits.channel_members
+     */
+    channelMembers?: number;
+    /**
+     * The limits.user_channels
+     */
+    userChannels?: number;
+  };
+  notifications?: {
+    newMessage?: {
+        /**
+         * The notifications.new_message.template
+         */
+        template?: string;
+    };
+    addedToChannel?: {
+        /**
+         * The notifications.added_to_channel.template
+         */
+        template?: string;
+    };
+    removedFromChannel?: {
+        /**
+         * The notifications.removed_from_channel.template
+         */
+        template?: string;
+    };
+    invitedToChannel?: {
+        /**
+         * The notifications.invited_to_channel.template
+         */
+        template?: string;
+    };
+  };
   /**
    * The post_webhook_url
    */
@@ -624,198 +522,104 @@ interface ServiceListFetchOptions {
    * The webhook_method
    */
   webhookMethod?: string;
-  /**
-   * The webhooks.on_channel_add.format
-   */
-  webhooks.onChannelAdd.format?: string;
-  /**
-   * The webhooks.on_channel_add.method
-   */
-  webhooks.onChannelAdd.method?: string;
-  /**
-   * The webhooks.on_channel_add.url
-   */
-  webhooks.onChannelAdd.url?: string;
-  /**
-   * The webhooks.on_channel_added.format
-   */
-  webhooks.onChannelAdded.format?: string;
-  /**
-   * The webhooks.on_channel_added.method
-   */
-  webhooks.onChannelAdded.method?: string;
-  /**
-   * The webhooks.on_channel_added.url
-   */
-  webhooks.onChannelAdded.url?: string;
-  /**
-   * The webhooks.on_channel_destroy.format
-   */
-  webhooks.onChannelDestroy.format?: string;
-  /**
-   * The webhooks.on_channel_destroy.method
-   */
-  webhooks.onChannelDestroy.method?: string;
-  /**
-   * The webhooks.on_channel_destroy.url
-   */
-  webhooks.onChannelDestroy.url?: string;
-  /**
-   * The webhooks.on_channel_destroyed.format
-   */
-  webhooks.onChannelDestroyed.format?: string;
-  /**
-   * The webhooks.on_channel_destroyed.method
-   */
-  webhooks.onChannelDestroyed.method?: string;
-  /**
-   * The webhooks.on_channel_destroyed.url
-   */
-  webhooks.onChannelDestroyed.url?: string;
-  /**
-   * The webhooks.on_channel_update.format
-   */
-  webhooks.onChannelUpdate.format?: string;
-  /**
-   * The webhooks.on_channel_update.method
-   */
-  webhooks.onChannelUpdate.method?: string;
-  /**
-   * The webhooks.on_channel_update.url
-   */
-  webhooks.onChannelUpdate.url?: string;
-  /**
-   * The webhooks.on_channel_updated.format
-   */
-  webhooks.onChannelUpdated.format?: string;
-  /**
-   * The webhooks.on_channel_updated.method
-   */
-  webhooks.onChannelUpdated.method?: string;
-  /**
-   * The webhooks.on_channel_updated.url
-   */
-  webhooks.onChannelUpdated.url?: string;
-  /**
-   * The webhooks.on_member_add.format
-   */
-  webhooks.onMemberAdd.format?: string;
-  /**
-   * The webhooks.on_member_add.method
-   */
-  webhooks.onMemberAdd.method?: string;
-  /**
-   * The webhooks.on_member_add.url
-   */
-  webhooks.onMemberAdd.url?: string;
-  /**
-   * The webhooks.on_member_added.format
-   */
-  webhooks.onMemberAdded.format?: string;
-  /**
-   * The webhooks.on_member_added.method
-   */
-  webhooks.onMemberAdded.method?: string;
-  /**
-   * The webhooks.on_member_added.url
-   */
-  webhooks.onMemberAdded.url?: string;
-  /**
-   * The webhooks.on_member_remove.format
-   */
-  webhooks.onMemberRemove.format?: string;
-  /**
-   * The webhooks.on_member_remove.method
-   */
-  webhooks.onMemberRemove.method?: string;
-  /**
-   * The webhooks.on_member_remove.url
-   */
-  webhooks.onMemberRemove.url?: string;
-  /**
-   * The webhooks.on_member_removed.format
-   */
-  webhooks.onMemberRemoved.format?: string;
-  /**
-   * The webhooks.on_member_removed.method
-   */
-  webhooks.onMemberRemoved.method?: string;
-  /**
-   * The webhooks.on_member_removed.url
-   */
-  webhooks.onMemberRemoved.url?: string;
-  /**
-   * The webhooks.on_message_remove.format
-   */
-  webhooks.onMessageRemove.format?: string;
-  /**
-   * The webhooks.on_message_remove.method
-   */
-  webhooks.onMessageRemove.method?: string;
-  /**
-   * The webhooks.on_message_remove.url
-   */
-  webhooks.onMessageRemove.url?: string;
-  /**
-   * The webhooks.on_message_removed.format
-   */
-  webhooks.onMessageRemoved.format?: string;
-  /**
-   * The webhooks.on_message_removed.method
-   */
-  webhooks.onMessageRemoved.method?: string;
-  /**
-   * The webhooks.on_message_removed.url
-   */
-  webhooks.onMessageRemoved.url?: string;
-  /**
-   * The webhooks.on_message_send.format
-   */
-  webhooks.onMessageSend.format?: string;
-  /**
-   * The webhooks.on_message_send.method
-   */
-  webhooks.onMessageSend.method?: string;
-  /**
-   * The webhooks.on_message_send.url
-   */
-  webhooks.onMessageSend.url?: string;
-  /**
-   * The webhooks.on_message_sent.format
-   */
-  webhooks.onMessageSent.format?: string;
-  /**
-   * The webhooks.on_message_sent.method
-   */
-  webhooks.onMessageSent.method?: string;
-  /**
-   * The webhooks.on_message_sent.url
-   */
-  webhooks.onMessageSent.url?: string;
-  /**
-   * The webhooks.on_message_update.format
-   */
-  webhooks.onMessageUpdate.format?: string;
-  /**
-   * The webhooks.on_message_update.method
-   */
-  webhooks.onMessageUpdate.method?: string;
-  /**
-   * The webhooks.on_message_update.url
-   */
-  webhooks.onMessageUpdate.url?: string;
-  /**
-   * The webhooks.on_message_updated.format
-   */
-  webhooks.onMessageUpdated.format?: string;
-  /**
-   * The webhooks.on_message_updated.method
-   */
-  webhooks.onMessageUpdated.method?: string;
-  /**
-   * The webhooks.on_message_updated.url
-   */
-  webhooks.onMessageUpdated.url?: string;
+  webhooks?: {
+    onMessageSend?: {
+        /**
+         * The webhooks.on_message_send.format
+         */
+        format?: string;
+    };
+    onMessageUpdate?: {
+        /**
+         * The webhooks.on_message_update.format
+         */
+        format?: string;
+    };
+    onMessageRemove?: {
+        /**
+         * The webhooks.on_message_remove.format
+         */
+        format?: string;
+    };
+    onChannelAdd?: {
+        /**
+         * The webhooks.on_channel_add.format
+         */
+        format?: string;
+    };
+    onChannelDestroy?: {
+        /**
+         * The webhooks.on_channel_destroy.format
+         */
+        format?: string;
+    };
+    onChannelUpdate?: {
+        /**
+         * The webhooks.on_channel_update.format
+         */
+        format?: string;
+    };
+    onMemberAdd?: {
+        /**
+         * The webhooks.on_member_add.format
+         */
+        format?: string;
+    };
+    onMemberRemove?: {
+        /**
+         * The webhooks.on_member_remove.format
+         */
+        format?: string;
+    };
+    onMessageSent?: {
+        /**
+         * The webhooks.on_message_sent.format
+         */
+        format?: string;
+    };
+    onMessageUpdated?: {
+        /**
+         * The webhooks.on_message_updated.format
+         */
+        format?: string;
+    };
+    onMessageRemoved?: {
+        /**
+         * The webhooks.on_message_removed.format
+         */
+        format?: string;
+    };
+    onChannelAdded?: {
+        /**
+         * The webhooks.on_channel_added.format
+         */
+        format?: string;
+    };
+    onChannelDestroyed?: {
+        /**
+         * The webhooks.on_channel_destroyed.format
+         */
+        format?: string;
+    };
+    onChannelUpdated?: {
+        /**
+         * The webhooks.on_channel_updated.format
+         */
+        format?: string;
+    };
+    onMemberAdded?: {
+        /**
+         * The webhooks.on_member_added.format
+         */
+        format?: string;
+    };
+    onMemberRemoved?: {
+        /**
+         * The webhooks.on_member_removed.format
+         */
+        format?: string;
+    };
+  };
 }
 
 declare class ServicePage extends Page<V1, ServicePayload, ServiceResource, ServiceInstance> {

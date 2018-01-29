@@ -55,7 +55,7 @@ declare namespace TaskRouterCapability {
      * Create a new Policy
      * @param options Options to initiate policy
      */
-    constructor(options: Policy.PolicyOptions);
+    constructor(options: PolicyOptions);
 
     payload(): PolicyPayload;
   }

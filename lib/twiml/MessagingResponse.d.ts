@@ -55,7 +55,7 @@ declare namespace MessagingResponse {
     /**
      * Action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Phone Number to send Message from
      */
@@ -63,7 +63,7 @@ declare namespace MessagingResponse {
     /**
      * Action URL Method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Phone Number to send Message to
      */
@@ -77,7 +77,7 @@ declare namespace MessagingResponse {
     /**
      * Redirect URL method
      */
-    method?: HttpMethod;
+    method?: string;
   }
 
   /**
@@ -87,7 +87,7 @@ declare namespace MessagingResponse {
     /**
      * Action URL
      */
-    action?: Url;
+    action?: string;
     /**
      * Phone Number to send Message from
      */
@@ -95,7 +95,7 @@ declare namespace MessagingResponse {
     /**
      * Action URL Method
      */
-    method?: HttpMethod;
+    method?: string;
     /**
      * Phone Number to send Message to
      */
@@ -109,7 +109,7 @@ declare namespace MessagingResponse {
     /**
      * Redirect URL method
      */
-    method?: HttpMethod;
+    method?: string;
   }
 
   /**

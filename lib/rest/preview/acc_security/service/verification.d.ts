@@ -110,7 +110,6 @@ declare class VerificationInstance {
    */
   constructor(version: AccSecurity, payload: VerificationPayload);
 
-  private _proxy: VerificationContext;
   /**
    * The unique SID identifier of the Account.
    */

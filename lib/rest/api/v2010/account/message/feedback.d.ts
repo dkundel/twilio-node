@@ -97,7 +97,6 @@ declare class FeedbackInstance {
    */
   constructor(version: V2010, payload: FeedbackPayload);
 
-  private _proxy: FeedbackContext;
   /**
    * The account_sid
    */

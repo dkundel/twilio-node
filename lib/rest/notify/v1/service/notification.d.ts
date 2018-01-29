@@ -216,7 +216,6 @@ declare class NotificationInstance {
    */
   constructor(version: V1, payload: NotificationPayload);
 
-  private _proxy: NotificationContext;
   /**
    * The account_sid
    */

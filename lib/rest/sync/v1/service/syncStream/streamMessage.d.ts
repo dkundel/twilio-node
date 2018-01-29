@@ -73,7 +73,6 @@ declare class StreamMessageInstance {
    */
   constructor(version: V1, payload: StreamMessagePayload);
 
-  private _proxy: StreamMessageContext;
   /**
    * The body of the Stream Message. Arbitrary JSON object, maximum size 4KB.
    */

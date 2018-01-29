@@ -53,7 +53,6 @@ declare class PhoneNumberInstance {
    */
   constructor(version: V1, payload: PhoneNumberPayload);
 
-  private _proxy: PhoneNumberContext;
   /**
    * The links
    */

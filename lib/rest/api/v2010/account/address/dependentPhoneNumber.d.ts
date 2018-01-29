@@ -259,7 +259,6 @@ declare class DependentPhoneNumberInstance {
    */
   constructor(version: V2010, payload: DependentPhoneNumberPayload);
 
-  private _proxy: DependentPhoneNumberContext;
   /**
    * The account_sid
    */

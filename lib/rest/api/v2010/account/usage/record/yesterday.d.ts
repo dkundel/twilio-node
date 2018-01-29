@@ -244,7 +244,6 @@ declare class YesterdayInstance {
    */
   constructor(version: V2010, payload: YesterdayPayload);
 
-  private _proxy: YesterdayContext;
   /**
    * The account_sid
    */
